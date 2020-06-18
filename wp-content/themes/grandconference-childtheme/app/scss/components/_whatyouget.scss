@@ -1,0 +1,27 @@
+.what-you-get {
+  max-width:100%;
+  background-image:url('../images/bg-pattern.png');
+  .row {
+    max-width:1200px;
+    margin:0 auto;
+    .col-md-12.col-lg-4 {
+      padding:0;
+    }
+  }
+     h2 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,$whatyouget_h2,center,bold,uppercase);
+      margin-top:35px;
+      line-height: 1;
+    }
+    p.sub {
+      @include set-font('Roboto');
+      @include font-regular(#fff,$em125,center,normal,lowercase);
+      margin-bottom:35px;
+    }
+    
+    .btn {
+      @include btn(#181233,#1de6c7,140px,auto);
+      margin-top:60px;
+    }
+  }

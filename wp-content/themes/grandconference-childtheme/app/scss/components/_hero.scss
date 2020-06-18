@@ -1,0 +1,144 @@
+section.hero {
+  position: relative;
+  padding: 12vh 0;
+  text-align: center;
+  background: center center no-repeat;
+  background-size: cover;
+  color: #FFF;
+  font-family: $font-body;
+
+  &.full {
+    height: 110vh;
+  }
+
+  &.half {
+    height: 60vh;
+  }
+
+  &.video {
+    background-image: none;
+
+    @include breakpoint(mobileonly) {
+      background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/home-banner.jpg');
+      background-size: unset !important;
+    }
+  }
+
+  &.step-digital {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/step-digital-banner.jpg');
+  }
+
+  &.step-x {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/step-x-banner.jpg');
+    background-size: unset !important;
+  }
+
+  &.step-money {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/step-money-banner.jpg');
+  }
+
+  &.step-start {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/step-start-banner.jpg');
+  }
+
+  &.step-music {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/step-music-banner.jpg');
+    background-size: 125% !important;
+  }
+
+  &.startups {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/startups-banner.jpg');
+  }
+
+  &.tickets {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/ticket-banner.jpg');
+    background-position: center center;
+    background-size: 100% !important;
+  }
+
+  &.satellite {
+    background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple), url('/images/backgrounds/satellite-banner.jpg');
+    background-size: 120% !important;
+  }
+
+  &.home, &.conference, &.tickets {
+    // background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.6), rgba(27, 20, 85, 0.6), rgba(27, 20, 85, 0.6), $dark-purple), url('/images/backgrounds/home-banner.jpg');
+    background-position: center bottom;
+    background-size: 140%;
+
+    h1 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.1em;
+      max-width: 400px;
+    }
+
+    @include breakpoint(mobileonly) {
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 0.8em;
+        max-width: 100%;
+      }
+    }
+  }
+
+  &.conference {
+    height: 100vh;
+
+    .description {
+      margin: 22px 0;
+    }
+  }
+
+  // &.tickets {
+  //   background-position: center bottom;
+  //   h1, h2 {
+  //     margin: 0;
+  //     padding: 0;
+  //   }
+  //
+  //   h2 {
+  //     color: $green;
+  //     margin-top: 8px;
+  //   }
+  // }
+
+  .row-btns {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+
+    @include breakpoint(mobileonly) {
+      flex-direction: column;
+    }
+
+    .step-btn {
+      margin-right: 8px;
+      padding: 12px;
+
+      @include breakpoint(mobileonly) {
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .overlay {
+    background: linear-gradient(to bottom, rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), rgba(27, 20, 85, 0.5), $dark-purple);
+    opacity: 1;
+    // background-image: linear-gradient(to bottom, rgba(27, 20, 85, 0.6), rgba(27, 20, 85, 0.6), rgba(27, 20, 85, 0.6), $dark-purple);
+  }
+
+  .countdown-timer {
+    margin-top: 8px;
+    color: $green;
+
+    @include breakpoint(mobileonly) {
+      font-size: 1.4em;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+section.faq {
+  .filter {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 20px;
+
+    &.active, &:active {
+      text-decoration: none;
+      background-color: #FFF;
+      color: $dark-purple;
+    }
+
+    &:hover:not(.active) {
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+
+  dt {
+    cursor: pointer;
+    &.active {
+      color: $orange;
+    }
+  }
+
+  dl {
+    @include breakpoint(mobileonly) {
+      padding: 0 20px;
+    }
+  }
+}

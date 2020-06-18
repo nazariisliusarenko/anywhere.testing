@@ -1,0 +1,213 @@
+.btn-md-1 {
+    background-color:#181233;
+    border:none;
+    border-radius:0px;
+    text-transform: uppercase;
+    text-align:center;
+    margin:0 auto;
+    color:#1DE6C7;
+    font-weight:bold;
+  }
+  
+  .btn-md-2 {
+    background-color:#1DE6C7;
+    border:none;
+    border-radius:0px;
+    text-transform: uppercase;
+    text-align:center;
+    margin:0 auto;
+    color:#181233;
+    font-weight:bold;
+    margin-bottom:20px;
+  }
+  .align-center {
+    text-align:center;
+  }
+  
+  .btn-md-1:hover,  .btn-md-2:hover {
+    background-color:#fff;
+  }
+
+
+  .features1 .image-element img {
+      width: 100%;
+      height: 340px;
+      max-height:410px;
+      object-fit: cover;
+      object-position: center center;
+    @include clip-left();
+  
+  }
+  
+  .features1 iframe {
+    @include clip-left();
+  }
+  .features1 {
+    .col-md-6 {
+    max-height: 380px;
+}
+    max-width:100%;
+    .container-fluid {
+      margin:0px;
+      padding:0px;
+    }
+    .btn {
+      margin:20px;
+    }
+    background-color:#171233;
+    h2 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,$feature_h2,center,bold,uppercase);
+      margin-top:30px;
+      line-height: $feature_lineheight;
+    }
+    p {
+      /* margin:20px; */
+      $size:28px; // should be 28
+      @include set-font('Roboto',1.5);
+      @include font-regular(#fff,$feature_p,center);
+    }
+    // set gredient 
+  .text-element {
+    @include setFooterGradient();
+  }
+  }
+  
+  
+  .features2 .image-element img {
+      width: 100%;
+      height: 340px;
+      max-height:410px;
+      object-fit: cover;
+      object-position: center center;
+    @include clip-right();
+  }
+  
+  .features2 iframe {
+    @include clip-right();
+  }
+  .features2 {
+        .col-md-6 {
+    max-height: 380px; 
+    
+}
+    max-width:100%;
+    .container-fluid {
+      margin:0px;
+      padding:0px;
+    }
+    background-color:#171233;
+    h2 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,$feature_h2,center,bold,uppercase);
+      margin-top:30px;
+    }
+    p {
+      /*margin:20px;*/
+      $size:28px; // should be 28
+      @include set-font('Roboto',1.5);
+      @include font-regular(#fff,$feature_p,center);
+    }
+    // set gredient 
+  .text-element {
+    @include setFooterGradient();
+  }
+  }
+
+  
+
+  .features3 .image-element img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center center;
+  @include clip-left();
+  
+
+}
+  
+  .features3 iframe {
+    @include clip-left();
+  }
+
+  .features3 {
+        .col-md-6 {
+    max-height: 380px;
+}
+    max-width:100%;
+    .container-fluid {
+      margin:0px;
+      padding:0px;
+    }
+    .btn {
+      margin:20px;
+    }
+    background-color:#1DE6C7;
+    h2 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#171233,$feature_h2,center,bold,uppercase);
+      margin-top:30px;
+      line-height: $feature_lineheight;
+    }
+    p {
+      /* margin:20px; */
+      $size:28px; // should be 28
+      @include set-font('Roboto',1.5);
+      @include font-regular(#171233,$feature_p,center);
+    }
+  }
+  
+   .features4 .image-element img {
+      width: 100%;
+      height: 340px;
+      max-height:410px;
+      object-fit: cover;
+      object-position: center center;
+   @include clip-right();
+  }
+  
+  .features4 iframe {
+    @include clip-right();
+  }
+  .features4 {
+        .col-md-6 {
+    max-height: 380px;
+}
+    max-width:100%;
+    .container-fluid {
+      margin:0px;
+      padding:0px;
+    }
+    background-color:#1DE6C7;
+    h2 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,$feature_h2,center,bold,uppercase);
+      margin-top:30px;
+    }
+    p {
+      /* margin:20px; */
+      $size:28px; // should be 28
+      @include set-font('Roboto',1.5);
+      @include font-regular(#fff,$feature_p,center);
+    }
+    // set gredient 
+  .text-element {
+    //@include setFooterGradient();
+  }
+  }
+  
+  @media only screen and (max-width: 990px) and (min-width: 320px) {
+    .features1  , .features3 , .features2, .features4 {
+       .image-element img, iframe {
+          @include clip-bottom-left() 
+        }
+        p {
+          margin-bottom:40px;
+        }
+    }
+    
+    
+    
+  }
+    
+    

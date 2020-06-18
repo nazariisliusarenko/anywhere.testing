@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background-color: #181233;
+}
+
+/* start the custom code */
+.logo {
+  width: 250px;
+  height: 100px;
+  background-color: #fff;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.footer {
+  /* start the event section */
+  /* end the event section */
+  /* start the social media section */
+  /* end the social media section */
+  /* code for second col */
+  /* end navigation code */
+}
+.footer div.event p.date {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 18px;
+  text-align: "left";
+  font-weight: "normal";
+  text-transform: "lowercase";
+  line-height: 1.2;
+}
+.footer div.event p.date span {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: block;
+}
+.footer .social-media ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.footer .social-media ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.footer .social-media ul li .dot {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  color: #fff;
+}
+.footer h3 a {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.footer ul.footer-nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.footer ul.footer-nav li {
+  list-style: none;
+}
+.footer ul.footer-nav li a {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 2.2;
+}
+.footer h3 {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.footer p.newsletter-title {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 18px;
+  text-align: "left";
+  font-weight: "normal";
+  text-transform: "lowercase";
+}
+.footer input[type=text] {
+  width: 140px;
+  height: 50px;
+  font-family: Roboto;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: "normal";
+  text-transform: "lowercase";
+  display: inline;
+  margin-bottom: 5px;
+}
+.footer input[type=email] {
+  width: 100%;
+  max-width: 285px;
+  height: 50px;
+  font-family: Roboto;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: "normal";
+  text-transform: "lowercase";
+  display: block;
+}
+.footer .btn-signup {
+  max-width: 285px;
+  color: #181233;
+  background-color: #1de6c7;
+  width: 100%;
+  height: 40px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  font-family: Roboto;
+  color: #181233;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 5px;
+  border: none;
+}
+.footer .action-buttons {
+  padding: 30px;
+}
+.footer .action-buttons .btn {
+  color: #1de6c7;
+  background-color: #181233;
+  width: 110px;
+  height: 40px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #1de6c7;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* end the footer */

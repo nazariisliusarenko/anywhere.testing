@@ -1,0 +1,69 @@
+section.satelitte {
+  min-height:900px;
+.container {
+    max-width:1200px;
+    margin:0 auto;
+}
+  .action-buttons .btn {
+    width: 220px;
+    height: 50px;
+    padding:0;
+    color:#181233;
+    background-color:#1de6c7;
+    
+    &:hover {
+    color:#1de6c7;
+    background-color:#181233;
+    }
+}
+  .bgimg {
+    width:100%;
+    height:340px;
+    background-size:cover;
+   
+    .eventlogo {
+      width:280px;
+      height:150px;
+      
+      position:relative;
+      margin-top:-100px;
+      margin:0 auto;
+      margin-top:-180px;
+      margin-bottom:50px;
+      display: block;
+      min-height: 150px;
+      background: no-repeat center center;
+      background-size: 90%;
+     top:175px;
+      background-color:#fff;
+    }
+  }
+  
+  .row {
+    marign:0 auto;
+    text-align:center;
+    $size:28px; // should be 28
+      @include set-font('Roboto',1.5);
+      @include font-regular(#fff,$feature_p,center);
+  }
+  
+   h2 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,60px,center,bold,uppercase);
+      margin-top:20px;
+    }
+    .when , .where {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,29px,center,bold,uppercase);
+    }
+    p, span.roboto {
+      $size:28px; // should be 28
+      @include set-font('Roboto',1.5);
+      @include font-regular(#fff,19px,center,normal,none);
+    }
+    p {
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+  
+}

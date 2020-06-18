@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color:#181233;
+}
+
+@mixin btn($color,$bg,$w,$h) {
+  color:$color;
+  background-color:$bg;
+  width:$w;
+  height:$h;
+  -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+@mixin font-regular($color,$size,$align:'left',$weight:'normal',$transform:'lowercase') {
+  font-family:Roboto;
+  color:$color;
+  font-size:$size;
+  text-align:$align;
+  font-weight:$weight;
+  text-transform:$transform;
+}
+
+.techFestivalForm {
+  max-width:600px;
+  h1 {
+    @include font-regular(#fff,42px,left,bold,uppercase);
+  }
+  p {
+    @include font-regular(#fff,16px,left,bold);
+  }
+  form {
+    width:80%;
+  }
+  input[type="text"] {
+    width:100%;
+    border:none;
+    background-color:transparent;
+    @include font-regular(#fff,16px,center,bold,uppercase);
+    border-bottom:1px solid #fff;
+    outline:none;
+    margin-bottom:20px;
+  }
+  input[type="email"] {
+        width:100%;
+    border:none;
+    background-color:transparent;
+    @include font-regular(#fff,16px,center,bold,uppercase);
+    border-bottom:1px solid #fff;
+    outline:none;
+  }
+  
+  .btn {
+    @include btn(#1de6c7,#181233,140px,40px);
+    border:1px solid #1de6c7;
+    margin-top:60px;
+  }
+}
+
+.align-center {
+  margin:0 auto;
+  text-align:center;
+}

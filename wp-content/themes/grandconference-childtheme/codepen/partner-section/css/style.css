@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background-color: #171235;
+}
+
+.partners {
+  width: 900px;
+  margin: 0 auto;
+}
+.partners h2 {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.partners ul {
+  list-style: none;
+}
+.partners ul li {
+  padding: 10px;
+  display: inline-block;
+}
+.partners ul li .partner {
+  width: 140px;
+  height: 106px;
+  background-color: #fff;
+  background-image: url("http://www.sciencemag.org/sites/default/files/images/3_Magneto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

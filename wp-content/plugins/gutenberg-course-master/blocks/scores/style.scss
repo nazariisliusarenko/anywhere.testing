@@ -1,0 +1,52 @@
+body.gutenberg-editor-page .editor-block-list__block {
+    max-width: 100%!important;
+}
+
+.entry-content .wp-block-jsforwpblocks-scores,
+.wp-block-jsforwpblocks-scores {
+
+
+
+    .scores {
+  height: auto;
+  /* IE10+ */
+  background: -ms-linear-gradient(left, #1DE6C7 0%, #7488AA 100%);
+  /* Mozilla Firefox */
+  background: -moz-linear-gradient(left, #1DE6C7 0%, #7488AA 100%);
+  /* Opera */
+  background: -o-linear-gradient(left, #1DE6C7 0%, #7488AA 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #1DE6C7), color-stop(100, #7488AA));
+  /* Webkit (Chrome 11+) */
+  background: -webkit-linear-gradient(left, #1DE6C7 0%, #7488AA 100%);
+  /* W3C Markup */
+  background: linear-gradient(to right, #1DE6C7 0%, #7488AA 100%);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  max-width: 100%; }
+  .scores .line-seperator {
+    width: 80px;
+    height: 3px;
+    background-color: #171233;
+    margin: 0 auto;
+    margin-bottom: 5px; }
+  .scores h2 {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 3.75em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .scores p {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 1.9em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+}

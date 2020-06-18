@@ -1,0 +1,6 @@
+[07-Oct-2018 22:25:31 UTC] PHP Warning:  require_once(../../../wpconfig.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/subpage.php on line 2
+[07-Oct-2018 22:25:31 UTC] PHP Stack trace:
+[07-Oct-2018 22:25:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/subpage.php:0
+[07-Oct-2018 22:25:31 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../wpconfig.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/subpage.php on line 2
+[07-Oct-2018 22:25:31 UTC] PHP Stack trace:
+[07-Oct-2018 22:25:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/subpage.php:0

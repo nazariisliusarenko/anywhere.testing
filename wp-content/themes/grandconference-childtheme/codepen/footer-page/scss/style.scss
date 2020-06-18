@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  background-color:#181233;
+}
+@mixin round() {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+@mixin btn($color,$bg,$w,$h) {
+  color:$color;
+  background-color:$bg;
+  width:$w;
+  height:$h;
+  -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+@mixin font-regular($color,$size,$align:'left',$weight:'normal',$transform:'lowercase') {
+  font-family:Roboto;
+  color:$color;
+  font-size:$size;
+  text-align:$align;
+  font-weight:$weight;
+  text-transform:$transform;
+}
+
+@mixin reset-margins() {
+    margin:0px;
+    padding:0px;
+}
+
+/* start the custom code */
+.logo {
+  width:250px;
+  height:100px;
+  background-color:#fff;
+  vertical-align:center;
+  text-align:center;
+  padding-top:35px;
+}
+
+.footer {
+  
+  /* start the event section */
+  div.event {
+    p.date {
+      @include font-regular(#fff,1.3em);
+      line-height:1.2;
+    span {
+      @include font-regular(#fff,1.3em,left,normal,uppercase); 
+      display:block;
+    }
+  }
+}
+  /* end the event section */
+  
+  /* start the social media section */
+  .social-media {
+    ul {
+      li {
+        display:inline-block;
+        margin:0;
+        padding:0;
+        .dot {
+          width:50px;
+          height:50px;
+          background-color:#fff;
+          -moz-border-radius: 25px;
+	        -webkit-border-radius: 25px;
+	        border-radius: 25px;
+          color:#fff;
+        }
+      }
+       display:inline-block;
+        margin:0;
+        padding:0;
+      color:#fff;
+    }
+    
+   
+  }
+  
+  /* end the social media section */
+  
+   h3 {
+      a {
+        @include font-regular(#fff,24px,left,normal,uppercase); 
+      }
+    }
+  
+  
+/* code for second col */
+    ul.footer-nav {
+      display:inline-block;
+        margin:0;
+        padding:0;
+      color:#fff;
+      li {
+        list-style:none;
+        a {
+        @include font-regular(#fff,24px,left,normal,uppercase);
+          line-height:2.2;
+        }
+        
+      }
+    }
+  
+  /* end navigation code */
+  
+  
+  h3 {
+    @include font-regular(#fff,24px,left,normal,uppercase);
+  }
+  p.newsletter-title {
+    @include font-regular(#fff,18px);
+  }
+  input[type=text] {
+    width:140px;
+    height:50px;
+    @include font-regular(#fff,18px,center);
+    display:inline;
+    margin-bottom:5px;
+  }
+  input[type=email] {
+    width:100%;
+    max-width:285px;
+    height:50px;
+    @include font-regular(#fff,18px,center);
+    display:block;
+  }
+  .btn-signup {
+    max-width:285px;
+    @include btn(#181233,#1de6c7,100%,40px);
+    @include font-regular(#181233,18px,center,normal,uppercase);
+    margin-top:5px;
+    border:none;
+  }
+  
+  .action-buttons {
+    padding:30px;
+    .btn {
+      @include btn(#1de6c7,#181233,110px,40px);
+      border:1px solid #1de6c7;
+      display:inline-block;
+      text-transform:uppercase;
+    }
+    
+  }
+}
+
+/* end the footer */

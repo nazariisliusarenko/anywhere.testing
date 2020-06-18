@@ -1,0 +1,1408 @@
+[20-Aug-2018 10:46:38 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:46:38 UTC] PHP Stack trace:
+[20-Aug-2018 10:46:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:46:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:46:38 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:46:38 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:46:38 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:46:38 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:38 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:38 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:46:38 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:46:38 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:46:38 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:46:38 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:46:38 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:46:38 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[20-Aug-2018 10:46:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:46:39 UTC] PHP Stack trace:
+[20-Aug-2018 10:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:46:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:46:39 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:46:39 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:46:39 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:46:39 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:39 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:39 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:46:39 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:46:39 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:46:39 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:46:39 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:46:39 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:46:39 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[20-Aug-2018 10:46:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:46:39 UTC] PHP Stack trace:
+[20-Aug-2018 10:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:46:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:46:39 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:46:39 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:46:39 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:46:39 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:39 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:39 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:46:39 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:46:39 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:46:39 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:46:39 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:46:39 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:46:39 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[20-Aug-2018 10:46:40 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:46:40 UTC] PHP Stack trace:
+[20-Aug-2018 10:46:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:46:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:46:40 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:46:40 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:46:40 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:46:40 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:40 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:46:40 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:46:40 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:46:40 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:46:40 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:46:40 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:46:40 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:46:40 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[20-Aug-2018 10:47:24 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:47:24 UTC] PHP Stack trace:
+[20-Aug-2018 10:47:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:47:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:47:24 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:47:24 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:47:24 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:47:24 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:24 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:24 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:47:24 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:47:24 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:47:24 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:47:24 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:47:24 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:47:24 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[20-Aug-2018 10:47:28 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:47:28 UTC] PHP Stack trace:
+[20-Aug-2018 10:47:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:47:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:47:28 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:47:28 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:47:28 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:47:28 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:28 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:28 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:47:28 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:47:28 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:47:28 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:47:28 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:47:28 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:47:28 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[20-Aug-2018 10:47:30 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:47:30 UTC] PHP Stack trace:
+[20-Aug-2018 10:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:47:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:47:30 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:47:30 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:47:30 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:47:30 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:30 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:30 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:47:30 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:47:30 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:47:30 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:47:30 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:47:30 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:47:30 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[20-Aug-2018 10:47:31 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[20-Aug-2018 10:47:31 UTC] PHP Stack trace:
+[20-Aug-2018 10:47:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Aug-2018 10:47:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Aug-2018 10:47:31 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[20-Aug-2018 10:47:31 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[20-Aug-2018 10:47:31 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[20-Aug-2018 10:47:31 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:31 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[20-Aug-2018 10:47:31 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:743
+[20-Aug-2018 10:47:31 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:2977
+[20-Aug-2018 10:47:31 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3374
+[20-Aug-2018 10:47:31 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3258
+[20-Aug-2018 10:47:31 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[20-Aug-2018 10:47:31 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/grandconference/modules/class-tgm-plugin-activation.php:3638
+[20-Aug-2018 10:47:31 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[25-Sep-2018 14:50:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_plugin_block_categories' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[25-Sep-2018 14:50:27 UTC] PHP Stack trace:
+[25-Sep-2018 14:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[25-Sep-2018 14:50:27 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post-new.php:74
+[25-Sep-2018 14:50:27 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:50:27 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:27 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:27 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[25-Sep-2018 14:50:27 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[25-Sep-2018 14:50:27 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Sep-2018 14:50:27 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[25-Sep-2018 14:50:27 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:27 UTC] PHP  11. gutenberg_editor_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:27 UTC] PHP  12. get_block_categories() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1315
+[25-Sep-2018 14:50:27 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1225
+[25-Sep-2018 14:50:27 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:50:27 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_plugin_block_categories' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[25-Sep-2018 14:50:28 UTC] PHP Stack trace:
+[25-Sep-2018 14:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[25-Sep-2018 14:50:28 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post-new.php:74
+[25-Sep-2018 14:50:28 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:50:28 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:28 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:28 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[25-Sep-2018 14:50:28 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[25-Sep-2018 14:50:28 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Sep-2018 14:50:28 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[25-Sep-2018 14:50:28 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:28 UTC] PHP  11. gutenberg_editor_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:50:28 UTC] PHP  12. get_block_categories() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1315
+[25-Sep-2018 14:50:28 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1225
+[25-Sep-2018 14:50:28 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:50:28 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_plugin_block_categories' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[25-Sep-2018 14:52:42 UTC] PHP Stack trace:
+[25-Sep-2018 14:52:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[25-Sep-2018 14:52:42 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post-new.php:74
+[25-Sep-2018 14:52:42 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:52:42 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:42 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:42 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[25-Sep-2018 14:52:42 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[25-Sep-2018 14:52:42 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Sep-2018 14:52:42 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[25-Sep-2018 14:52:42 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:42 UTC] PHP  11. gutenberg_editor_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:42 UTC] PHP  12. get_block_categories() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1315
+[25-Sep-2018 14:52:42 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1225
+[25-Sep-2018 14:52:42 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:52:42 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_plugin_block_categories' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[25-Sep-2018 14:52:44 UTC] PHP Stack trace:
+[25-Sep-2018 14:52:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[25-Sep-2018 14:52:44 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post-new.php:74
+[25-Sep-2018 14:52:44 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:52:44 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:44 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:44 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[25-Sep-2018 14:52:44 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[25-Sep-2018 14:52:44 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Sep-2018 14:52:44 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[25-Sep-2018 14:52:44 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:44 UTC] PHP  11. gutenberg_editor_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:52:44 UTC] PHP  12. get_block_categories() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1315
+[25-Sep-2018 14:52:44 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1225
+[25-Sep-2018 14:52:44 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:52:44 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_plugin_block_categories' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[25-Sep-2018 14:54:25 UTC] PHP Stack trace:
+[25-Sep-2018 14:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[25-Sep-2018 14:54:25 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post-new.php:74
+[25-Sep-2018 14:54:25 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:54:25 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:25 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:25 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[25-Sep-2018 14:54:25 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[25-Sep-2018 14:54:25 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Sep-2018 14:54:25 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[25-Sep-2018 14:54:25 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:25 UTC] PHP  11. gutenberg_editor_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:25 UTC] PHP  12. get_block_categories() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1315
+[25-Sep-2018 14:54:25 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1225
+[25-Sep-2018 14:54:25 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:54:25 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_plugin_block_categories' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[25-Sep-2018 14:54:26 UTC] PHP Stack trace:
+[25-Sep-2018 14:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[25-Sep-2018 14:54:26 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post-new.php:74
+[25-Sep-2018 14:54:26 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:54:26 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:26 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:26 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[25-Sep-2018 14:54:26 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[25-Sep-2018 14:54:26 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Sep-2018 14:54:26 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[25-Sep-2018 14:54:26 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:26 UTC] PHP  11. gutenberg_editor_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[25-Sep-2018 14:54:26 UTC] PHP  12. get_block_categories() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1315
+[25-Sep-2018 14:54:26 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1225
+[25-Sep-2018 14:54:26 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Sep-2018 14:54:26 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:25 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:25 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:25 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 20:54:25 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:25 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:25 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:25 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:25 UTC] PHP  12. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:25 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:25 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:25 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:25 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:25 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 20:54:25 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:25 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:25 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP  11. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP  12. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 20:54:25 UTC] PHP  13. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:25 UTC] PHP  14. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:25 UTC] PHP  15. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:25 UTC] PHP  16. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:25 UTC] PHP  18. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:25 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:25 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:25 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:25 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:25 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:25 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:25 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:25 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP  12. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 20:54:25 UTC] PHP  13. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:25 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:25 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:25 UTC] PHP  17. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:25 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:25 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:25 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:25 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:25 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:25 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:25 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:25 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:25 UTC] PHP  12. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:58
+[26-Sep-2018 20:54:25 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:25 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:25 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:25 UTC] PHP  16. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:26 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:26 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:26 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 20:54:26 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:26 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:26 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:26 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP  12. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:26 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:26 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:26 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:26 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 20:54:26 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:26 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:26 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP  11. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP  12. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 20:54:26 UTC] PHP  13. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:26 UTC] PHP  14. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:26 UTC] PHP  15. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:26 UTC] PHP  16. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP  18. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:26 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:26 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:26 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:26 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:26 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:26 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:26 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP  12. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 20:54:26 UTC] PHP  13. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:26 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:26 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP  17. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:26 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:26 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:26 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:26 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:26 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:26 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:26 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:26 UTC] PHP  12. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:58
+[26-Sep-2018 20:54:26 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:26 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:26 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:26 UTC] PHP  16. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:57 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:57 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:57 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 20:54:57 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:57 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:57 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:57 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP  12. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:57 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:57 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:57 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:57 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 20:54:57 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:57 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:57 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP  11. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP  12. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 20:54:57 UTC] PHP  13. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:57 UTC] PHP  14. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:57 UTC] PHP  15. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:57 UTC] PHP  16. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP  18. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:57 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:57 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:57 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:57 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:57 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:57 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:57 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP  12. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 20:54:57 UTC] PHP  13. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:57 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:57 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP  17. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:57 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:57 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:57 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:57 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:57 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:57 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:57 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:57 UTC] PHP  12. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:58
+[26-Sep-2018 20:54:57 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:57 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:57 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:57 UTC] PHP  16. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:58 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:58 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:58 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 20:54:58 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:58 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:58 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:58 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP  12. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:58 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:58 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:58 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:58 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 20:54:58 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:58 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:58 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP  11. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP  12. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 20:54:58 UTC] PHP  13. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:54:58 UTC] PHP  14. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:58 UTC] PHP  15. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:58 UTC] PHP  16. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP  18. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:58 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:58 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:58 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:58 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:58 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:58 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:58 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP  12. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 20:54:58 UTC] PHP  13. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:54:58 UTC] PHP  14. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:58 UTC] PHP  15. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP  17. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP Warning:  Missing argument 2 for Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/lib/theme-support.php on line 18
+[26-Sep-2018 20:54:58 UTC] PHP Stack trace:
+[26-Sep-2018 20:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:54:58 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:54:58 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:216
+[26-Sep-2018 20:54:58 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:54:58 UTC] PHP   8. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:54:58 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:54:58 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP  11. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:54:58 UTC] PHP  12. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:58
+[26-Sep-2018 20:54:58 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:54:58 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:54:58 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:54:58 UTC] PHP  16. Gutenberg_Stepconference\Theming\digwp_disable_gutenberg() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:59:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 20:59:21 UTC] PHP Stack trace:
+[26-Sep-2018 20:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:59:21 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:59:21 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 20:59:21 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:59:21 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:59:21 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:59:21 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:59:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 20:59:21 UTC] PHP Stack trace:
+[26-Sep-2018 20:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:59:21 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 20:59:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 20:59:21 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 20:59:21 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:59:21 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:59:21 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   8. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   9. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 20:59:21 UTC] PHP  10. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:59:21 UTC] PHP  11. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:59:21 UTC] PHP  12. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:59:21 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:59:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 20:59:21 UTC] PHP Stack trace:
+[26-Sep-2018 20:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:59:21 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 20:59:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 20:59:21 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:59:21 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:59:21 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:59:21 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   8. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   9. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 20:59:21 UTC] PHP  10. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:59:21 UTC] PHP  11. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:59:21 UTC] PHP  12. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:59:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 20:59:21 UTC] PHP Stack trace:
+[26-Sep-2018 20:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:59:21 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 20:59:21 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 20:59:21 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:59:21 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:59:21 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:59:21 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:59:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 20:59:21 UTC] PHP Stack trace:
+[26-Sep-2018 20:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:59:21 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 20:59:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 20:59:21 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 20:59:21 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:59:21 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:59:21 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   8. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   9. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 20:59:21 UTC] PHP  10. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 20:59:21 UTC] PHP  11. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:59:21 UTC] PHP  12. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:59:21 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 20:59:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 20:59:21 UTC] PHP Stack trace:
+[26-Sep-2018 20:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 20:59:21 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 20:59:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 20:59:21 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 20:59:21 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 20:59:21 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 20:59:21 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   8. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 20:59:21 UTC] PHP   9. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 20:59:21 UTC] PHP  10. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 20:59:21 UTC] PHP  11. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 20:59:21 UTC] PHP  12. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 20:59:21 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 21:00:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 21:00:32 UTC] PHP Stack trace:
+[26-Sep-2018 21:00:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 21:00:32 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 21:00:32 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:32 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:32 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:32 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 21:00:32 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 21:00:32 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 21:00:32 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 21:00:32 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:32 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 21:00:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 21:00:33 UTC] PHP Stack trace:
+[26-Sep-2018 21:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 21:00:33 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 21:00:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 21:00:33 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 21:00:33 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 21:00:33 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 21:00:33 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:33 UTC] PHP   8. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:33 UTC] PHP   9. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 21:00:33 UTC] PHP  10. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 21:00:33 UTC] PHP  11. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 21:00:33 UTC] PHP  12. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 21:00:33 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:33 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 21:00:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 21:00:33 UTC] PHP Stack trace:
+[26-Sep-2018 21:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 21:00:33 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 21:00:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 21:00:33 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 21:00:33 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 21:00:33 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 21:00:33 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:33 UTC] PHP   8. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:33 UTC] PHP   9. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 21:00:33 UTC] PHP  10. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 21:00:33 UTC] PHP  11. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 21:00:33 UTC] PHP  12. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:33 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 21:00:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 21:00:34 UTC] PHP Stack trace:
+[26-Sep-2018 21:00:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 21:00:34 UTC] PHP   2. apply_filters() /home/ubuntu/workspace/wp-admin/post.php:155
+[26-Sep-2018 21:00:34 UTC] PHP   3. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:34 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:34 UTC] PHP   5. gutenberg_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:34 UTC] PHP   6. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:185
+[26-Sep-2018 21:00:34 UTC] PHP   7. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 21:00:34 UTC] PHP   8. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 21:00:34 UTC] PHP   9. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 21:00:34 UTC] PHP  10. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:34 UTC] PHP  11. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 21:00:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 21:00:34 UTC] PHP Stack trace:
+[26-Sep-2018 21:00:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 21:00:34 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 21:00:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 21:00:34 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:97
+[26-Sep-2018 21:00:34 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 21:00:34 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 21:00:34 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:34 UTC] PHP   8. gutenberg_common_scripts_and_styles() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:34 UTC] PHP   9. is_gutenberg_page() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/client-assets.php:1029
+[26-Sep-2018 21:00:34 UTC] PHP  10. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/gutenberg.php:111
+[26-Sep-2018 21:00:34 UTC] PHP  11. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 21:00:34 UTC] PHP  12. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 21:00:34 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:34 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[26-Sep-2018 21:00:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'digwp_disable_gutenberg' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 288
+[26-Sep-2018 21:00:34 UTC] PHP Stack trace:
+[26-Sep-2018 21:00:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[26-Sep-2018 21:00:34 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:174
+[26-Sep-2018 21:00:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:483
+[26-Sep-2018 21:00:34 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/admin-header.php:142
+[26-Sep-2018 21:00:34 UTC] PHP   5. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Sep-2018 21:00:34 UTC] PHP   6. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[26-Sep-2018 21:00:34 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:34 UTC] PHP   8. gutenberg_collect_meta_box_data() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[26-Sep-2018 21:00:34 UTC] PHP   9. gutenberg_can_edit_post() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:49
+[26-Sep-2018 21:00:34 UTC] PHP  10. gutenberg_can_edit_post_type() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:273
+[26-Sep-2018 21:00:34 UTC] PHP  11. apply_filters() /home/ubuntu/workspace/wp-content/plugins/gutenberg/lib/register.php:332
+[26-Sep-2018 21:00:34 UTC] PHP  12. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[26-Sep-2018 21:00:34 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[02-Oct-2018 10:57:44 UTC] PHP Fatal error:  Call to undefined function register_block_type() in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 21
+[02-Oct-2018 10:57:44 UTC] PHP Stack trace:
+[02-Oct-2018 10:57:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-Oct-2018 10:57:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[02-Oct-2018 10:57:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 10:57:44 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 10:57:44 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[02-Oct-2018 10:57:44 UTC] PHP   6. include() /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php:70
+[02-Oct-2018 10:59:36 UTC] PHP Fatal error:  Call to undefined function register_block_type() in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 21
+[02-Oct-2018 10:59:36 UTC] PHP Stack trace:
+[02-Oct-2018 10:59:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-Oct-2018 10:59:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[02-Oct-2018 10:59:36 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 10:59:36 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 10:59:36 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[02-Oct-2018 10:59:36 UTC] PHP   6. include() /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php:70
+[02-Oct-2018 10:59:42 UTC] PHP Fatal error:  Call to undefined function register_block_type() in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 21
+[02-Oct-2018 10:59:42 UTC] PHP Stack trace:
+[02-Oct-2018 10:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[02-Oct-2018 10:59:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[02-Oct-2018 10:59:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[02-Oct-2018 10:59:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 10:59:42 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 10:59:42 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[02-Oct-2018 10:59:42 UTC] PHP   7. include() /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php:70
+[02-Oct-2018 10:59:44 UTC] PHP Fatal error:  Call to undefined function register_block_type() in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 21
+[02-Oct-2018 10:59:44 UTC] PHP Stack trace:
+[02-Oct-2018 10:59:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[02-Oct-2018 10:59:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[02-Oct-2018 10:59:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[02-Oct-2018 10:59:44 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 10:59:44 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 10:59:44 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[02-Oct-2018 10:59:44 UTC] PHP   7. include() /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php:70
+[02-Oct-2018 10:59:49 UTC] PHP Fatal error:  Call to undefined function register_block_type() in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 21
+[02-Oct-2018 10:59:49 UTC] PHP Stack trace:
+[02-Oct-2018 10:59:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[02-Oct-2018 10:59:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[02-Oct-2018 10:59:49 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[02-Oct-2018 10:59:49 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 10:59:49 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 10:59:49 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[02-Oct-2018 10:59:49 UTC] PHP   7. include() /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php:70
+[02-Oct-2018 11:04:16 UTC] PHP Fatal error:  Call to undefined function register_block_type() in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 22
+[02-Oct-2018 11:04:16 UTC] PHP Stack trace:
+[02-Oct-2018 11:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[02-Oct-2018 11:04:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[02-Oct-2018 11:04:16 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[02-Oct-2018 11:04:16 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 11:04:16 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 11:04:16 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[02-Oct-2018 11:04:16 UTC] PHP   7. include() /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php:70
+[02-Oct-2018 11:28:23 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 45
+[02-Oct-2018 11:28:23 UTC] PHP Stack trace:
+[02-Oct-2018 11:28:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-Oct-2018 11:28:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[02-Oct-2018 11:28:23 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 11:28:23 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 11:28:23 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[02-Oct-2018 15:22:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php on line 55
+[02-Oct-2018 15:22:08 UTC] PHP Stack trace:
+[02-Oct-2018 15:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-Oct-2018 15:22:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[02-Oct-2018 15:22:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Oct-2018 15:22:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[02-Oct-2018 15:22:08 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 10:12:23 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/quotes/block.php on line 85
+[03-Oct-2018 10:12:23 UTC] PHP Stack trace:
+[03-Oct-2018 10:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Oct-2018 10:12:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[03-Oct-2018 10:12:23 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 10:12:23 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 10:12:23 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:30:52 UTC] PHP Warning:  include(/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:30:52 UTC] PHP Stack trace:
+[03-Oct-2018 14:30:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[03-Oct-2018 14:30:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[03-Oct-2018 14:30:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[03-Oct-2018 14:30:52 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:30:52 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:30:52 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:30:52 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:30:52 UTC] PHP Stack trace:
+[03-Oct-2018 14:30:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[03-Oct-2018 14:30:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[03-Oct-2018 14:30:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[03-Oct-2018 14:30:52 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:30:52 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:30:52 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:30:54 UTC] PHP Warning:  include(/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:30:54 UTC] PHP Stack trace:
+[03-Oct-2018 14:30:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[03-Oct-2018 14:30:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[03-Oct-2018 14:30:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[03-Oct-2018 14:30:54 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:30:54 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:30:54 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:30:54 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:30:54 UTC] PHP Stack trace:
+[03-Oct-2018 14:30:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[03-Oct-2018 14:30:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[03-Oct-2018 14:30:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[03-Oct-2018 14:30:54 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:30:54 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:30:54 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:30:55 UTC] PHP Warning:  include(/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:30:55 UTC] PHP Stack trace:
+[03-Oct-2018 14:30:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Oct-2018 14:30:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[03-Oct-2018 14:30:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:30:55 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:30:55 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:30:55 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:30:55 UTC] PHP Stack trace:
+[03-Oct-2018 14:30:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Oct-2018 14:30:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[03-Oct-2018 14:30:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:30:55 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:30:55 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:31:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:31:56 UTC] PHP Stack trace:
+[03-Oct-2018 14:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Oct-2018 14:31:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[03-Oct-2018 14:31:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:31:56 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:31:56 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[03-Oct-2018 14:31:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 74
+[03-Oct-2018 14:31:56 UTC] PHP Stack trace:
+[03-Oct-2018 14:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Oct-2018 14:31:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[03-Oct-2018 14:31:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Oct-2018 14:31:56 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[03-Oct-2018 14:31:56 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[04-Oct-2018 11:05:25 UTC] PHP Warning:  include(/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/banners/block.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 75
+[04-Oct-2018 11:05:25 UTC] PHP Stack trace:
+[04-Oct-2018 11:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 11:05:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 11:05:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 11:05:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 11:05:25 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[04-Oct-2018 11:05:25 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/banners/block.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/jsforwp-example-blocks.php on line 75
+[04-Oct-2018 11:05:25 UTC] PHP Stack trace:
+[04-Oct-2018 11:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 11:05:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 11:05:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 11:05:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 11:05:25 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[04-Oct-2018 14:43:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:43:03 UTC] PHP Stack trace:
+[04-Oct-2018 14:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:43:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:43:03 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:43:03 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:43:03 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:43:03 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:03 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_widget_init' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:43:03 UTC] PHP Stack trace:
+[04-Oct-2018 14:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:43:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:43:03 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:43:03 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:43:03 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[04-Oct-2018 14:43:03 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:03 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:03 UTC] PHP   9. wp_widgets_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:03 UTC] PHP  10. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1649
+[04-Oct-2018 14:43:03 UTC] PHP  11. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:03 UTC] PHP  12. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:03 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:43:18 UTC] PHP Stack trace:
+[04-Oct-2018 14:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:43:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:43:18 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:43:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:43:18 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:43:18 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:18 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:18 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_widget_init' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:43:18 UTC] PHP Stack trace:
+[04-Oct-2018 14:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:43:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:43:18 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:43:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:43:18 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[04-Oct-2018 14:43:18 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:18 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:18 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:18 UTC] PHP   9. wp_widgets_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:18 UTC] PHP  10. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1649
+[04-Oct-2018 14:43:18 UTC] PHP  11. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:18 UTC] PHP  12. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:18 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:43:33 UTC] PHP Stack trace:
+[04-Oct-2018 14:43:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:43:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:43:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:43:33 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:43:33 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:43:33 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:33 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:33 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_widget_init' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:43:33 UTC] PHP Stack trace:
+[04-Oct-2018 14:43:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:43:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:43:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:43:33 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:43:33 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[04-Oct-2018 14:43:33 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:33 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:33 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:33 UTC] PHP   9. wp_widgets_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:43:33 UTC] PHP  10. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1649
+[04-Oct-2018 14:43:33 UTC] PHP  11. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:43:33 UTC] PHP  12. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:43:33 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:45:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:45:34 UTC] PHP Stack trace:
+[04-Oct-2018 14:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:45:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:45:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:45:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:45:34 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:45:34 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:45:34 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:45:34 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:47:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:47:34 UTC] PHP Stack trace:
+[04-Oct-2018 14:47:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:47:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:47:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:47:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:47:34 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:47:34 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:47:34 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:47:34 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:49:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:49:34 UTC] PHP Stack trace:
+[04-Oct-2018 14:49:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:49:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:49:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:49:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:49:34 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:49:34 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:49:34 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:49:34 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:51:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:51:34 UTC] PHP Stack trace:
+[04-Oct-2018 14:51:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:51:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:51:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:51:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:51:34 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:51:34 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:51:34 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:51:34 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:53:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:53:34 UTC] PHP Stack trace:
+[04-Oct-2018 14:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:53:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:53:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:53:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:53:34 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:53:34 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:53:34 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:53:34 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:56:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:56:13 UTC] PHP Stack trace:
+[04-Oct-2018 14:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:56:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:56:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:56:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:56:13 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:56:13 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:56:13 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:56:13 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:58:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:58:13 UTC] PHP Stack trace:
+[04-Oct-2018 14:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:58:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:58:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:58:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:58:13 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:58:13 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:58:13 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:58:13 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 14:59:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 14:59:57 UTC] PHP Stack trace:
+[04-Oct-2018 14:59:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 14:59:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 14:59:57 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 14:59:57 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 14:59:57 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 14:59:57 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 14:59:57 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 14:59:57 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:00:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:00:13 UTC] PHP Stack trace:
+[04-Oct-2018 15:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:00:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:00:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:00:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:00:13 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:00:13 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:00:13 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:00:13 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:02:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:02:13 UTC] PHP Stack trace:
+[04-Oct-2018 15:02:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:02:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:02:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:02:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:02:13 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:02:13 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:02:13 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:02:13 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:03:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:03:10 UTC] PHP Stack trace:
+[04-Oct-2018 15:03:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:03:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:03:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:03:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:03:10 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:03:10 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:03:10 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:03:10 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:03:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:03:25 UTC] PHP Stack trace:
+[04-Oct-2018 15:03:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:03:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:03:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:03:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:03:25 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:03:25 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:03:25 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:03:25 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:03:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:03:47 UTC] PHP Stack trace:
+[04-Oct-2018 15:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:03:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:03:47 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:03:47 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:03:47 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:03:47 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:03:47 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:03:47 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:04:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:04:23 UTC] PHP Stack trace:
+[04-Oct-2018 15:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:04:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:04:23 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:04:23 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:04:23 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:04:23 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:04:23 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:04:23 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:04:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:04:27 UTC] PHP Stack trace:
+[04-Oct-2018 15:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:04:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:04:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:04:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:04:27 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:04:27 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:04:27 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:04:27 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:04:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:04:43 UTC] PHP Stack trace:
+[04-Oct-2018 15:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:04:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:04:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:04:43 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:04:43 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:04:43 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:04:43 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:04:43 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:04:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:04:58 UTC] PHP Stack trace:
+[04-Oct-2018 15:04:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:04:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:04:58 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:04:58 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:04:58 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:04:58 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:04:58 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:04:58 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:05:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:05:44 UTC] PHP Stack trace:
+[04-Oct-2018 15:05:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:05:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:05:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:05:44 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:05:44 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:05:44 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:05:44 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:05:44 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:06:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:06:44 UTC] PHP Stack trace:
+[04-Oct-2018 15:06:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:06:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:06:44 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:06:44 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:06:44 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:06:44 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:06:44 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:06:44 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:06:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:06:49 UTC] PHP Stack trace:
+[04-Oct-2018 15:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:06:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:06:49 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:06:49 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:06:49 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:06:49 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:06:49 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:06:49 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:06:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:06:59 UTC] PHP Stack trace:
+[04-Oct-2018 15:06:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:06:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:06:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:06:59 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:06:59 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:06:59 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:06:59 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:06:59 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:12:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:12:56 UTC] PHP Stack trace:
+[04-Oct-2018 15:12:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:12:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:12:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:12:56 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:12:56 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:12:56 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:12:56 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:12:56 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:13:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:13:03 UTC] PHP Stack trace:
+[04-Oct-2018 15:13:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:13:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:13:03 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:13:03 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:13:03 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:13:03 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:13:03 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:13:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 15:13:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'stepconference_theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2018 15:13:19 UTC] PHP Stack trace:
+[04-Oct-2018 15:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 15:13:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 15:13:19 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 15:13:19 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 15:13:19 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:434
+[04-Oct-2018 15:13:19 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-Oct-2018 15:13:19 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[04-Oct-2018 15:13:19 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[04-Oct-2018 17:08:01 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/lib/enqueue-scripts.php on line 43
+[04-Oct-2018 17:08:01 UTC] PHP Stack trace:
+[04-Oct-2018 17:08:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 17:08:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 17:08:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 17:08:01 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 17:08:01 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[04-Oct-2018 17:10:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/lib/enqueue-scripts.php on line 42
+[04-Oct-2018 17:10:02 UTC] PHP Stack trace:
+[04-Oct-2018 17:10:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Oct-2018 17:10:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Oct-2018 17:10:02 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Oct-2018 17:10:02 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[04-Oct-2018 17:10:02 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[05-Oct-2018 10:52:05 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 10:52:05 UTC] PHP Stack trace:
+[05-Oct-2018 10:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 10:52:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 10:52:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 10:52:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 10:52:05 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 10:54:05 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 10:54:05 UTC] PHP Stack trace:
+[05-Oct-2018 10:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 10:54:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 10:54:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 10:54:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 10:54:05 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 10:56:05 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 10:56:05 UTC] PHP Stack trace:
+[05-Oct-2018 10:56:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 10:56:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 10:56:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 10:56:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 10:56:05 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 10:58:06 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 10:58:06 UTC] PHP Stack trace:
+[05-Oct-2018 10:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 10:58:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 10:58:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 10:58:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 10:58:06 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:00:06 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:00:06 UTC] PHP Stack trace:
+[05-Oct-2018 11:00:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:00:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:00:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:00:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:00:06 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:02:06 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:02:06 UTC] PHP Stack trace:
+[05-Oct-2018 11:02:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:02:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:02:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:02:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:02:06 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:04:06 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:04:06 UTC] PHP Stack trace:
+[05-Oct-2018 11:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:04:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:04:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:04:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:04:06 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:06:07 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:06:07 UTC] PHP Stack trace:
+[05-Oct-2018 11:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:06:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:06:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:06:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:06:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:08:08 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:08:08 UTC] PHP Stack trace:
+[05-Oct-2018 11:08:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:08:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:08:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:08:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:08:08 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:10:07 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:10:07 UTC] PHP Stack trace:
+[05-Oct-2018 11:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:10:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:10:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:10:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:10:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:12:08 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:12:08 UTC] PHP Stack trace:
+[05-Oct-2018 11:12:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:12:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:12:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:12:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:12:08 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:14:08 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:14:08 UTC] PHP Stack trace:
+[05-Oct-2018 11:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:14:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:14:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:14:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:14:08 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:16:09 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:16:09 UTC] PHP Stack trace:
+[05-Oct-2018 11:16:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:16:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:16:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:16:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:16:09 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:18:09 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:18:09 UTC] PHP Stack trace:
+[05-Oct-2018 11:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:18:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:18:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:18:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:18:09 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:20:08 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:20:08 UTC] PHP Stack trace:
+[05-Oct-2018 11:20:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:20:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:20:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:20:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:20:08 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:22:10 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:22:10 UTC] PHP Stack trace:
+[05-Oct-2018 11:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:22:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:22:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:22:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:22:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:24:10 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:24:10 UTC] PHP Stack trace:
+[05-Oct-2018 11:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:24:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:24:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:24:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:24:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:26:10 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:26:10 UTC] PHP Stack trace:
+[05-Oct-2018 11:26:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:26:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:26:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:26:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:26:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:28:10 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:28:10 UTC] PHP Stack trace:
+[05-Oct-2018 11:28:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:28:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:28:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:28:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:28:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:30:10 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:30:10 UTC] PHP Stack trace:
+[05-Oct-2018 11:30:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:30:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:30:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:30:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:30:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:32:11 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:32:11 UTC] PHP Stack trace:
+[05-Oct-2018 11:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:32:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:32:11 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:32:11 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:32:11 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:34:11 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:34:11 UTC] PHP Stack trace:
+[05-Oct-2018 11:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:34:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:34:11 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:34:11 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:34:11 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:36:11 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:36:11 UTC] PHP Stack trace:
+[05-Oct-2018 11:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:36:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:36:11 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:36:11 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:36:11 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:36:20 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:36:20 UTC] PHP Stack trace:
+[05-Oct-2018 11:36:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/nav-menus.php:0
+[05-Oct-2018 11:36:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/nav-menus.php:13
+[05-Oct-2018 11:36:20 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Oct-2018 11:36:20 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:36:20 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:36:20 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:39:18 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:39:18 UTC] PHP Stack trace:
+[05-Oct-2018 11:39:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/nav-menus.php:0
+[05-Oct-2018 11:39:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/nav-menus.php:13
+[05-Oct-2018 11:39:18 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Oct-2018 11:39:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:39:18 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:39:18 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:39:21 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:39:21 UTC] PHP Stack trace:
+[05-Oct-2018 11:39:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/nav-menus.php:0
+[05-Oct-2018 11:39:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/nav-menus.php:13
+[05-Oct-2018 11:39:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Oct-2018 11:39:21 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:39:21 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:39:21 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:39:31 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:39:31 UTC] PHP Stack trace:
+[05-Oct-2018 11:39:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/nav-menus.php:0
+[05-Oct-2018 11:39:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/nav-menus.php:13
+[05-Oct-2018 11:39:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Oct-2018 11:39:31 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:39:31 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:39:31 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:42:59 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:42:59 UTC] PHP Stack trace:
+[05-Oct-2018 11:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:42:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:42:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:42:59 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:42:59 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:43:00 UTC] PHP Fatal error:  Class 'Gutenberg_Stepconference\Theming\Walker_Nav_Menu' not found in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 189
+[05-Oct-2018 11:43:00 UTC] PHP Stack trace:
+[05-Oct-2018 11:43:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/nav-menus.php:0
+[05-Oct-2018 11:43:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/nav-menus.php:13
+[05-Oct-2018 11:43:00 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Oct-2018 11:43:00 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:43:00 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:94
+[05-Oct-2018 11:43:00 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:424
+[05-Oct-2018 11:49:09 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/wp-content/themes/grandconference-childtheme/functions.php on line 218
+[05-Oct-2018 11:49:09 UTC] PHP Stack trace:
+[05-Oct-2018 11:49:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Oct-2018 11:49:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Oct-2018 11:49:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Oct-2018 11:49:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[07-Oct-2018 08:04:33 UTC] PHP Warning:  filesize(): stat failed for /home/ubuntu/workspace/wp-content/uploads/2018/10/startups-get-4-500x500.png.tmp.png in /home/ubuntu/workspace/wp-content/plugins/ewww-image-optimizer/common.php on line 2483
+[07-Oct-2018 08:04:33 UTC] PHP Stack trace:
+[07-Oct-2018 08:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[07-Oct-2018 08:04:33 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:115
+[07-Oct-2018 08:04:33 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[07-Oct-2018 08:04:33 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[07-Oct-2018 08:04:33 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[07-Oct-2018 08:04:33 UTC] PHP   6. EWWWIO_Background_Process->maybe_handle() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[07-Oct-2018 08:04:33 UTC] PHP   7. EWWWIO_Background_Process->handle() /home/ubuntu/workspace/wp-content/plugins/ewww-image-optimizer/classes/class-ewwwio-background-process.php:203
+[07-Oct-2018 08:04:33 UTC] PHP   8. EWWWIO_Media_Background_Process->task() /home/ubuntu/workspace/wp-content/plugins/ewww-image-optimizer/classes/class-ewwwio-background-process.php:349
+[07-Oct-2018 08:04:33 UTC] PHP   9. ewww_image_optimizer_resize_from_meta_data() /home/ubuntu/workspace/wp-content/plugins/ewww-image-optimizer/classes/class-ewwwio-media-background-process.php:87
+[07-Oct-2018 08:04:33 UTC] PHP  10. ewww_image_optimizer() /home/ubuntu/workspace/wp-content/plugins/ewww-image-optimizer/common.php:5367
+[07-Oct-2018 08:04:33 UTC] PHP  11. ewww_image_optimizer_filesize() /home/ubuntu/workspace/wp-content/plugins/ewww-image-optimizer/unique.php:2233
+[07-Oct-2018 08:04:33 UTC] PHP  12. filesize() /home/ubuntu/workspace/wp-content/plugins/ewww-image-optimizer/common.php:2483
+[10-Oct-2018 18:39:37 UTC] PHP Fatal error:  Cannot redeclare Gutenberg_Courses\Example_Block\Blocks\cards\register_cards_block() (previously declared in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php:14) in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php on line 26
+[10-Oct-2018 18:39:37 UTC] PHP Stack trace:
+[10-Oct-2018 18:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Oct-2018 18:39:37 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[10-Oct-2018 18:39:37 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Oct-2018 18:39:37 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[10-Oct-2018 18:39:37 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[10-Oct-2018 18:39:59 UTC] PHP Fatal error:  Cannot redeclare Gutenberg_Courses\Example_Block\Blocks\cards\register_cards_block() (previously declared in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/cards/block.php:14) in /home/ubuntu/workspace/wp-content/plugins/gutenberg-course-master/blocks/conferences/block.php on line 26
+[10-Oct-2018 18:39:59 UTC] PHP Stack trace:
+[10-Oct-2018 18:39:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Oct-2018 18:39:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[10-Oct-2018 18:39:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Oct-2018 18:39:59 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:94
+[10-Oct-2018 18:39:59 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305

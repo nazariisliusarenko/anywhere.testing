@@ -1,0 +1,67 @@
+.conference {
+    max-width:100%;
+    background-color:#fff;
+    height:auto;
+    margin:0 auto;
+    text-align:center;
+    h2 {
+     margin-top: 50px;
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase
+    }
+    
+    p{
+    @font-family: "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: "normal";
+    text-transform: "lowercase";
+    line-height: 1;
+      }
+    ul.logos {
+      list-style:none;
+      margin-top:30px;
+      margin-bottom:45px;
+      li {
+        display:inline-block;
+        padding: 0 35px 0 35px;
+      }
+    }
+    .logo {
+      width:160px;
+      height:140px;
+      display:inline-block;
+      background-size: cover;
+      img {
+        width:160px;
+        height:140px;
+      }
+    }
+
+    .logo1 {
+      background-image:url('../images/logos/logo1.png');
+    }
+
+    .logo2 {
+      background-image:url('../images/logos/logo2.png');
+    }
+
+    .logo3 {
+      background-image:url('../images/logos/logo3.png');
+      width:140px;
+      height:120px;
+    }
+
+    .logo4 {
+      background-image:url('../images/logos/logo4.png');
+    }
+  }

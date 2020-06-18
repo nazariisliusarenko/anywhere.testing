@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,600,700,,700i,900');
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.eot');
+    src: url('../fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Regular.woff') format('woff'),
+        url('../fonts/BebasNeue-Regular.ttf') format('truetype'),
+        url('../fonts/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueLight.eot');
+    src: url('../fonts/BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueLight.woff2') format('woff2'),
+        url('../fonts/BebasNeueLight.woff') format('woff'),
+        url('../fonts/BebasNeueLight.ttf') format('truetype'),
+        url('../fonts/BebasNeueLight.svg#BebasNeueLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Thin.eot');
+    src: url('../fonts/BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeue-Thin.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Thin.woff') format('woff'),
+        url('../fonts/BebasNeue-Thin.ttf') format('truetype'),
+        url('../fonts/BebasNeue-Thin.svg#BebasNeue-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas-bold';
+    src: url('../fonts/BebasNeueBold.eot');
+    src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueBold.woff2') format('woff2'),
+        url('../fonts/BebasNeueBold.woff') format('woff'),
+        url('../fonts/BebasNeueBold.ttf') format('truetype'),
+        url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('../fonts/BebasNeueBook.eot');
+    src: url('../fonts/BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueBook.woff2') format('woff2'),
+        url('../fonts/BebasNeueBook.woff') format('woff'),
+        url('../fonts/BebasNeueBook.ttf') format('truetype'),
+        url('../fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+        url('../fonts/BebasNeueRegular.woff') format('woff'),
+        url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+        url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// set the font for mobile responsive ratina ready.
+$em4:4em;
+$em375:3.75em;
+$em350:3.50em;
+$em325:3.25em;
+$em3:3em;
+$em275:2.75em;
+$em250:2.50em;
+$em225:2.25em;
+$em2:2em;
+$em175:1.75em;
+$em150:1.50em;
+$em125:1.25em;
+$em13:1.3em;
+$em1:1em;
+$em075:0.75em;
+$em050:0.50em;
+$em025:0.25em;
+$em190:1.90em;
+
+// conference font
+$conference_h2:$em4;
+$conference_p:$em125;
+
+// features font
+$feature_h2:$em375;
+$feature_p:$em125;
+$feature_lineheight:1.42;
+
+// footer font
+$event_p:$em13;
+$event_span:$em13;
+$social_media_fa:24px;
+$footer_h3_a:24px;
+$footer_nav_a:18px;
+$footer_h3:34.666666666666664px;
+$input:18px;
+
+// mobile nav font
+
+// partners font
+$partners_h2:$em4;
+$partners_p:$em125;
+
+
+$speakers_h1:$em4;
+$speakers_p:$em125;
+// quotes font
+$quotes_h2:20px;
+$quotes_p:24px;
+// scores font
+$scores_h2:$em375;
+$scores_p:$em190;
+// techfestivalform font
+$form_h1:3em;
+$form_p:1.3em;
+$form_input:1.2em;
+// what you get font
+$whatyouget_h2:$em4;
+$whatyouget_h3:$em175;
+$whitebox_h3:$em190;
+$whitebox_p:$em125;
+$event_p:1.3em;
+$event_span:1.3em;
+
+// conferences
+
+
+
+h2 {
+    //@include set-font('Bebas Neue');
+    font-size:48px;
+}
+
+h3 {
+    //@include set-font('Bebas Neue');
+    font-size:22px;
+}
+
+p {
+    //@include set-font('Roboto');
+    font-size:16px;
+}
+
+span.small {
+    font-size:10px;
+}
+
+
+@mixin normal-font($color) {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 22px;
+    color:$color;
+}
+
+@mixin small-font($color) {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color:$color;
+}
+
+@mixin set-font($family,$lineheight:'1',$fontstyle:normal) {
+    font-family: $family;
+    line-height: $lineheight;
+    font-style: $fontstyle;
+}
+
+@mixin font-regular($color,$size,$align:'left',$weight:'normal',$transform:'lowercase') {
+    color:$color;
+    font-size:$size;
+    text-align:$align;
+    font-weight:$weight;
+    text-transform:$transform;
+  }
+  
+@mixin font-bebasbold($color,$size,$align:'left',$weight:'normal',$transform:'lowercase') {
+    font-family:"Bebas-bold";
+    color:$color;
+    font-size:$size;
+    text-align:$align;
+    font-weight:$weight;
+    text-transform:$transform;
+  }
+
+.align-center {
+    margin:0 auto;
+    text-align:center;
+  }
+
+
+  

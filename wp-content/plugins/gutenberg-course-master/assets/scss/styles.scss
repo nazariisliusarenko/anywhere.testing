@@ -1,0 +1,739 @@
+/* importing partials */
+@import 'partials/_vars';
+@import 'partials/_mixins';
+@import 'partials/_basic_font';
+@import 'partials/_basic_colors';
+@import 'partials/_basic_shapes';
+@import 'partials/_basic_buttons';
+@import 'partials/_gravity_fomrs';
+/* importing components */
+@import 'components/_forms';
+@import 'components/_selectric';
+@import 'components/_people';
+@import 'components/_features';
+@import 'components/_conference';
+@import 'components/_partners';
+@import 'components/_scores';
+@import 'components/_satellite';
+@import 'components/_techfestivalform';
+@import 'components/_whatyouget';
+@import 'components/_toggles';
+@import 'components/_quotes';
+@import 'components/_footer';
+@import 'components/_nav';
+
+html, body{
+  margin:0;
+  padding:0;
+  
+}
+
+i.fa.fa-plus, i.fa.fa-minus {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100000;
+    color: #fff;
+}
+
+ul.navcls1 {
+    position: absolute;
+    left: 0;
+    top: -115px;
+}
+
+.centered1200 {
+  max-width:1200px;
+  margin:0 auto;
+}
+.section-contents.theme-dark {
+     margin-top: 120px;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: transparent !important;
+}
+
+h1,h2,h3 {
+  @include set-font('Bebas-bold',1,bold);
+}
+
+section.form h1 {
+  @include set-font('Bebas-bold',1,bold);
+}
+
+ul#menu-participate {
+  width:100%;
+  column-count: 2;
+}
+
+.speakers {
+    @include setFooterGradient();
+  h2 {
+     @include set-font('Bebas-bold',1,bold);
+  @include font-regular(#fff,$speakers_h1,center,bold,uppercase);
+  padding-top:35px;
+  }
+  h3 {
+    @include set-font('Bebas-bold',1,bold);
+  }
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline:none;
+}
+
+p.thanksstartups {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #fff;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    @include set-font('Bebas-bold',1,bold);
+  @include font-regular(#fff,$speakers_h1,center,bold,uppercase);
+}
+
+.coltext {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+.mobilev {
+  display:none;
+}
+
+.selectric-hover .selectric .button {
+  color:#fff;
+  background-color:transparent;
+}
+
+.selectric .button {
+  width:50px;
+  height:50px;
+  color:#fff;
+  background-color:transparent;
+  font-size:40px;
+}
+
+span.wpcf7-not-valid-tip {
+    border: none !important;
+    margin-top: 10px;
+}
+
+section.form.purple .selectric .label {
+    @include set-font('Bebas-bold',2,bold);
+    width: 350px;
+}
+
+section.form input, section.form textarea {
+  @include set-font('Bebas-bold');
+  @include font-regular(#fff,3em,left,bold,uppercase);
+}
+
+input#btn-startup-form-submit {
+    font-size: 2em;
+    text-align: center;
+}
+
+input#btn-startup-form-submit:hover {
+  
+}
+
+.ctn.action-buttons {
+  text-align:center;
+}
+.container {
+  margin:0;
+  padding:0;
+}
+
+/* code added whith wordpress development */
+  .overlay {
+     background: linear-gradient(to bottom,rgba(27,20,85,.5),rgba(27,20,85,.5),rgba(27,20,85,.5),#171232);
+   opacity: 1;
+  }
+  .whitebox img {
+    width:100%;
+    max-height:240px;
+  }
+.beforeVideo {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  opacity: 1;
+  top: 0;
+  left: 0; }
+.beforeVideo {
+  position: absolute; z-index: -1; top: -35px; left: 0px; bottom: 0px; right: 0px; overflow: hidden; 
+}
+video {
+    min-height: 100%;
+    margin:0;
+    padding:0;
+    margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; 
+    opacity: 1; width: 100%; min-height: 702px;
+}
+.hero-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding:19px;
+}
+
+/* end code */
+
+section {
+
+  margin:0 auto;
+}
+
+.speakers {
+   @include setFooterGradient();
+  background-image:url('../images/bg-pattern.png');
+  .dd {
+    margin:0 auto;
+  }
+  h1 {
+  @include set-font('Bebas-bold',1,bold);
+  @include font-regular(#fff,$speakers_h1,center,bold,uppercase);
+  margin-top:30px;
+}
+span {
+  @include set-font('Roboto');
+  @include font-regular(#fff,$speakers_p,center,normal,lowercase);
+  display:block;
+  z-index:10000;
+  }
+}
+
+
+
+
+body {
+  @include setFooterGradient();
+
+  }
+
+.navbar-default {
+    background-color: transparent;
+    border:none;
+}
+
+.navbar-brand>img {
+  display: block;
+  max-width: 150px;
+}
+
+.navbar-nav {
+  .fa {
+    @include font-regular(#fff,$em1);
+  }
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
+  @include set-font('Bebas-bold',1,bold);
+  @include font-regular(#fff,	$em175,center,bold,uppercase);
+  
+}
+
+.navbar-header {
+  .comming-events {
+    float:left;
+     /* start the event section */
+     .event {
+       &:hover {
+         text-decoration: none;
+         p.date {
+          background-color:#fff;
+          color:$color2;
+          span {
+            color:$color2;
+           }
+         }
+        
+         
+       }
+      margin-top:20px;
+      margin-bottom:20px;
+      p.date {
+        @include set-font('Bebas-bold',1,bold);
+        @include font-regular(#fff,1.3em);
+        line-height:1.2;
+      span {
+        @include font-regular(#fff,1.3em,left,normal,uppercase); 
+        display:block;
+      }
+    }
+  }
+    /* end the event section */
+  }
+}
+
+.dropdown-menu {
+  background-color:none;
+  @include setFooterGradient();
+  li {
+    border-bottom:1px solid #fff;
+    a {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,$em175,center,bold,uppercase);
+    }
+  }
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #fff;
+  background-color:transparent;
+}
+
+body {overflow-x: hidden;}
+footer {
+ 
+}
+
+footer nav {
+  
+  
+}
+
+footer li {
+
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  @include set-font('Bebas-bold',1,bold);
+margin:0;			   
+}	
+p{
+@include set-font('Roboto');
+margin:0;
+}
+ul{
+margin:0;
+padding:0;
+}
+label{
+margin:0;
+}
+.logo {
+float:left;
+}
+
+
+// code added on the fly
+input#email {
+  @include set-font('Bebas-bold',1,bold);
+    margin-top: 10px;
+}
+
+.techFestivalForm {
+  a {
+    text-decoration:underline;
+    color:#fff;
+  }
+}
+
+.action-buttons .btn {
+  width:140px;
+  &:hover {
+    border:none;
+     @include btn(#181233,#1de6c7,140px,auto);
+     border:1px solid #1de6c7;
+  }
+}
+.techFestivalForm 
+input[type="submit"] {
+  outline:none;
+  @include set-font('Bebas-bold');
+   @include font-regular(#fff,$form_input,center,bold,uppercase);
+     @include btn(#1de6c7,#181233,140px,auto);
+   &:hover {
+     border:none;
+     @include btn(#181233,#1de6c7,140px,auto);
+     border:1px solid #1de6c7;
+   }
+}
+.techFestivalForm input[type="text"] {
+  @include set-font('Bebas-bold');
+   @include font-regular(#fff,$form_input,center,bold,uppercase);
+}
+
+input::-webkit-input-placeholder {
+  @include set-font('Bebas-bold');
+ @include font-regular(#fff,$form_input,center,bold,uppercase);
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+@include set-font('Bebas-bold');
+ @include font-regular(#fff,$form_input,center,bold,uppercase);  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+@include set-font('Bebas-bold');
+ @include font-regular(#fff,$form_input,center,bold,uppercase);  
+}
+ 
+input:-ms-input-placeholder {
+  @include set-font('Bebas-bold');
+ @include font-regular(#fff,$form_input,center,bold,uppercase); 
+}
+
+div.wpcf7-mail-sent-ok, div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+
+      display:none!important;
+}
+div.wpcf7 .ajax-loader.is-active {
+  visibility:hidden!important;
+  display:none!important;
+}
+span.wpcf7-not-valid-tip {
+  @include set-font('Roboto',1);
+      border: 1px solid #1de6c7!important;
+      color:#1de6c7!important;
+      width:280px;
+  border:none!important;
+}
+
+input[type="submit"]:hover {
+    color:#1de6c7!important;
+    background-color:#181233!important;
+}
+
+iframe {
+  border:none;
+}
+
+
+.modal.participate-modal.opened {
+    opacity: 1;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.modal, .modal-backdrop {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.embed-responsive, .modal, .modal-open, .progress {
+    overflow: hidden;
+}
+
+
+
+.modal-dialog {
+  width:100%;
+  padding: 32px;
+}
+.modal {
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    background-color: rgba(28,24,85,.8);
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: .3s;
+    z-index: 20000!important;
+}
+
+.modal .modal-content, .modal .modal-content .header {
+    background-image: linear-gradient(to right,#1c1855,#171232);
+}
+
+.modal .modal-content {
+    width: 100%;
+    max-height: 100%;
+    height:400px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    outline: 0;
+    a {
+      @include set-font('Bebas-bold');
+   @include font-regular(#fff,2em,center,bold,uppercase);
+    }
+    
+    .logo {
+      position: absolute;
+      top:0px;
+    }
+}
+
+.modal .modal-content .header .close {
+    opacity: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.close {
+    float: right;
+    font-size: 27px;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+
+.modal .modal-content .boxed {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 24px;
+}
+
+ /* start the event section */
+    div.event {
+      margin-top:20px;
+      margin-bottom:20px;
+      p.date {
+        @include set-font('Bebas-bold',1,bold);
+        @include font-regular(#fff,$event_p);
+        line-height:1.2;
+      span {
+        @include set-font('Bebas-bold',1,bold);
+        @include font-regular(#fff,$event_span,left,bold,uppercase); 
+        display:block;
+      }
+    }
+  }
+    /* end the event section */
+
+.navcls1 {
+    margin-top: 115px!important;
+}
+
+section.form h1 {
+  color:#fff;
+}
+
+.selectric .button {
+  height:0px;
+}
+
+.title {
+  @include set-font('Bebas-bold',1,bold);
+  font-family: "Bebas-bold"!important;
+  color:#fff;
+  font-size:48px;
+  margin-top:20px;
+}
+.fa-fw {
+  color:#fff;
+  position:absolute;
+  top:0px;
+  right:5px;
+}
+/*importing responsive */
+@import 'components/_mobilenav';
+@import 'partials/_responsive';
+
+nav.desktop .left .logo {
+  width:150px!important;
+  height:100px!important;
+  margin-right:5px;
+}
+
+ @media only screen and (max-width: 990px) and (min-width: 320px) {
+      video {
+     top:200px;
+   }
+   .modal-content .logo {
+    width:50%;
+}
+   section {
+     overflow:hidden;
+   }
+   .footer {
+     .action-buttons {
+       margin-left:0px;
+     }
+   }
+   
+   .menu-mainmenu-container {
+    width: 100%;
+  }
+  
+  .listing .fa {
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    top: 15px;
+    font-size: 25px;
+    color: #1DE6C7;
+  }
+ }
+ 
+ @media only screen and (max-width: 799px) and (min-width: 320px) {
+
+   ul#menu-participate {
+  width:100%;
+  column-count: 1;
+}
+
+.section-contents.theme-dark {
+     margin-top: 0px;
+}
+   nav.desktop {
+     display:none;
+   }
+   nav.mobile {
+     .logo {
+       position:absolute;
+       top:0px;
+       left:-15px;
+     }
+   }
+   .event.mobilev {
+  display:block;
+  background-color:transparent;
+    width: 120px;
+    border: 1px solid #fff;
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 5px;
+  }
+  div.event p.date span {
+    text-align:center;
+  }
+  .action-buttons.mobilev {
+    display:block;
+  }
+  .techFestivalForm .btn {
+    margin-top:0px;
+  }
+  .action-buttons.mobilev {
+    margin:0 auto;
+    text-align:center;
+  }
+ }
+ 
+ @media only screen and (max-width: 710px) and (min-width: 320px) {
+
+   .event.mobilev {
+  margin-top:63px;
+  margin-bottom:15px;
+  }
+  
+ }
+ 
+  @media only screen and (max-width: 590px) and (min-width: 320px) {
+ 
+   video {
+     top:150px;
+   }
+   
+   .container .subpage h1 {
+  font-weight:1.8em!important;
+}
+
+.container .subpage h2 {
+  font-weight:1.2em!important
+}
+
+p.coltext {
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    font-size:1em!important;
+    margin-bottom:20px;
+}
+
+.og-expander-inner {
+  padding:0;
+  padding-top:20px;
+  height:1200px;
+}
+.og-expander {
+  height:1200px!important;
+  z-index:999999999999;
+}
+
+  }
+  
+  @media only screen and (max-width: 470px) and (min-width: 320px) {
+
+
+   video {
+     top:120px;
+   }
+   
+   
+    Form h1 {
+      font-size:2em;
+    }
+
+
+
+  }
+  
+  @media only screen and (max-width: 320px) and (min-width: 220px) {
+   video {
+     top:100px;
+   }
+
+ nav.desktop {
+     display:none;
+   }
+   .event.mobilev {
+  display:block;
+  background-color:transparent;
+    width: 120px;
+    border: 1px solid #fff;
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 5px;
+  }
+  div.event p.date span {
+    text-align:center;
+  }
+  .action-buttons.mobilev {
+    display:block;
+  }
+  .techFestivalForm .btn {
+    margin-top:0px;
+  }
+  .action-buttons.mobilev {
+    margin:0 auto;
+    text-align:center;
+  }
+
+}

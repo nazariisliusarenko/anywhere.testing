@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.subpage h2 {
+  color: #181233;
+  line-height: 0.8;
+}
+
+.subpage h3 {
+  color: #1de6c7;
+  line-height: 0.8;
+  margin-bottom: 20px;
+}
+
+.subpage p {
+  color: #181233;
+}
+
+.subpage .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.site-header {
+  background: #563D7C;
+  color: white;
+}
+
+.site-footer {
+  background-color: #3c3d41;
+  color: white;
+}
+
+.site-footer .footer-copyright {
+  background-color: #333333;
+  text-align: center;
+}
+
+.site-footer .footer-copyright p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #d2d1d1;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+  text-decoration: none;
+  color: white;
+}

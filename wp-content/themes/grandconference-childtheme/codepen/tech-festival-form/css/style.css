@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background-color: #181233;
+}
+
+.techFestivalForm {
+  max-width: 600px;
+}
+.techFestivalForm h1 {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 42px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.techFestivalForm p {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: "lowercase";
+}
+.techFestivalForm form {
+  width: 80%;
+}
+.techFestivalForm input[type="text"] {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-family: Roboto;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  margin-bottom: 20px;
+}
+.techFestivalForm input[type="email"] {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-family: Roboto;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+.techFestivalForm .btn {
+  color: #1de6c7;
+  background-color: #181233;
+  width: 140px;
+  height: 40px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #1de6c7;
+  margin-top: 60px;
+}
+
+.align-center {
+  margin: 0 auto;
+  text-align: center;
+}

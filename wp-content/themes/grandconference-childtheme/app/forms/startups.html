@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/icons/favicon.ico">
+
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/component.css" />
+    <script src="../js/modernizr.custom.js"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/print.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+    <script src="../js/jquery.selectric.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- adding navigation from website -->
+    <nav class="mobile js-mobile-nav colored"><div class="left"><div class="nav-cta">
+        <div class="action-buttons">
+            <a href="../navbar/" class="btn">participate</a>
+            <a href="../navbar-static-top/" class="btn">tickets</a></div>
+          </div>
+    
+    
+    </div>
+    
+    </div><div class="right"><a class="js-nav-toggle active"><i class="fa fa-bars" aria-hidden="true"></i></a> <a class="js-nav-toggle active"><i class="fa fa-times" aria-hidden="true"></i></a></div><div class="tabs-wrapper js-mobile-tabs"><ul><li><div class="submenu-item js-mobile-submenu-item">Conferences <a class="chevron-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></a><div class="submenu-container"><ul class="submenu"><li><a href="/conferences/step-start">step start</a></li><li><a href="/conferences/step-digital">step digital</a></li><li><a href="/conferences/step-x">step x</a></li><li><a href="/conferences/step-money">step money</a></li></ul></div></div></li><li><div class="submenu-item js-mobile-submenu-item">startups <a class="chevron-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></a><div class="submenu-container"><ul class="submenu"><li><a href="/startups">Startup Basecamp</a></li><li><a href="/startups/#participating">Participating Startups</a></li><li><a href="/startups/mentors-corner">Mentorships</a></li></ul></div></div></li><li><div class="submenu-item js-mobile-submenu-item">happenings <a class="chevron-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></a><div class="submenu-container"><ul class="submenu"><li><a href="/step-music">step music</a></li><li><a href="/happenings/satellite">satellite events</a></li><li><a href="/happenings/entertainment">Entertainment</a></li></ul></div></div></li><li><a href="/news">news</a></li></ul></div></nav>
+    <nav class="desktop colored"><div class="left"><a href="/"><img class="logo" src="../images/logos/STEP_2019_conference_logos_RGB-34.png"></a></div><div class="right"><ul><li><div class="submenu-item">Conferences <a class="chevron-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></a><div class="submenu-container"><ul class="submenu"><li><a href="/conferences/step-start">step start</a></li><li><a href="/conferences/step-digital">step digital</a></li><li><a href="/conferences/step-x">step x</a></li><li><a href="/conferences/step-money">step money</a></li></ul></div></div></li><li><div class="submenu-item">startups <a class="chevron-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></a><div class="submenu-container"><ul class="submenu"><li><a href="/startups">Startup Basecamp</a></li><li><a href="/startups/#participating">Participating Startups</a></li><li><a href="/startups/mentors-corner">Mentorships</a></li></ul></div></div></li><li><div class="submenu-item">Happenings <a class="chevron-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></a><div class="submenu-container"><ul class="submenu"><li><a href="/step-music">step music</a></li><li><a href="/happenings/satellite">satellite events</a></li><li><a href="/happenings/entertainment">Entertainment</a></li></ul></div></div></li><li><a href="/news">news</a></li></ul>
+      
+      <div class="nav-cta">
+        
+          <div class="action-buttons">
+              <a href="../navbar/" class="btn">participate</a>
+              <a href="../navbar-static-top/" class="btn">tickets</a></div>
+            </div>
+      </div></div></nav>
+    <!-- end navigation from website -->
+
+ 
+   
+   <div class="container">
+
+<section class="form purple">
+
+  <form id="startups"
+        class="startups form-horizontal validate"
+        data-endpoint="{API_URL}/events/{EVENT_ID}/startups/subscribe"
+        data-gtm-event="step.startup.submission">
+
+    <h1>Startups</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <input name="firstName" type="text" class="form-control" placeholder="First Name" required>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <input name="lastName" type="text" class="form-control" placeholder="Last Name" required>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <input name="email" type="email" class="form-control noDisposableEmail" placeholder="Business Email" required>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <input name="jobTitle" type="text" class="form-control" placeholder="Job Title" required>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <input name="company" type="text" class="form-control" placeholder="Startup Name" required>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <input name="phone" type="number" class="form-control" placeholder="Phone Number" required>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <select class="selectric" name="country">
+              <% constants.countries.forEach(function(country) { %>
+                <option value="<%= country %>"><%= country %></option>
+              <% }) %>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <select class="selectric" name="fundingStage">
+              <option value="">Funding stage</option>
+              <option value="seed">Seed</option>
+              <option value="early">Early</option>
+              <option value="growth">Growth</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            <select class="selectric" name="industry">
+              <option value="">Industry</option>
+              <% constants.industries.forEach(function(industry) { %>
+                <option value="<%= industry %>"><%= industry %></option>
+              <% }) %>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group form-group-lg">
+            <textarea name="pitch" maxlength="400" class="form-control required autosize" rows="3" placeholder="Elevator Pitch"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div id="extra-fields"></div>
+
+      <!-- Seed Stage -->
+      <script id="stage-seed" type="text/template">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="websiteUrl" type="text" class="form-control url" placeholder="Website URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="twitterUrl" type="text" class="form-control url" placeholder="Twitter URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="facebookUrl" type="text" class="form-control url" placeholder="Facebook URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="linkedinUrl" type="text" class="form-control url" placeholder="LinkedIn URL">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+              <textarea name="businessModel" maxlength="500" class="form-control required autosize" rows="3" placeholder="Briefly describe your business model"></textarea>
+              <p class="help">Stakeholders (customer segment, partners, etc…), value proposition (products and services that create value for your customers), channels to reach customers, customer relationships, revenue streams/model, key resources/activities required to create value, key partners and cost structure</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="form-group form-group-lg">
+              <select class="selectric" name="prototypeStage">
+                <option value="">Product Development Level</option>
+                <option value="No prototype">No prototype</option>
+                <option value="Prototype being developed and will be ready soon">Prototype being developed and will be ready soon</option>
+                <option value="I have a prototype">I have a prototype</option>
+                <option value="Prototype is being tested with focus groups/early customers">Prototype is being tested with focus groups/early customers</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group form-group-lg">
+              <input name="founded" type="text" class="form-control datepicker required" placeholder="Date Founded">
+            </div>
+          </div>
+        </div>
+      </script>
+
+
+      <!-- Early Stage -->
+      <script id="stage-early" type="text/template">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="websiteUrl" type="text" class="form-control url" placeholder="Website URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="twitterUrl" type="text" class="form-control url" placeholder="Twitter URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="facebookUrl" type="text" class="form-control url" placeholder="Facebook URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="linkedinUrl" type="text" class="form-control url" placeholder="LinkedIn URL">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+              <textarea name="businessModel" class="form-control required autosize" rows="3" placeholder="Briefly describe your business model"></textarea>
+              <p class="help">Stakeholders (customer segment, partners, etc…), value proposition (products and services that create value for your customers), channels to reach customers, customer relationships, revenue streams/model, key resources/activities required to create value, key partners and cost structure</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <select class="selectric" name="prototypeStage">
+                <option value="">Product Development Level</option>
+                <option value="Not launched still being tested with focus groups">Not launched still being tested with focus groups</option>
+                <option value="Launched, getting minimal traction">Launched, getting minimal traction</option>
+                <option value="Launched and getting traction">Launched and getting traction</option>
+                <option value="Launched, getting traction and generating revenue">Launched, getting traction and generating revenue</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <input name="founded" type="text" class="form-control datepicker required" placeholder="Date Founded">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <select class="selectric" name="yearlyRevenue">
+                <option value="">Yearly Revenue</option>
+                <option value="Less than $50k">Less than $50k</option>
+                <option value="Between $50K and $250K">Between $50K and $250K</option>
+                <option value="Between $250K and $500K">Between $250K and $500K</option>
+                <option value="Over $500K">Over $500K</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <select class="selectric" name="teamStage">
+                <option value="">Team</option>
+                <option value="Founders with few part-timers and freelancers">Founders with few part-timers and freelancers</option>
+                <option value="Just started hiring full-timers">Just started hiring full-timers</option>
+                <option value="Full operational team and looking to complete executive team">Full operational team and looking to complete executive team</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+              <textarea name="yoyGrowth" class="form-control required autosize" rows="3" placeholder="YOY Growth"></textarea>
+              <p class="help">Describe your year on year growth according to your business sector.</p>
+            </div>
+          </div>
+        </div>
+      </script>
+
+
+      <!-- Growth Stage -->
+      <script id="stage-growth" type="text/template">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="websiteUrl" type="text" class="form-control url" placeholder="Website URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="twitterUrl" type="text" class="form-control url" placeholder="Twitter URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="facebookUrl" type="text" class="form-control url" placeholder="Facebook URL">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              <input name="linkedinUrl" type="text" class="form-control url" placeholder="LinkedIn URL">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+              <textarea name="businessModel" class="form-control required autosize" rows="3" placeholder="Briefly describe your business model"></textarea>
+              <p class="help">Stakeholders (customer segment, partners, etc…), value proposition (products and services that create value for your customers), channels to reach customers, customer relationships, revenue streams/model, key resources/activities required to create value, key partners and cost structure</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <select class="selectric" name="prototypeStage">
+                <option value="">Product Development Level</option>
+                <option value="Trying to prove ourselves in the market to gain market share">Trying to prove ourselves in the market to gain market share</option>
+                <option value="Fine-tuning market positioning to increase market share ">Fine-tuning market positioning to increase market share </option>
+                <option value="Growing market share with positive cash flow">Growing market share with positive cash flow</option>
+                <option value="High customer base, positive cash flow and ready to expand">High customer base, positive cash flow and ready to expand</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <input name="founded" type="text" class="form-control datepicker required" placeholder="Date Founded">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <select class="selectric" name="yearlyRevenue">
+                <option value="">Yearly Revenue</option>
+                <option value="Less than $500K">Less than $500K</option>
+                <option value="Between $500K and $1M">Between $500K and $1M</option>
+                <option value="Between $1M and $3M">Between $1M and $3M</option>
+                <option value="Over $3M">Over $3M</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              <select class="selectric" name="teamStage">
+                <option value="">Team</option>
+                <option value="Just started hiring full-timers">Just started hiring full-timers</option>
+                <option value="Full operational team and looking to complete executive team">Full operational team and looking to complete executive team</option>
+                <option value="Full operational, managerial and executive team">Full operational, managerial and executive team</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+              <textarea name="yoyGrowth" class="form-control required autosize" rows="3" placeholder="YOY Growth"></textarea>
+              <p class="help">Describe your year on year growth according to your business sector.</p>
+            </div>
+          </div>
+        </div>
+      </script>
+
+      <div class="row mb-40">
+        <div class="image-uploads">
+          <input type="hidden" name="logoUrl" />
+          <div class="uploaded-image"></div>
+          <a href class="js-remove-upload remove-upload btn btn-step pink-inverted btn-block">Remove</a>
+          <!-- <a href class="js-upload-logo btn btn-step white-inverted btn-block">Upload Logo</a> -->
+        </div>
+      </div>
+
+      <input type="hidden" name="userTag" value="2019-startup-submission">
+      <input type="hidden" name="startupTag" value="2019-startup-submission">
+
+      <div class="cta">
+          <div class="action-buttons">
+              <a href="#" class="btn">Submit</a>
+          </div>
+      </div>
+
+    </div>
+  </form>
+
+  <script id="startups-success" type="text/template">
+    <div class="row">
+      <div class="container">
+        <div class="text-center">
+          <h1>Thank you for applying. <br />We will be in touch with you soon.</h1>
+          <div class="addthis_responsive_sharing"></div>
+        </div>
+      </div>
+    </div>
+  </script>
+</section>
+
+</div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../js/grid.js"></script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+    <script src="../js/app.js"></script>
+    <script sroc="../js/jquery.selectric.min.js"></script>
+    <script>
+    $(function() {
+      $('select').selectric();
+    });
+    </script>
+  </body>
+</html>
+

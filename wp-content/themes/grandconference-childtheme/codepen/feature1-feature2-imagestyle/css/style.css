@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.btn-md-1 {
+  background-color: #181233;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #1DE6C7;
+  font-weight: bold;
+}
+
+.btn-md-2 {
+  background-color: #1DE6C7;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #181233;
+  font-weight: bold;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.btn-md-1:hover {
+  background-color: #181233;
+}
+
+.features1 .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  -webkit-clip-path: polygon(0% 0%, 80% 0, 100% 100%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 80% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+
+.features1 {
+  background-color: #1DE6C7;
+}
+.features1 .row {
+  margin: 0px;
+  padding: 0px;
+}
+.features1 .col-md-6 {
+  margin: 0px;
+  padding: 0px;
+}
+.features1 .container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+.features1 h2 {
+  font-family: Roboto;
+  color: #181233;
+  font-size: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.features1 p {
+  font-family: Roboto;
+  color: #181233;
+  font-size: 18px;
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+}
+
+.features2 .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  -webkit-clip-path: polygon(14.5% 0, 100% 0, 100% 100%, 75% 100%, 0% 100%);
+  clip-path: polygon(14.5% 0, 100% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+
+.features2 {
+  background-color: #181233;
+}
+.features2 .row {
+  margin: 0px;
+  padding: 0px;
+}
+.features2 .col-md-7 {
+  margin: 0px;
+  padding: 0px;
+}
+.features2 .container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+.features2 h2 {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 34px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.features2 p {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+}

@@ -1,0 +1,562 @@
+<section class="form purple">
+[text* firstname class:form-control placeholder "First Name"]
+  <form id="startups"
+        class="startups form-horizontal validate"
+        data-endpoint="{API_URL}/events/{EVENT_ID}/startups/subscribe"
+        data-gtm-event="step.startup.submission">
+
+    <h1>Startups</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            [text* firstname class:form-control placeholder "First Name"]
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+           [text* lastname class:form-control placeholder "Last Name"]
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+           [email* email class:form-control class:noDisposableEmail placeholder "Business Email"]
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+          [text* jobTitle class:form-control placeholder "Job Title"]
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+             [text* company class:form-control placeholder "Startup Name"]
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            [number* phone class:form-control placeholder "Phone Number"]
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+[select* country class:selectric "Jordan"
+"United Arab Emirates"
+"United State of America"
+"Syria"
+"Malaysia"
+"Qatar"
+"Iceland"
+"Finland"
+"Malta"
+"Switzerland"
+"Belgium"
+"Saudi Arabia"
+"Iraq"
+"Puerto Rico"
+"Chile"
+"Austria"
+"United Kingdom"
+"Panama"
+"Yemen"
+"Macedonia"
+"Canada"
+"Vietnam"
+"Netherlands"
+"China"
+"Honduras"
+"Morocco"
+"Indonesia"
+"South Africa"
+"South Korea"
+"Tunisia"
+"Serbia"
+"Belarus"
+"Taiwan"
+"Sudan"
+"Japan"
+"Bolivia"
+"Algeria"
+"Argentina"
+"Lithuania"
+"Montenegro"
+"Russia"
+"Spain"
+"Palestine"
+"Denmark"
+"Costa Rica"
+"Hong Kong"
+"Thailand"
+"Ukraine"
+"Dominican Republic"
+"Venezuela"
+"Poland"
+"Libya"
+"Hungary"
+"Guatemala"
+"Paraguay"
+"Bulgaria"
+"Croatia"
+"Bosnia and Herzegovina"
+"Romania"
+"Luxembourg"
+"Singapore"
+"Ecuador"
+"Nicaragua"
+"El Salvador"
+"India"
+"Greece"
+"Slovenia"
+"Italy"
+"Bahrain"
+"Brazil"
+"Norway"
+"Kuwait"
+"Egypt"
+"Ireland"
+"Peru"
+"Czech Republic"
+"Turkey"
+"Uruguay"
+"Oman"
+"Serbia and Montenegro"
+"Albania"
+"Portugal"
+"Latvia"
+"Slovakia"
+"Mexico"
+"Australia"
+"New Zealand"
+"Sweden"
+"Lebanon"
+"Germany"
+"Colombia"
+"Philippines"
+"Estonia"
+"Cyprus"
+"France"
+"Pakistan"
+"Bangladesh"
+"Iran"
+"Kazakhstan"
+"Somalia"
+"Afghanistan"
+"Andorra"
+"Angola"
+"Antigua and Barbuda"
+"Armenia"
+"Azerbaijan"
+"Bahamas"
+"Barbados"
+"Belize"
+"Benin"
+"Bhutan"
+"Botswana"
+"Brunei"
+"Burkina Faso"
+"Burundi"
+"Cambodia"
+"Cameroon"
+"Cape Verde"
+"Central African Republic"
+"Chad"
+"Comoros"
+"Congo - Brazzaville"
+"Congo - Kinshasa"
+"Cuba"
+"Djibouti"
+"Dominica"
+"Equatorial Guinea"
+"Eritrea"
+"Ethiopia"
+"Fiji"
+"Gabon"
+"Gambia"
+"Georgia"
+"Ghana"
+"Grenada"
+"Guinea"
+"Guinea-Bissau"
+"Guyana"
+"Haiti"
+"Jamaica"
+"Kenya"
+"Kiribati"
+"Kyrgyzstan"
+"Laos"
+"Lesotho"
+"Liberia"
+"Liechtenstein"
+"Madagascar"
+"Malawi"
+"Maldives"
+"Mali"
+"Marshall Islands"
+"Mauritania"
+"Mauritius"
+"Micronesia"
+"Moldova"
+"Monaco"
+"Mongolia"
+"Mozambique"
+"Myanmar"
+"Namibia"
+"Nauru"
+"Nepal"
+"Niger"
+"Nigeria"
+"North Korea"
+"Palau"
+"Papua New Guinea"
+"Rwanda"
+"Saint Kitts and Nevis"
+"Saint Lucia"
+"Samoa"
+"San Marino"
+"Senegal"
+"Seychelles"
+"Sierra Leone"
+"Solomon Islands"
+"Sri Lanka"
+"Suriname"
+"Swaziland"
+"Tajikistan"
+"Tanzania"
+"Timor-Leste"
+"Togo"
+"Tonga"
+"Trinidad and Tobago"
+"Turkmenistan"
+"Tuvalu"
+"Uganda"
+"Uzbekistan"
+"Vanuatu"
+"Zambia"
+"Zimbabwe"
+"American Samoa"
+"Anguilla"
+"Antarctica"
+"Aruba"
+"Bermuda"
+"Bouvet Island"
+"British Indian Ocean Territory"
+"Cayman Islands"
+"Christmas Island"
+"Cocos (Keeling) Islands"
+"Cook Islands"
+"Falkland Islands (Malvinas)"
+"Faroe Islands"
+"France, Metropolitan"
+"French Guiana"
+"French Polynesia"
+"French Southern Territories"
+"Gibraltar"
+"Guernsey"
+"Greenland"
+"Guadeloupe"
+"Guam"
+"Heard and Mcdonald Islands"
+"Isle of Man"
+"Ivory Coast"
+"Jersey"
+"Kosovo"
+"Macau"
+"Martinique"
+"Mayotte"
+"Montserrat"
+"Netherlands Antilles"
+"New Caledonia"
+"Niue"
+"Norfolk Island"
+"Northern Mariana Islands"
+"Pitcairn"
+"Reunion Island"
+"Saint Vincent and the Grenadines"
+"Sao Tome and Principe"
+"South Georgia South Sandwich Islands"
+"Saint Helena"
+"Saint Pierre and Miquelon"
+"Svalbard and Jan Mayen"
+"Tokelau"
+"Turks and Caicos Islands"
+"United States Minor Outlying Islands"
+"Vatican"
+"Virgin Islands (British)"
+"Virgin Islands (U.S.)"
+"Wallis and Futuna Islands"
+"Western Sahara"
+"Zaire"
+]
+
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+           [select* fundingStage class:selectric "Funding stage" "seed" "early" "growth"]
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group form-group-lg">
+            [select* industry class:selectric "Accounting & Banking" Advertising Digital Media & Marketing" "Aviation Automobile & Transportation" "Apparel Fashion & Cosmetics"
+    "Architecture & Art"
+    "Capital Markets & Venture Capital"
+    "Engineering Construction & Real Estate"
+    "Dairy & Farming"
+    "Design & Photography"
+    "Education"
+    "Entertainment & Sport"
+    "Event Services & PR"
+    "IT"
+    "Retail & E-commerce"
+    "Insurance & Healthcare"
+    "Hospitality & Restaurants"
+    "Consulting"
+    "Law"
+    "Telecommunications"]
+             
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group form-group-lg">
+           [textarea* pitch class:form-control class:required class:autosize placeholder "Elevator Pitch"]
+          </div>
+        </div>
+      </div>
+
+      <div id="extra-fields"></div>
+
+      <!-- Seed Stage -->
+      <script id="stage-seed" type="text/template">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+            [text* websiteUrl class:form-control class:url placeholder "Website URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+             [text* twitterUrl class:form-control class:url placeholder "Twitter URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+            [text* facebookUrl class:form-control class:url placeholder "Facebook URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+            [text* linkedinUrl class:form-control class:url placeholder "LinkedIn URL"]
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+            [textarea* businessModel maxlength:500 class:form-control class:required class:autosize rows:3 placeholder "Briefly describe your business model"]
+              <p class="help">Stakeholders (customer segment, partners, etc…), value proposition (products and services that create value for your customers), channels to reach customers, customer relationships, revenue streams/model, key resources/activities required to create value, key partners and cost structure</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="form-group form-group-lg">
+            
+            [select* prototypeStage class:selectric "Product Development Level" "No prototype" "Prototype being developed and will be ready soon" "I have a prototype" "Prototype is being tested with focus groups/early customers"]
+
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group form-group-lg">
+            [text* founded class:form-control class:datepicker class:required placeholder "Date Founded"]
+
+            </div>
+          </div>
+        </div>
+      </script>
+
+
+      <!-- Early Stage -->
+      <script id="stage-early" type="text/template">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+            [text* websiteUrl class:form-control class:url placeholder "Website URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+            [text* twitterUrl class:form-control class:url placeholder "Twitter URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+             [text* facebookUrl class:form-control class:url placeholder "Facebook URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+             [text* linkedinUrl class:form-control class:url placeholder "LinkedIn URL"]
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+             [textarea* businessModel maxlength:500 class:form-control class:required class:autosize rows:3 placeholder "Briefly describe your business model"]
+              <p class="help">Stakeholders (customer segment, partners, etc…), value proposition (products and services that create value for your customers), channels to reach customers, customer relationships, revenue streams/model, key resources/activities required to create value, key partners and cost structure</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+            [select* prototypeStage class:selectric  "Product Development Level" "Not launched still being tested with focus groups" "Launched, getting minimal traction" "Launched and getting traction" "Launched, getting traction and generating revenue"]
+              
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+            [text* founded class:form-control class:datepicker class:required placeholder "Date Founded"]
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+            [select* yearlyRevenue class:selectric "Yearly Revenue" "Less than $50k" "Between $50K and $250K" "Between $250K and $500K" "Over $500K&quot;>Over $500K"]
+          
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+            [select* teamStage class:selectric "Team" "Founders with few part-timers and freelancers" "Just started hiring full-timers" "Full operational team and looking to complete executive team"]
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+            [textarea* yoyGrowth class:form-control class:required class:autosize rows:3 placeholder "YOY Growth"]
+              <p class="help">Describe your year on year growth according to your business sector.</p>
+            </div>
+          </div>
+        </div>
+      </script>
+
+
+      <!-- Growth Stage -->
+      <script id="stage-growth" type="text/template">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              [text* websiteUrl class:form-control class:url placeholder "Website URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              [text* twitterUrl class:form-control class:url placeholder "Twitter URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              [text* facebookUrl class:form-control class:url placeholder "Facebook URL"]
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group form-group-lg">
+              [text* linkedinUrl class:form-control class:url placeholder "LinkedIn URL"]
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+              [textarea* businessModel maxlength:500 class:form-control class:required class:autosize rows:3 placeholder "Briefly describe your business model"]
+              <p class="help">Stakeholders (customer segment, partners, etc…), value proposition (products and services that create value for your customers), channels to reach customers, customer relationships, revenue streams/model, key resources/activities required to create value, key partners and cost structure</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+            [select* prototypeStage class:selectric "Product Development Level" "Trying to prove ourselves in the market to gain market share" "Fine-tuning market positioning to increase market share" "Growing market share with positive cash flow" "High customer base, positive cash flow and ready to expand"]
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+              [text* founded class:form-control class:datepicker class:required placeholder "Date Founded"]
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+            [select* yearlyRevenue class:selectric "Yearly Revenue" "Less than $500K" "Between $500K and $1M" "Between $1M and $3M" "Over $3M"]
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group form-group-lg">
+            [select* teamStage class:selectric "Team" "Just started hiring full-timers" "Full operational team and looking to complete executive team" "Full operational, managerial and executive team"]
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group form-group-lg">
+              [textarea* yoyGrowth class:form-control class:required class:autosize rows:3 placeholder "YOY Growth"]
+              <p class="help">Describe your year on year growth according to your business sector.</p>
+            </div>
+          </div>
+        </div>
+      </script>
+
+      <div class="row mb-40">
+        <div class="image-uploads">
+          [hidden logoUrl]
+          <div class="uploaded-image"></div>
+          <a href class="js-remove-upload remove-upload btn btn-step pink-inverted btn-block">Remove</a>
+          <!-- <a href class="js-upload-logo btn btn-step white-inverted btn-block">Upload Logo</a> -->
+        </div>
+      </div>
+      
+      [hidden userTag "2019-startup-submission"]
+      [hidden startupTag "2019-startup-submission"]
+
+
+      <div class="cta">
+      [submit id:btn-startup-form-submit class:double-border class:step-btn class:hoverable "Submit"]
+      </div>
+    </div>
+  </form>
+
+  <script id="startups-success" type="text/template">
+    <div class="row">
+      <div class="container">
+        <div class="text-center">
+          <h1>Thank you for applying. <br />We will be in touch with you soon.</h1>
+          <div class="addthis_responsive_sharing"></div>
+        </div>
+      </div>
+    </div>
+  </script>
+</section>

@@ -1,0 +1,148 @@
+/* code taken from codepen developed for wp-conference */
+@mixin btn($color,$bg,$w,$h) {
+  color:$color;
+  background-color:$bg;
+  width:$w;
+  height:$h;
+  -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+outline:none;
+}
+
+
+/* social Icons */
+
+.icon {
+	position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:20px;
+	border-top-right-radius: 	20px;
+	border-top-left-radius: 	20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 	20px; 
+	-moz-border-radius: 		20px 20px 20px 20px;
+	-webkit-border-radius: 		20px 20px 20px 20px;
+	-khtml-border-radius: 		20px 20px 20px 20px; 	
+	color:#FFFFFF;
+}
+.icon i {
+	font-size:20px;
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+.icon.social {
+	float:left;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	background:#6d6e71 ;
+	color:#fff;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+.icon.social:hover {
+	background:#262626 ;
+	color:#fff;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+}
+.icon.social.fb {
+  background-color:#3B5998;
+  color:#fff;
+}
+
+.icon.social.tw {
+  background-color:#1dcaff;
+  color:#fff;
+}
+
+.icon.social.in {
+  background-color:#007bb6;
+  color:#fff;
+}
+.icon.social.fb i {
+	left:13px;
+  top:10px;
+}
+.icon.social.tw i {
+	left:11px;
+}
+.icon.social.in i {
+	left:11px;
+}
+
+/* end social icons */
+// general code for buttons in the website.
+@mixin button($background,$color) {
+  border: 2px solid #27AE60;
+  box-sizing: border-box;
+  border-radius: 45px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+  background-color: $background;
+  padding: 10px;
+  color: $color;
+  outline:none;
+}    
+button {
+      @include button(#27AE60,#fff);
+      
+      }
+
+      button.medium {
+        @include button(#fff,#27AE60);
+      }
+    
+.button.small {
+        /* Group */
+
+position: absolute;
+width: 58px;
+height: 15px;
+
+background: #EAEAEA;
+border-radius: 200px;
+
+
+
+font-family: Avenir;
+line-height: normal;
+font-size: 9px;
+text-align: center;
+
+color: #000000;
+
+&hover {
+  /* Festok */
+
+  width: 58px;
+height: 15px;
+left: 12px;
+
+
+font-family: Avenir;
+line-height: normal;
+font-size: 9px;
+text-align: center;
+
+color: #000000;
+
+}
+
+}

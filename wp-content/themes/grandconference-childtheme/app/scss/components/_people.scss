@@ -1,0 +1,346 @@
+$person-height: 340px;
+$person-info-padding: 15px;
+$popup-height: 90vh;
+
+.biography {
+  @include set-font('Roboto');
+  @include breakpoint(mobileonly) {
+    padding: 60px 40px !important;
+    column-count: 1 !important;
+  }
+}
+
+section.people {
+  padding: 10vh 0;
+  background-image: radial-gradient($light-purple, $dark-purple);
+
+  &.dark {
+    h2, h4 {
+      color: #FFF;
+    }
+
+    .desc {
+      color: $green;
+    }
+
+    .gradient {
+      // background-image: url(/images/people-gradient.png) !important;
+    }
+
+    .info .title {
+      color: $yellow;
+    }
+
+    .person-preview {
+      background: #FFF;
+      color: $dark-purple;
+    }
+  }
+
+  h2, h4, .desc {
+    margin: 0;
+    text-align: center;
+  }
+
+  h2 {
+   @include set-font('Bebas-bold',1,bold);
+   @include font-regular(#fff,$speakers_h1,center,bold,uppercase);
+  }
+
+  h4 {
+    @include set-font('Bebas-bold',1,bold);
+    font-size: 24px;
+  }
+
+  .people-container {
+    margin-top: 40px;
+  }
+
+  .listing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .person-wrapper {
+    width: 20%;
+
+    @include breakpoint(mobileonly) {
+      width: 49%;
+    }
+  }
+
+  .person {
+    position: relative;
+    min-height: $person-height;
+    width: 100%;
+    background: no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 150ms ease;
+    margin-bottom: 4px;
+    overflow: hidden;
+    z-index: 2;
+
+    @include breakpoint(mobileonly) {
+      min-height: $person-height - 50;
+    }
+
+    &.selected {
+      opacity: 1 !important;
+
+      .person-preview {
+        display: flex;
+      }
+
+      .gradient {
+        display: none;
+      }
+    }
+
+    .close-btn, .close-btn-outer {
+      color: #FFF;
+      position: absolute;
+      top: $person-info-padding + 10px;
+      left: $person-info-padding;
+      z-index: 200;
+      -webkit-backface-visibility: hidden; // Fixes bug with disappearing
+
+      .tcon, .tcon-plus {
+        height: 3px;
+
+        &:before, &:after {
+          background-color: $pink;
+          height: 3px;
+        }
+      }
+    }
+
+    .info {
+      position: absolute;
+      bottom: 0;
+      padding: $person-info-padding;
+      z-index: 150;
+
+      h3 {
+        @include set-font('Bebas-bold',1,bold);
+        margin: 0;
+        width: 70%;
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 2.4em;
+
+        @include breakpoint(mobileonly) {
+          font-size: 1.4em;
+        }
+      }
+
+      .title {
+        @include set-font('Bebas-bold',1,bold);
+        text-transform: uppercase;
+        font-size: 24px;
+        font-family: $font-header-regular;
+        line-height: 100%;
+        color: $pink;
+
+        @include breakpoint(mobileonly) {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 1;
+      z-index: 100;
+      background: center center no-repeat;
+      background-size: cover;
+      transition: opacity 300ms ease;
+    }
+
+    &:hover {
+      .gradient {
+        opacity: 0;
+      }
+    }
+  }
+
+  &.viewing {
+    .person {
+      opacity: 0.5;
+    }
+  }
+
+  .person-preview {
+    clear: both;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    // margin: 10%;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 200000; // max-height: 80vh;
+    // padding: 24px;
+
+    @include breakpoint(mobileonly) {
+      overflow-y: auto;
+    }
+
+    .close-btn {
+      color: $green;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      padding: 5px 10px;
+      font-size: 160%;
+      z-index: 1;
+
+      i {
+        color: $green;
+      }
+
+    }
+
+    .close-btn-outer {
+      color: $pink;
+      z-index: 2;
+      right: 2px;
+
+      i {
+        color: $pink;
+      }
+    }
+
+    .preview-data-container {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      @include breakpoint(mobileonly) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .preview-image {
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 64px;
+
+        @include breakpoint(mobileonly) {
+          padding: 16px;
+          height: auto;
+        }
+
+        img {
+          width: 280px;
+          height: 360px;
+          object-fit: cover;
+
+          @include breakpoint(mobileonly) {
+            width: 120px;
+            height: 180px;
+            object-fit: fill;
+          }
+        }
+
+        .frame {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 260px;
+          height: 400px;
+          transform: translate(-50%, -50%) skewY(3deg);
+
+          @include breakpoint(mobileonly) {
+            width: 100px;
+            height: 200px;
+          }
+        }
+      }
+
+      .preview-info {
+        flex: 8;
+        margin-bottom: 40px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        @include breakpoint(mobileonly) {
+          align-items: center;
+          padding: 0;
+          margin-top: 80px;
+          margin-bottom: 0;
+        }
+
+        h2 {
+          @include set-font('Bebas-bold',1,bold);
+          @include breakpoint(mobileonly) {
+            font-size: 2.8em;
+          }
+        }
+
+        h2, h4 {
+          @include set-font('Bebas-bold',1,bold);
+            padding: 10px 40px;
+            color: $dark-purple;
+            text-transform: uppercase;
+            font-family: $font-header;
+            padding-bottom: 0;
+            line-height: 1;
+        }
+        h4 {
+          @include set-font('Bebas-bold',1,bold);
+          color: $pink;
+          padding-top: 0;
+          line-height: 1;
+        }
+        .biography {
+          @include set-font('Roboto');
+            color: $dark-purple;
+            padding: 20px 40px;
+            max-height: 400px;
+            min-height: 300px;
+            overflow-y: auto;
+            color: #000;
+            font-family: $font-body;
+
+            @include breakpoint(mobileonly) {
+              display: flex;
+              flex-direction: column;
+              padding: 12px !important;
+              margin-top: 16px;
+            }
+        }
+      }
+    }
+  }
+
+  .cta {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background-color: #181233;
+}
+
+.whitebox {
+  width: 360px;
+  height: auto;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+.whitebox img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 330px;
+  height: 220px;
+}
+.whitebox h3 {
+  font-family: Roboto;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0px 15px 0px;
+}
+.whitebox p {
+  font-family: Roboto;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* section for the what you get */
+.what-you-get .row {
+  margin: 0px;
+  padding: 0px;
+}
+.what-you-get .col-md-4 {
+  margin: 0px;
+  padding: 0px;
+}
+.what-you-get h2 {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 42px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.what-you-get .btn {
+  color: #181233;
+  background-color: #1de6c7;
+  width: 140px;
+  height: 40px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-top: 60px;
+}
+
+.align-center {
+  margin: 0 auto;
+  text-align: center;
+}

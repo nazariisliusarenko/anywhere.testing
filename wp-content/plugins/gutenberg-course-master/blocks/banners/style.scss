@@ -1,0 +1,83 @@
+.wp-block-jsforwpblocks-cards{   
+    background: -ms-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: -moz-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: -o-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(35.7%, #1B1754), color-stop(70, #171233));
+    background: -webkit-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%);
+}
+.whitebox {
+  width: 360px;
+  height: auto;
+  min-height: 450px;
+  font-weight: 500px;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px; }
+  .whitebox img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 330px;
+    height: 220px; }
+  .whitebox h3 {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 1.9em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0px 15px 0px;
+    min-height: 70px; }
+  .whitebox p {
+    font-family: "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: "normal";
+    text-transform: "lowercase";
+    margin-bottom: 30px; }
+.what-you-get {
+  max-width: 100%;
+  background-image: url("../images/bg-pattern.png"); }
+  .what-you-get .row {
+    max-width: 1200px;
+    margin: 0 auto; }
+  .what-you-get h2 {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 35px;
+    line-height: 1; }
+  .what-you-get p.sub {
+    font-family: "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: normal;
+    text-transform: lowercase;
+    margin-bottom: 35px; }
+  .what-you-get .btn {
+    color: #181233;
+    background-color: #1de6c7;
+    width: 140px;
+    height: 40px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-top: 60px; }

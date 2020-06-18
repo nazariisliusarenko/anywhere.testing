@@ -1,0 +1,1003 @@
+body.gutenberg-editor-page .editor-block-list__block {
+  max-width: 100% !important; }
+
+.entry-content .wp-block-jsforwpblocks-scores .scores,
+.wp-block-jsforwpblocks-scores .scores {
+  height: auto;
+  /* IE10+ */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  /* Webkit (Chrome 11+) */
+  /* W3C Markup */
+  background: linear-gradient(to right, #1DE6C7 0%, #7488AA 100%);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  max-width: 100%; }
+
+.entry-content .wp-block-jsforwpblocks-scores .scores .line-seperator,
+.wp-block-jsforwpblocks-scores .scores .line-seperator {
+  width: 80px;
+  height: 3px;
+  background-color: #171233;
+  margin: 0 auto;
+  margin-bottom: 5px; }
+
+.entry-content .wp-block-jsforwpblocks-scores .scores h2,
+.wp-block-jsforwpblocks-scores .scores h2 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 3.75em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.entry-content .wp-block-jsforwpblocks-scores .scores p,
+.wp-block-jsforwpblocks-scores .scores p {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 1.9em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase; }
+.wp-block-jsforwpblocks-feature {
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.features1 .image-element img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  -webkit-clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%); }
+
+.features1 {
+  max-width: 100%;
+  background-color: #171233; }
+
+.features1 .container-fluid {
+  margin: 0px;
+  padding: 0px; }
+
+.features1 .btn {
+  margin: 20px; }
+
+.features1 h2 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 3.75em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  line-height: 1.42; }
+
+.features1 p {
+  /*margin: 20px;*/
+    margin-top: -7px;
+
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: "normal";
+  text-transform: "lowercase"; }
+
+.features1 .text-element {
+  /* IE10+ */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  /* Webkit (Chrome 11+) */
+  /* W3C Markup */
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.features2 .image-element img {
+  width: 100%;
+  height: 100%;
+  max-height: 410px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  -webkit-clip-path: polygon(10.5% 0, 100% 0, 100% 100%, 85% 100%, 0% 100%);
+  clip-path: polygon(10.5% 0, 100% 0, 100% 100%, 85% 100%, 0% 100%); }
+
+.features2 {
+  max-width: 100%;
+  background-color: #171233; }
+
+.features2 .container-fluid {
+  margin: 0px;
+  padding: 0px; }
+
+.features2 h2 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 3.75em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px; }
+
+.features2 p {
+  margin: 20px;
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: "normal";
+  text-transform: "lowercase"; }
+
+.features2 .text-element {
+  /* IE10+ */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  /* Webkit (Chrome 11+) */
+  /* W3C Markup */
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.features3 .image-element img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  -webkit-clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%); }
+
+.features3 {
+  max-width: 100%;
+  background-color: #1DE6C7; }
+
+.features3 .container-fluid {
+  margin: 0px;
+  padding: 0px; }
+
+.features3 .btn {
+  margin: 20px; }
+
+.features3 h2 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 3.75em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  line-height: 1.42; }
+
+.features3 p {
+  margin: 20px;
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: "normal";
+  text-transform: "lowercase"; }
+
+.btn {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  font-size: 1.5em; }
+
+.btn-md-1 {
+  background-color: #181233;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #1DE6C7;
+  font-weight: bold; }
+
+.btn-md-2 {
+  background-color: #1DE6C7;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #181233;
+  font-weight: bold; }
+
+.align-center {
+  text-align: center; }
+
+.btn-md-1:hover {
+  background-color: #181233; }
+.fairly-quotes {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  background-image: url("../images/bg-pattern.png"); }
+
+.fairly-quotes .row {
+  max-width: 100%;
+  margin: 0 auto; }
+
+.fairly-quotes .image-element img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 75% 100%, 25% 100%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 100%, 75% 100%, 25% 100%); }
+
+.fairly-quotes .col-md-7, .fairly-quotes .col-md-6 {
+  margin: 0px;
+  padding: 0px; }
+
+.fairly-quotes .container-fluid {
+  margin: 0px;
+  padding: 0px; }
+
+.fairly-quotes h2 {
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 3em;
+  text-align: left;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin: 90px 120px 20px 60px; }
+
+.fairly-quotes p {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 2.25em;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 62px; }
+
+.carousel-indicators {
+  left: 36%;
+  width: 60%;
+  padding-left: 0;
+  text-align: left;
+  list-style: none; }
+
+.carousel-indicators li {
+  border: 1px solid #181233 !important; }
+
+.carousel-indicators .active {
+  background-color: #181233 !important; }
+.wp-block-jsforwpblocks-people {
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.speakers {
+  max-width: 100%;
+  background-image: url("../images/bg-pattern.png"); }
+
+.speakers .dd {
+  margin: 0 auto; }
+
+.speakers h1 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px; }
+
+.speakers span {
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: normal;
+  text-transform: lowercase;
+  display: block; }
+
+.og-grid {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; }
+
+.og-grid li {
+  display: inline-block;
+  margin: 15px 5px 0 5px;
+  vertical-align: top;
+  width: 210px;
+  height: 250px; }
+
+.og-grid li > a,
+.og-grid li > a img {
+  border: none;
+  outline: none;
+  display: block;
+  position: relative;
+  width: 210px;
+  height: 250px; }
+
+.og-grid li.og-expanded > a::after {
+  top: auto;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #ddd;
+  border-width: 15px;
+  left: 50%;
+  margin: -20px 0 0 -15px; }
+
+.og-grid li > a > .fa {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 10px; }
+
+.og-expander {
+  position: absolute;
+  background: #fff;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  height: 0;
+  overflow: hidden; }
+
+.og-expander-inner {
+  padding: 50px 30px;
+  height: 100%; }
+
+.og-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer; }
+
+.og-close::before,
+.og-close::after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  height: 1px;
+  background: #181233;
+  transform: rotate(45deg); }
+
+.og-close::after {
+  transform: rotate(-45deg); }
+
+.og-close:hover::before,
+.og-close:hover::after {
+  background: #333; }
+
+.og-fullimg,
+.og-details {
+  width: 50%;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.og-details {
+  padding: 0 40px 0 20px; }
+
+.og-fullimg {
+  text-align: center; }
+
+.og-fullimg img {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%; }
+
+.og-details h3 {
+  font-weight: 300;
+  font-size: 52px;
+  padding: 40px 0 10px;
+  margin-bottom: 10px; }
+
+.og-details p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999; }
+
+.og-details a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border: 3px solid #333;
+  display: inline-block;
+  margin: 30px 0 0;
+  outline: none; }
+
+.og-details a::before {
+  content: '\2192';
+  display: inline-block;
+  margin-right: 10px; }
+
+.og-details a:hover {
+  border-color: #999;
+  color: #999; }
+
+.og-loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ddd;
+  box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  animation: loader 0.5s infinite ease-in-out both; }
+
+@keyframes loader {
+  0% {
+    background: #ddd; }
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; } }
+
+@media screen and (max-width: 830px) {
+  .og-expander h3 {
+    font-size: 32px; }
+  .og-expander p {
+    font-size: 13px; }
+  .og-expander a {
+    font-size: 12px; } }
+
+@media screen and (max-width: 650px) {
+  .og-fullimg {
+    display: none; }
+  .og-details {
+    float: none;
+    width: 100%; } }
+.wp-block-jsforwpblocks-partners {
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+section.partners {
+  padding: 10vh 0; }
+
+section.partners h2, section.partners h4, section.partners .desc {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+section.partners h2 {
+  font-size: 64px; }
+
+section.partners h4 {
+  font-size: 24px; }
+
+section.partners.dark h2, section.partners.dark h4 {
+  color: #FFF; }
+
+section.partners a.partner {
+  display: block;
+  min-height: 150px;
+  background: no-repeat center center;
+  background-size: contain;
+  filter: grayscale(100%);
+  transition: all 300ms ease;
+  transform: scale(0.8, 0.8); }
+
+section.partners a.partner:hover {
+  filter: grayscale(0);
+  transform: scale(0.85, 0.85); }
+
+section.partners .container {
+  margin-top: 40px !important; }
+
+section.partners .listing {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+section.partners .partner-box-wrapper {
+  padding: 8px; }
+
+section.partners .partner-box-wrapper.item-width {
+  width: 20%; }
+
+@media (max-width: 767px) {
+  section.partners .partner-box-wrapper.item-width {
+    width: 33%; } }
+
+section.partners .partner-box-wrapper .box {
+  background-color: #FFF; }
+.wp-block-jsforwpblocks-startups {
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+.entry-content .wp-block-jsforwpblocks-form-fields,
+.wp-block-jsforwpblocks-form-fields {
+  background: rgba(254, 243, 224, 0.52);
+  border: 5px #f7b733 solid;
+  padding: 1rem; }
+  .entry-content .wp-block-jsforwpblocks-form-fields h2,
+  .wp-block-jsforwpblocks-form-fields h2 {
+    color: #f7b733;
+    font-size: 2rem;
+    margin: 1rem 0; }
+  .entry-content .wp-block-jsforwpblocks-form-fields p,
+  .wp-block-jsforwpblocks-form-fields p {
+    font-size: 1.4rem; }
+  .entry-content .wp-block-jsforwpblocks-form-fields li,
+  .wp-block-jsforwpblocks-form-fields li {
+    list-style-position: inside; }
+.wp-block-jsforwpblocks-people {
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.speakers {
+  max-width: 100%;
+  background-image: url("../images/bg-pattern.png"); }
+
+.speakers .dd {
+  margin: 0 auto; }
+
+.speakers h1 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px; }
+
+.speakers span {
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: normal;
+  text-transform: lowercase;
+  display: block; }
+
+.og-grid {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; }
+
+.og-grid li {
+  display: inline-block;
+  margin: 15px 5px 0 5px;
+  vertical-align: top;
+  width: 210px;
+  height: 250px; }
+
+.og-grid li > a,
+.og-grid li > a img {
+  border: none;
+  outline: none;
+  display: block;
+  position: relative;
+  width: 210px;
+  height: 250px; }
+
+.og-grid li.og-expanded > a::after {
+  top: auto;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #ddd;
+  border-width: 15px;
+  left: 50%;
+  margin: -20px 0 0 -15px; }
+
+.og-grid li > a > .fa {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 10px; }
+
+.og-expander {
+  position: absolute;
+  background: #fff;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  height: 0;
+  overflow: hidden; }
+
+.og-expander-inner {
+  padding: 50px 30px;
+  height: 100%; }
+
+.og-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer; }
+
+.og-close::before,
+.og-close::after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  height: 1px;
+  background: #181233;
+  transform: rotate(45deg); }
+
+.og-close::after {
+  transform: rotate(-45deg); }
+
+.og-close:hover::before,
+.og-close:hover::after {
+  background: #333; }
+
+.og-fullimg,
+.og-details {
+  width: 50%;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.og-details {
+  padding: 0 40px 0 20px; }
+
+.og-fullimg {
+  text-align: center; }
+
+.og-fullimg img {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%; }
+
+.og-details h3 {
+  font-weight: 300;
+  font-size: 52px;
+  padding: 40px 0 10px;
+  margin-bottom: 10px; }
+
+.og-details p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999; }
+
+.og-details a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border: 3px solid #333;
+  display: inline-block;
+  margin: 30px 0 0;
+  outline: none; }
+
+.og-details a::before {
+  content: '\2192';
+  display: inline-block;
+  margin-right: 10px; }
+
+.og-details a:hover {
+  border-color: #999;
+  color: #999; }
+
+.og-loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ddd;
+  box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  animation: loader 0.5s infinite ease-in-out both; }
+
+@keyframes loader {
+  0% {
+    background: #ddd; }
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; } }
+
+@media screen and (max-width: 830px) {
+  .og-expander h3 {
+    font-size: 32px; }
+  .og-expander p {
+    font-size: 13px; }
+  .og-expander a {
+    font-size: 12px; } }
+
+@media screen and (max-width: 650px) {
+  .og-fullimg {
+    display: none; }
+  .og-details {
+    float: none;
+    width: 100%; } }
+.wp-block-jsforwpblocks-cards {
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.whitebox {
+  width: 360px;
+  height: auto;
+  min-height: 450px;
+  font-weight: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px; }
+
+.whitebox img {
+  border-radius: 10px;
+  width: 330px;
+  height: 220px; }
+
+.whitebox h3 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 1.9em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0px 15px 0px;
+  min-height: 70px; }
+
+.whitebox p {
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: "normal";
+  text-transform: "lowercase";
+  margin-bottom: 30px; }
+
+.what-you-get {
+  max-width: 100%;
+  background-image: url("../images/bg-pattern.png"); }
+
+.what-you-get .row {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.what-you-get h2 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 35px;
+  line-height: 1; }
+
+.what-you-get p.sub {
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: normal;
+  text-transform: lowercase;
+  margin-bottom: 35px; }
+
+.what-you-get .btn {
+  color: #181233;
+  background-color: #1de6c7;
+  width: 140px;
+  height: 40px;
+  border-radius: 0px;
+  margin-top: 60px; }
+.conference {
+  max-width: 100%;
+  background-color: #fff;
+  height: auto;
+  margin: 0 auto;
+  text-align: center; }
+  .conference h2 {
+    margin-top: 50px;
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .conference p {
+    @font-family : "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: "normal";
+    text-transform: "lowercase";
+    line-height: 1; }
+  .conference ul.logos {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 45px; }
+    .conference ul.logos li {
+      display: inline-block;
+      padding: 0 35px 0 35px; }
+  .conference .logo {
+    width: 160px;
+    height: 140px;
+    display: inline-block;
+    background-size: cover; }
+    .conference .logo img {
+      width: 160px;
+      height: 140px; }
+  .conference .logo1 {
+    background-image: url("../images/logos/logo1.png"); }
+  .conference .logo2 {
+    background-image: url("../images/logos/logo2.png"); }
+  .conference .logo3 {
+    background-image: url("../images/logos/logo3.png");
+    width: 140px;
+    height: 120px; }
+  .conference .logo4 {
+    background-image: url("../images/logos/logo4.png"); }
+.wp-block-jsforwpblocks-cards {
+  background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.whitebox {
+  width: 360px;
+  height: auto;
+  min-height: 450px;
+  font-weight: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px; }
+
+.whitebox img {
+  border-radius: 10px;
+  width: 330px;
+  height: 220px; }
+
+.whitebox h3 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 1.9em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0px 15px 0px;
+  min-height: 70px; }
+
+.whitebox p {
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #171233;
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: "normal";
+  text-transform: "lowercase";
+  margin-bottom: 30px; }
+
+.what-you-get {
+  max-width: 100%;
+  background-image: url("../images/bg-pattern.png"); }
+
+.what-you-get .row {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.what-you-get h2 {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 35px;
+  line-height: 1; }
+
+.what-you-get p.sub {
+  font-family: "Roboto";
+  line-height: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: normal;
+  text-transform: lowercase;
+  margin-bottom: 35px; }
+
+.what-you-get .btn {
+  color: #181233;
+  background-color: #1de6c7;
+  width: 140px;
+  height: 40px;
+  border-radius: 0px;
+  margin-top: 60px; }
+.entry-content .wp-block-jsforwpblocks-form-fields,
+.wp-block-jsforwpblocks-form-fields {
+  background: rgba(254, 243, 224, 0.52);
+  border: 5px #f7b733 solid;
+  padding: 1rem; }
+  .entry-content .wp-block-jsforwpblocks-form-fields h2,
+  .wp-block-jsforwpblocks-form-fields h2 {
+    color: #f7b733;
+    font-size: 2rem;
+    margin: 1rem 0; }
+  .entry-content .wp-block-jsforwpblocks-form-fields p,
+  .wp-block-jsforwpblocks-form-fields p {
+    font-size: 1.4rem; }
+  .entry-content .wp-block-jsforwpblocks-form-fields li,
+  .wp-block-jsforwpblocks-form-fields li {
+    list-style-position: inside; }

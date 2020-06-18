@@ -1,0 +1,53 @@
+.conference {
+  max-width: 100%;
+  background-color: #fff;
+  height: auto;
+  margin: 0 auto;
+  text-align: center; }
+  .conference h2 {
+    margin-top: 50px;
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .conference p {
+    @font-family : "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: "normal";
+    text-transform: "lowercase";
+    line-height: 1; }
+  .conference ul.logos {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 45px; }
+    .conference ul.logos li {
+      display: inline-block;
+      padding: 0 35px 0 35px; }
+  .conference .logo {
+    width: 160px;
+    height: 140px;
+    display: inline-block;
+    background-size: cover; }
+    .conference .logo img {
+      width: 160px;
+      height: 140px; }
+  .conference .logo1 {
+    background-image: url("../images/logos/logo1.png"); }
+  .conference .logo2 {
+    background-image: url("../images/logos/logo2.png"); }
+  .conference .logo3 {
+    background-image: url("../images/logos/logo3.png");
+    width: 140px;
+    height: 120px; }
+  .conference .logo4 {
+    background-image: url("../images/logos/logo4.png"); }
+
+/*# sourceMappingURL=style.css.map */

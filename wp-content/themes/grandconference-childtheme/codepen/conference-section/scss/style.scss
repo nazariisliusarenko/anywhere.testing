@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  background-color:#181233;
+}
+
+@mixin font-regular($color,$size,$align:'left',$weight:'normal',$transform:'lowercase') {
+  font-family:Roboto;
+  color:$color;
+  font-size:$size;
+  text-align:$align;
+  font-weight:$weight;
+  text-transform:$transform;
+}
+
+.conference {
+  background-color:#fff;
+  height:330px;
+  margin:0 auto;
+  text-align:center;
+  h2 {
+    padding-top:20px;
+    @include font-regular(#171233,32px,center,bold,uppercase); 
+  }
+  
+  p{
+      @include font-regular(#171233,14px,center,bold,uppercase);
+    line-height:1;
+    margin-top:-20px;
+    }
+  ul.logos {
+    list-style:none;
+    margin-top:30px;
+    li {
+      display:inline-block;
+      padding:10px
+    }
+  }
+  .logo {
+    width:140px;
+    height:120px;
+    background-color:#000;
+    display:inline-block;
+    
+  }
+}

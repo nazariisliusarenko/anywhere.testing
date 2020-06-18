@@ -1,0 +1,43 @@
+.techFestivalForm {
+    max-width:650px;
+    margin:0;
+    h1 {
+      @include set-font('Bebas-bold');
+      @include font-regular(#fff,4em,left,bold,uppercase);
+
+    }
+    p {
+      @include font-regular(#fff,$form_p,left,bold);
+    }
+    form {
+      width:80%;
+    }
+    input[type="text"] {
+      width:100%;
+      border:none;
+      background-color:transparent;
+      @include font-regular(#fff,$form_input,center,bold,uppercase);
+      border-bottom:1px solid #fff;
+      outline:none;
+      margin-bottom:20px;
+    }
+    input[type="email"] {
+          width:100%;
+      border:none;
+      background-color:transparent;
+      @include font-regular(#fff,$form_input,center,bold,uppercase);
+      border-bottom:1px solid #fff;
+      outline:none;
+    }
+    
+    .btn {
+      @include btn(#1de6c7,#181233,140px,40px);
+      border:1px solid #1de6c7;
+      margin-top:60px;
+      
+      &:hover {
+        @include btn(#181233,#1de6c7,140px,40px);
+      }
+    }
+    
+  }

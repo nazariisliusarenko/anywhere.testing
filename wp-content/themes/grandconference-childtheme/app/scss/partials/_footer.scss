@@ -1,0 +1,154 @@
+section.footer {
+  margin-top: 40px;
+  font-family: $font-header;
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: $dark-purple;
+    }
+
+    input {
+      color: #b0b0b0;
+      border-bottom: 1px solid $pink !important;
+      font-size: 2em;
+
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #b0b0b0;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: #b0b0b0;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: #b0b0b0;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: #b0b0b0;
+      }
+    }
+
+    .step-btn {
+      color: $dark-purple;
+    }
+
+    .mailchimp {
+      color: $dark-purple;
+      margin-top: 32px;
+      font-size: 1.4em;
+    }
+  }
+
+  .extra {
+    margin-top: 40px;
+    background-image: linear-gradient(to right, $light-purple, $dark-purple);
+    padding: 22px;
+    padding-bottom: 60px;
+
+    .step-brand {
+      display: flex;
+      flex-direction: column;
+
+      .logo {
+        img {
+          width: 240px;
+        }
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        margin-top: 16px;
+
+        .icon {
+          a {
+            margin-right: 6px;
+            display: inline-block;
+            color: #FFF;
+          }
+          i {
+            color: #FFF;
+            font-size: 2em;
+          }
+        }
+      }
+    }
+
+
+    .links-container {
+      h1 {
+        color: #FFF;
+        text-transform: uppercase;
+      }
+
+      .links {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+
+        a {
+          color: #FFF;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 1.4em;
+          font-weight: 700;
+          font-family: $font-header;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .highlight-partner-container {
+      .highlight-partner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        h1 {
+          color: #FFF;
+          text-transform: uppercase;
+          font-size: 2.4em;
+
+          @include breakpoint(mobileonly) {
+            font-size: 2em;
+          }
+        }
+
+        .box {
+          text-align: center;
+          background-color: #FFF;
+          padding: 16px;
+          width: 160px;
+          height: 160px;
+          margin-top: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            height: 90px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .hello-email {
+      color: #FFF;
+      margin-top: 32px;
+      text-transform: none;
+      display: block;
+    }
+  }
+
+  .sponsored-logo {
+    height: 90px;
+  }
+}

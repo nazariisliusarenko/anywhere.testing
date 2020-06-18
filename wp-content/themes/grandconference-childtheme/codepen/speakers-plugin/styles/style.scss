@@ -1,0 +1,98 @@
+// Custom, non-Bootstrap stuff.
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@mixin round() {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+@mixin btn($color,$bg,$w,$h) {
+  color:$color;
+  background-color:$bg;
+  width:$w;
+  height:$h;
+  -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+@mixin whitebox() {
+  width:360px;
+  height:auto;
+  background-color:#fff;
+@include round();
+    text-align:center;
+  margin:0 auto;
+  padding:15px;
+  img {
+    @include round();
+    width:330px;
+    height:220px;
+    
+  }
+  
+  h3 {
+    @include font-regular(#000,16px,center,bold,uppercase);
+    margin:15px 0px 15px 0px;
+  }
+  p {
+    @include font-regular(#000,14px,center,bold,uppercase);
+    margin-bottom:30px;
+  }
+}
+
+@mixin font-regular($color,$size,$align:'left',$weight:'normal',$transform:'lowercase') {
+  font-family:Roboto;
+  color:$color;
+  font-size:$size;
+  text-align:$align;
+  font-weight:$weight;
+  text-transform:$transform;
+}
+
+.subpage {
+  h2 {
+    color:#181233;
+    line-height:0.8;
+  }
+  h3 {
+    color:#1de6c7;
+    line-height:0.8;
+    margin-bottom:20px;
+  }
+  p {
+    color:#181233;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+}
+
+.site-header {
+  background: #563D7C;
+  color: white;
+}
+
+.site-footer {
+  background-color: #3c3d41;
+  color: white;
+}
+
+.site-footer .footer-copyright {
+  background-color: #333333;
+  text-align: center;
+}
+.site-footer .footer-copyright p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #d2d1d1;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+  text-decoration: none;
+  color: white;
+}

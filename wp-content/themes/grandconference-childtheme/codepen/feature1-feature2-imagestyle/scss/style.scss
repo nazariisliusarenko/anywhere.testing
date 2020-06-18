@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@mixin font-regular($color,$size,$align:'left') {
+  font-family:Roboto;
+  color:$color;
+  font-size:$size;
+  text-align:$align;
+}
+
+@mixin clip-left() {
+  -webkit-clip-path: polygon(0% 0%, 80% 0, 100% 100%, 75% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 80% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+
+@mixin clip-right() {
+-webkit-clip-path: polygon(14.5% 0, 100% 0, 100% 100%, 75% 100%, 0% 100%);
+clip-path: polygon(14.5% 0, 100% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+
+@mixin reset-margins() {
+    margin:0px;
+    padding:0px;
+}
+
+@mixin feature-text($color:#181233) {
+  @include font-regular($color,18px,center);
+    padding:50px;
+    font-weight:bold;
+}
+
+.btn-md-1 {
+  background-color:#181233;
+  border:none;
+  border-radius:0px;
+  text-transform: uppercase;
+  text-align:center;
+  margin:0 auto;
+  color:#1DE6C7;
+  font-weight:bold;
+}
+
+.btn-md-2 {
+  background-color:#1DE6C7;
+  border:none;
+  border-radius:0px;
+  text-transform: uppercase;
+  text-align:center;
+  margin:0 auto;
+  color:#181233;
+  font-weight:bold;
+}
+.align-center {
+  text-align:center;
+}
+
+.btn-md-1:hover {
+  background-color:#181233;
+}
+
+.features1 .image-element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  @include clip-left();
+
+}
+.features1 {
+  .row {
+    margin:0px;
+    padding:0px;
+  }
+  .col-md-6 {
+    margin:0px;
+    padding:0px;
+  }
+  .container-fluid {
+    margin:0px;
+    padding:0px;
+  }
+  background-color:#1DE6C7;
+  h2 {
+    @include font-regular(#181233,34px,center);
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+  p {
+    @include feature-text();
+  }
+}
+
+
+.features2 .image-element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  @include clip-right();
+}
+
+
+.features2 {
+  .row {
+    margin:0px;
+    padding:0px;
+  }
+  .col-md-7 {
+    margin:0px;
+    padding:0px;
+  }
+  .container-fluid {
+    margin:0px;
+    padding:0px;
+  }
+  background-color:#181233;
+  h2 {
+    @include font-regular(#fff,34px,center);
+    text-transform:uppercase;
+  }
+  p {
+    @include feature-text(#fff);
+  }
+}

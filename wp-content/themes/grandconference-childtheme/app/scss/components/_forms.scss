@@ -1,0 +1,127 @@
+section.form {
+  padding: 10vh 0;
+  padding-top: 20vh;
+
+  h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  input, textarea {
+    border: 0;
+    border-bottom: 2px solid $dark-grey !important;
+    background: transparent;
+    color: #FFF;
+    border-radius: 0 !important;
+    resize: vertical !important;
+
+    &.error {
+      border-bottom-color: $pink !important;
+    }
+
+    &:focus {
+      border-bottom-color: #FFF !important;
+      outline: none !important;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $light-grey;
+    }
+    &:-moz-placeholder           {
+      color: $light-grey;
+    }
+    &::-moz-placeholder          {
+      color: $light-grey;
+    }
+    &:-ms-input-placeholder      {
+      color: $light-grey;
+    }
+
+    & + .wordcount {
+      font-size: 14px;
+      float: right;
+
+      &.maxed {
+        color: $pink;
+      }
+    }
+  }
+
+  &.purple {
+    color: #FFF;
+
+    .selectric {
+      background-color: transparent !important;
+      border: 0;
+
+      .label {
+        font-family: $font-body;
+      }
+    }
+  }
+
+  &.crowd {
+    background: center center no-repeat url(/images/backgrounds-2018/other/faded-crowd-bg.png);
+    background-size: cover;
+    color: #FFF;
+  }
+
+  .form-group {
+    margin: 0 10px 20px 10px;
+  }
+
+  label.error {
+    color: $pink;
+    font-size: 16px;
+  }
+
+  .help {
+    font-size: 14px;
+    color: $dark-grey;
+    margin-top: 4px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    a {
+      color: #FFF;
+    }
+
+    .utility {
+      a {
+        display: block;
+        font-size: 80%;
+      }
+    }
+  }
+
+  .alert.alert-danger {
+    border: 3px solid $pink;
+    text-align: center;
+    background: transparent;
+    font-family: $font-header;
+    font-size: 24px;
+    color: $pink;
+  }
+
+  .image-uploads {
+    width: 300px;
+    margin: 0 auto;
+
+    .remove-upload {
+      display: none;
+    }
+
+    .uploaded-image {
+      img {
+        max-width: 100%;
+        border: 2px solid #FFF;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

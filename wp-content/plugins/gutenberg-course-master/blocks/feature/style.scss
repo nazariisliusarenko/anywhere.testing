@@ -1,0 +1,178 @@
+.wp-block-jsforwpblocks-feature {
+    background: -ms-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: -moz-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: -o-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(35.7%, #1B1754), color-stop(70, #171233));
+    background: -webkit-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%);
+
+}
+.features1 .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  -webkit-clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%); }
+
+.features1 {
+  max-width: 100%;
+  background-color: #171233; }
+  .features1 .container-fluid {
+    margin: 0px;
+    padding: 0px; }
+  .features1 .btn {
+    margin: 20px; }
+  .features1 h2 {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 3.75em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    line-height: 1.42; }
+  .features1 p {
+    margin: 20px;
+    font-family: "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: "normal";
+    text-transform: "lowercase"; }
+  .features1 .text-element {
+    /* IE10+ */
+    background: -ms-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* Mozilla Firefox */
+    background: -moz-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* Opera */
+    background: -o-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* Webkit (Safari/Chrome 10) */
+    background: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(35.7%, #1B1754), color-stop(70, #171233));
+    /* Webkit (Chrome 11+) */
+    background: -webkit-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* W3C Markup */
+    background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.features2 .image-element img {
+  width: 100%;
+  height: 100%;
+  max-height: 410px;
+  object-fit: cover;
+  object-position: center center;
+  -webkit-clip-path: polygon(10.5% 0, 100% 0, 100% 100%, 85% 100%, 0% 100%);
+  clip-path: polygon(10.5% 0, 100% 0, 100% 100%, 85% 100%, 0% 100%); }
+
+.features2 {
+  max-width: 100%;
+  background-color: #171233; }
+  .features2 .container-fluid {
+    margin: 0px;
+    padding: 0px; }
+  .features2 h2 {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 3.75em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px; }
+  .features2 p {
+    margin: 20px;
+    font-family: "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: "normal";
+    text-transform: "lowercase"; }
+  .features2 .text-element {
+    /* IE10+ */
+    background: -ms-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* Mozilla Firefox */
+    background: -moz-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* Opera */
+    background: -o-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* Webkit (Safari/Chrome 10) */
+    background: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(35.7%, #1B1754), color-stop(70, #171233));
+    /* Webkit (Chrome 11+) */
+    background: -webkit-radial-gradient(center, ellipse farthest-corner, #1B1754 35.7%, #171233 70%);
+    /* W3C Markup */
+    background: radial-gradient(ellipse farthest-corner at center, #1B1754 35.7%, #171233 70%); }
+
+.features3 .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  -webkit-clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 85% 0, 100% 100%, 75% 100%, 0% 100%); }
+
+.features3 {
+  max-width: 100%;
+  background-color: #1DE6C7; }
+  .features3 .container-fluid {
+    margin: 0px;
+    padding: 0px; }
+  .features3 .btn {
+    margin: 20px; }
+  .features3 h2 {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 3.75em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    line-height: 1.42; }
+  .features3 p {
+    margin: 20px;
+    font-family: "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: "normal";
+    text-transform: "lowercase"; }
+    
+    .btn {
+  font-family: "Bebas Neue";
+  line-height: normal;
+  font-style: normal;
+  font-size: 1.5em; }
+
+.btn-md-1 {
+  background-color: #181233;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #1DE6C7;
+  font-weight: bold; }
+
+.btn-md-2 {
+  background-color: #1DE6C7;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #181233;
+  font-weight: bold; }
+
+.align-center {
+  text-align: center; }
+
+.btn-md-1:hover {
+  background-color: #181233; }

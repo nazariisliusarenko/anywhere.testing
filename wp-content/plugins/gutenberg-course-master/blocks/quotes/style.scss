@@ -1,0 +1,55 @@
+.fairly-quotes {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff; 
+    background-image: url("../images/bg-pattern.png");
+}
+  .fairly-quotes .row {
+    max-width: 100%;
+    margin: 0 auto; }
+  .fairly-quotes .image-element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 75% 100%, 25% 100%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 75% 100%, 25% 100%); }
+  .fairly-quotes .col-md-7, .fairly-quotes .col-md-6 {
+    margin: 0px;
+    padding: 0px; }
+  .fairly-quotes .container-fluid {
+    margin: 0px;
+    padding: 0px; }
+  .fairly-quotes h2 {
+    font-family: "Roboto";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 3em;
+    text-align: left;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 90px 120px 20px 60px; }
+  .fairly-quotes p {
+    font-family: "Bebas Neue";
+    line-height: normal;
+    font-style: normal;
+    color: #171233;
+    font-size: 2.25em;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 62px; }
+
+.carousel-indicators {
+  left: 36%;
+  width: 60%;
+  padding-left: 0;
+  text-align: left;
+  list-style: none; }
+
+.carousel-indicators li {
+  border: 1px solid #181233 !important; }
+
+.carousel-indicators .active {
+  background-color: #181233 !important; }
