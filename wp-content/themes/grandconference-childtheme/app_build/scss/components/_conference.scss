@@ -1,0 +1,55 @@
+.conference {
+    max-width:100%;
+    background-color:#fff;
+    height:auto;
+    margin:0 auto;
+    text-align:center;
+    h1 {
+      margin-top:50px;
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular($color2,$conference_h2,center,bold,uppercase);
+    }
+    
+    p{
+      @include set-font('Roboto');
+      @include font-regular($color2,$conference_p,center);
+      line-height:1;
+      }
+    ul.logos {
+      list-style:none;
+      margin-top:30px;
+      margin-bottom:45px;
+      li {
+        display:inline-block;
+        padding: 0 35px 0 35px;
+      }
+    }
+    .logo {
+      width:160px;
+      height:140px;
+      display:inline-block;
+      background-size: cover;
+      img {
+        width:160px;
+        height:auto;
+      }
+    }
+
+    .logo1 {
+      background-image:url('../images/logos/logo1.png');
+    }
+
+    .logo2 {
+      background-image:url('../images/logos/logo2.png');
+    }
+
+    .logo3 {
+      background-image:url('../images/logos/logo3.png');
+      width:140px;
+      height:120px;
+    }
+
+    .logo4 {
+      background-image:url('../images/logos/logo4.png');
+    }
+  }

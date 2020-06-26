@@ -1,0 +1,73 @@
+section.conferences {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+  padding: 32px;
+
+  h1 {
+    font-family: $font-header;
+    color: $dark-purple;
+    font-size: 4em;
+    margin: 12px 0;
+
+    @include breakpoint(mobileonly) {
+      font-size: 2.6em;
+    }
+  }
+
+  .items-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      font-family: $font-body;
+      color: $dark-purple;
+      padding: 16px 100px;
+      width: 50%;
+
+      @include breakpoint(mobileonly) {
+        width: 100%;
+        padding: 16px;
+      }
+
+      .logo {
+        height: 220px;
+
+        @include breakpoint(mobileonly) {
+          height: 160px;
+        }
+      }
+
+      .headline {
+        font-size: 1.2em;
+        font-weight: 700;
+        margin-top: 16px;
+        text-transform: uppercase;
+      }
+
+      .description {
+        margin-top: 8px;
+        height: 120px;
+
+        @include breakpoint(mobileonly) {
+          height: auto;
+        }
+      }
+
+      .step-btn {
+        margin-top: 16px;
+        color: $dark-purple;
+      }
+    }
+  }
+}

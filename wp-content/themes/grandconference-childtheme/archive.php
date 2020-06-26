@@ -5,15 +5,13 @@ get_header();
 
 <style>
 .hdr{width: 100%;background: #fff; background-image: none;background: linear-gradient(to right, #1DE6C7 0%, #7488AA 100%); margin-top: 123px;display: block;}
-.myctr{width: 1170px;width: 1170px;margin: auto; padding-top: 75px; padding-bottom: 75px;}
 
-.mfont {font-family: "Bebas-bold";font-size: 72px;text-transform: uppercase;color: white;}
 .mfont1 {font-family: "Roboto !important";font-size: 26px;color: white;margin-top: 6px;display: block;font-weight: 400;}
 a.tag-cloud-link {margin: 5px !important;}
 .post_circle_thumb {padding: 0px 0px 8px 0px !important;}
 .bl-h1{font-size: 37px !important;font-family: "Roboto" !important;line-height:55px !important;color: black !important;font-weight: 700;text-decoration: none !important;}
 .b1-h1-a a:hover{color:white !important;}
-.bl-h2{font-size: 22px !important;}
+
 
 .b-ctr {
   width: 1170px; margin: auto;
@@ -63,26 +61,16 @@ section.blog .author{color:#49bbb7 !important;}
 section.blog a{
 color: #49bbb7 !important; font-weight: 700;
 }
-.mob-font{font-family: "Bebas-bold" !important;font-size: 32px !important;text-transform: uppercase !important;color: white !important;padding:10px !important;}
+
 
  @media only screen and (max-width: 768px) {
 .footer-news-txt{padding-left:0px !important;}
-.myctr-desk{margin-left:0px !important;}
-.mfont {font-family: "Bebas-bold" !important;font-size: 72px !important;text-transform: uppercase !important;color: white !important;padding:10px !important;}
 .mfont1 {font-family: "Roboto !important";font-size: 26px !important;color: white !important;margin-top: 6px !important;display: block !important;font-weight: 400 !important;}
-.mob-font{font-family: "Bebas-bold" !important;font-size: 32px !important;text-transform: uppercase !important;color: white !important;padding:10px !important;}
 .main_blog_box{margin-right:0px !important;}
 }
 
-.footer-news-txt{font-size: 25px;text-transform: capitalize;color: white; padding-top: 75px;padding-left:90px;}
-.myctr-desk{margin-left:88px;}
-
 .footer-page-navigation{background-color:#fff;margin-top: 0px !important;
-    padding-left: 169px;
-    padding-bottom: 34px;
-    font-size: 2.25em !important;
     font-family: "bebas-bold", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-
 }
 
 .prev page-numbers{color: #49bbb7 !important;}
@@ -117,10 +105,13 @@ color: #49bbb7 !important; font-weight: 700;
 </style>
 
 <div class="hdr">
-  <div class="myctr">
-    <h1 class="mfont">STEP NEWS</h1>
-    <span class="mfont1"></span>
-  </div>  
+    <div class="container b-ctr">
+        <div class="row">
+            <div class="myctr">
+                <h1 class="mfont">STEP NEWS</h1>
+            </div>
+        </div>
+    </div>
 </div>
 
 <section class="blog" style="margin-top: 0;">
@@ -153,15 +144,11 @@ if (have_posts()) :
           <?php endif; ?>
           <div class="card-body">
            <a href="<?= get_the_permalink(get_the_ID()) ?>" style="color: black !important;text-decoration: none !important;"> <p class="card-text" style="font-size: 23px;"><?php the_excerpt() ?></p></a>
-            <a href="<?= get_the_permalink(get_the_ID()) ?>" class="btn-primary">Read More &rarr;</a>
+            <a href="<?= get_the_permalink(get_the_ID()) ?>" class="btn-primary">Read More</a>
           </div>
         </div>
        
       </div>
-          <div class="card-footer text-muted" style="margin-top:24px;margin-bottom:4px;">
-           &nbsp;
-          </div>
-
 
 <?php        
 endwhile;
@@ -173,7 +160,7 @@ endif;
       </div>
 
       <!-- Sidebar Widgets Column -->
-      <div class="col-md-4" style="position: -webkit-sticky;position: sticky;top: 12vh;padding:0;">
+      <div class="col-md-4 sidebar-content" style="position: -webkit-sticky;position: sticky;top: 12vh;">
 
         	<?php 
 						if (is_active_sidebar('single-post-sidebar')) { ?>
@@ -196,16 +183,20 @@ endif;
 </section>
 
 <div class="footer-page-navigation">
-<?php echo paginate_links( $args ) ?>
+    <div class="container b-ctr">
+        <div class="row">
+            <?php echo paginate_links( $args ) ?>
+        </div>
+    </div>
 </div>
 
-<div class="hdr" style="margin-top:0px !important;padding-left:10px;">
-<h1 class="mob-font footer-news-txt">Do you have a story you want to share with us?</h1>
-  <div class="myctr myctr-desk" style="width: 1170px;padding-top: 75px;padding-bottom: 75px;">
+<div class="get-in-touch">
+    <h1 class="mob-font footer-news-txt">Do you have a story you want to share with us?</h1>
+    <div class="myctr myctr-desk">
     <div class="action-buttons">
-          <a href="mailto:hello@stepconference.com" class="btn" style="margin-top:-55px;">Get in Touch</a>
+          <a href="mailto:hello@stepconference.com" class="btn">Get in Touch</a>
             </div>
-  </div>  
+    </div>
 </div>
 
 <?php

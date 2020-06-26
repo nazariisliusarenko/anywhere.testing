@@ -112,7 +112,7 @@ if (have_posts()) :
           <?php endif; ?>
           <div class="card-body">
            <a href="<?= get_the_permalink(get_the_ID()) ?>" style="color: black !important;text-decoration: none !important;"> <p class="card-text" style="font-size: 23px;"><?php the_excerpt() ?></p></a>
-            <a href="<?= get_the_permalink(get_the_ID()) ?>" class="btn-primary">Read More &rarr;</a>
+            <a href="<?= get_the_permalink(get_the_ID()) ?>" class="btn-primary">Read More2 &rarr;</a>
           </div>
         </div>
        

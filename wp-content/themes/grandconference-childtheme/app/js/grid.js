@@ -226,22 +226,29 @@ var Grid = (function() {
 	}
 
 	function initEvents() {
-		
+
 		// when clicking an item, show the preview with the item´s info and large image.
 		// close the item if already expanded.
 		// also close if clicking on the item´s cross
 		$items.on( 'click', 'span.og-close', function() {
 			hidePreview();
-      resetPlus();
 			return false;
 		} ).children( 'a' ).on( 'click', function(e) {
-      resetPlus();
 			var $item = $( this ).parent();
       // find the fa and make it minus
-      $item.find('.fa').removeClass('fa-plus');
-      $item.find('.fa').addClass('fa-minus');
+      // $item.find('.fa').removeClass('fa-
+			if ($($item).find('.fa').hasClass('fa-plus')) {
+				$( '.og-grid' ).find('.fa').each((index, el) => {
+					$(el).removeClass('fa-minus').addClass('fa-plus');
+				});
+				$($item).find('.fa').removeClass('fa-plus').addClass('fa-minus');
+			} else {
+
+				$($item).find('.fa').removeClass('fa-minus').addClass('fa-plus');
+			}
+
 			// check if item already opened
-			current === $item.index() ? hidePreview() : showPreview( $item );
+			current === $( '.og-grid' ).children( 'li' ).index($item) ? hidePreview() : showPreview( $item );
 			return false;
 
 		} );
@@ -249,7 +256,7 @@ var Grid = (function() {
 		// on window resize get the window´s size again
 		// reset some values..
 		$window.on( 'debouncedresize', function() {
-			
+
 			scrollExtra = 0;
 			previewPos = -1;
 			// save item´s offset
@@ -263,12 +270,8 @@ var Grid = (function() {
 		} );
 
 	}
-  
-  // reset the plus
-  function resetPlus() {
-    $('.fa').removeClass('fa-minus');
-    $('.fa').addClass('fa-plus');
-  }
+
+
 	function getWinSize() {
 		winsize = { width : $window.width(), height : $window.height() };
 	}
@@ -297,7 +300,7 @@ var Grid = (function() {
 				preview.update( $item );
 				return false;
 			}
-			
+
 		}
 
 		// update previewPos
@@ -319,7 +322,7 @@ var Grid = (function() {
 	// the preview obj / overlay
 	function Preview( $item ) {
 		this.$item = $item;
-		this.expandedIdx = this.$item.index();
+		this.expandedIdx = $( '.og-grid' ).children( 'li' ).index(this.$item);
 		this.create();
 		this.update();
 	}
@@ -348,9 +351,9 @@ var Grid = (function() {
 			if( $item ) {
 				this.$item = $item;
 			}
-			
+
 			// if already expanded remove class "og-expanded" from current item and add it to new item
-			if( current !== -1 ) { 
+			if( current !== -1 ) {
 				var $currentItem = $items.eq( current );
 				$currentItem.removeClass( 'og-expanded' );
 				this.$item.addClass( 'og-expanded' );
@@ -359,7 +362,8 @@ var Grid = (function() {
 			}
 
 			// update current value
-			current = this.$item.index();
+			// current = this.$item.index();
+			current = $( '.og-grid' ).children( 'li' ).index(this.$item)
 			var $itemEl = this.$item.children( 'a' ),
 				eldata = {
 					href : $itemEl.attr( 'href' ),
@@ -370,14 +374,14 @@ var Grid = (function() {
 					myurl : $itemEl.data('id')
 				};
 var myurl = eldata.myurl;
-var content = eldata.description.length 
+var content = eldata.description.length
 var output = '<div class="container subpage"><div class="row"><div class="col-md-12 col-sm-12">';
     output += '<h2>'+eldata.title+'</h2>';
         output += '<h3>'+eldata.company+'</h3>';
         var string = eldata.description;
         var length = string.split(/[^\s]+/).length - 1;
         // fix for the larger description in increasing font size.
-        console.log("the length of speaker is " + length);
+        // console.log("the length of speaker is " + length);
         if(length>400){
           output += '<p class="coltext" style="font-size:13px">'+eldata.description+'</p></div></div></div>';
         }
@@ -388,13 +392,13 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
         	 output += '<p class="coltext" style="font-size:16px">'+eldata.description+'</p></div></div></div>';
         }
         else {
-        output += '<p class="coltext">'+eldata.description+'</p></div></div></div>';	
+        output += '<p class="coltext">'+eldata.description+'</p></div></div></div>';
         }
         // end fix
         $( ".og-expander-inner" ).html(output);
       /*$.get(myurl, function( data ) {
         $( ".og-expander-inner" ).html( data );
-  
+
       });*/
 			// update preview´s content
 			/*var $itemEl = this.$item.children( 'a' ),
@@ -410,7 +414,7 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
 			this.$href.attr( 'href', eldata.href );
 
 			var self = this;
-			
+
 			// remove the current image in the preview
 			if( typeof self.$largeImg != 'undefined' ) {
 				self.$largeImg.remove();
@@ -428,13 +432,13 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
 						self.$largeImg = $img.fadeIn( 350 );
 						self.$fullimage.append( self.$largeImg );
 					}
-				} ).attr( 'src', eldata.largesrc );	
+				} ).attr( 'src', eldata.largesrc );
 			}*/
 
 		},
 		open : function() {
 
-			setTimeout( $.proxy( function() {	
+			setTimeout( $.proxy( function() {
 				// set the height for the preview and the item
 				this.setHeights();
 				// scroll to position the preview in the right place
@@ -443,12 +447,13 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
 
 		},
 		close : function() {
-
 			var self = this,
 				onEndFn = function() {
 					if( support ) {
 						$( this ).off( transEndEventName );
 					}
+					// console.log('self.$item', self.$item);
+					// console.log('self.$previewEl', self.$previewEl);
 					self.$item.removeClass( 'og-expanded' );
 					self.$previewEl.remove();
 				};
@@ -460,20 +465,22 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
 				}
 				this.$previewEl.css( 'height', 0 );
 				// the current expanded item (might be different from this.$item)
+
 				var $expandedItem = $items.eq( this.expandedIdx );
 				$expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
-
 				if( !support ) {
 					onEndFn.call();
 				}
 
 			}, this ), 25 );
-			
+
 			return false;
 
 		},
 		calcHeight : function() {
-
+// console.log('this.$item', this.$item.find('.subpage').height());
+// console.log('this.$item', this.$item.find('.og-expander').css('height',  this.$item.find('.subpage').height()));
+// 			this.$item.find('.og-expander').css('height',  this.$item.find('.subpage').height())
 			var heightPreview = winsize.height - this.$item.data( 'height' ) - marginExpanded,
 				itemHeight = winsize.height;
 
@@ -481,9 +488,13 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
 				heightPreview = settings.minHeight;
 				itemHeight = settings.minHeight + this.$item.data( 'height' ) + marginExpanded;
 			}
-
-			this.height = heightPreview;
-			this.itemHeight = itemHeight;
+// console.log('this.$item', this.$item.height());
+// console.log('this.$item', this.$item.find('.subpage'));
+// console.log('this.$item', this.$item.find('.subpage').height());
+// 			this.height = heightPreview;
+			this.height = this.$item.find('.subpage').height();
+			// this.itemHeight = itemHeight;
+			this.itemHeight = this.$item.height() + this.$item.find('.subpage').height() + 50;
 
 		},
 		setHeights : function() {
@@ -497,7 +508,9 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
 				};
 
 			this.calcHeight();
-			this.$previewEl.css( 'height', this.height );
+			// this.$previewEl.find()
+			// this.$previewEl.css( 'height', this.height );
+			this.$previewEl.css( 'height', this.$item.find('.subpage').height() );
 			this.$item.css( 'height', this.itemHeight ).on( transEndEventName, onEndFn );
 
 			if( !support ) {
@@ -514,7 +527,7 @@ var output = '<div class="container subpage"><div class="row"><div class="col-md
 			var position = this.$item.data( 'offsetTop' ),
 				previewOffsetT = this.$previewEl.offset().top - scrollExtra,
 				scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
-			
+
 			$body.animate( { scrollTop : scrollVal }, settings.speed );
 
 		},
@@ -539,3 +552,5 @@ function toggleAccordion(){
 }
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+

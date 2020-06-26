@@ -5,21 +5,21 @@
     $(window).scroll(function() {
       var scrollTop = $(window).scrollTop();
   
-      if (scrollTop >= 40) {
-          $('nav.desktop, nav.mobile').addClass('colored');
-  
-      } else {
-        $('nav.desktop, nav.mobile').removeClass('colored');
-      }
+      // if (scrollTop >= 40) {
+      //     $('nav.desktop, nav.mobile').addClass('colored');
+      //
+      // } else {
+      //   $('nav.desktop, nav.mobile').removeClass('colored');
+      // }
   
       // hide show scroll
-      if (scrollTop > lastScrollTop && scrollTop >= 500){
-        // scrolling down
-        $('nav.desktop, nav.mobile').addClass('nav-hidden');
-      } else {
-        // scrolling up
-        $('nav.desktop, nav.mobile').removeClass('nav-hidden');
-      }
+      // if (scrollTop > lastScrollTop && scrollTop >= 500){
+      //       //   // scrolling down
+      //       //   $('nav.desktop, nav.mobile').addClass('nav-hidden');
+      //       // } else {
+      //       //   // scrolling up
+      //       //   $('nav.desktop, nav.mobile').removeClass('nav-hidden');
+      //       // }
   
       lastScrollTop = scrollTop;
     });

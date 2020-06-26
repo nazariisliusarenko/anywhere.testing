@@ -1,0 +1,243 @@
+@mixin round() {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+@mixin clip-left() {
+      -webkit-clip-path: polygon(0% 0%, 86% 0, 100% 100%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 87.2% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+
+@mixin clip-right-reverse() {
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 75% 100%, 25% 100%);
+clip-path: polygon(0% 0%, 100% 0, 100% 100%, 75% 100%, 25% 100%);
+}
+    
+@mixin clip-right() {
+    -webkit-clip-path: polygon(10.5% 0, 100% 0, 100% 100%, 75% 100%, 0% 100%);
+    clip-path: polygon(10.5% 0, 100% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+
+@mixin clip-bottom-right() {
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 100% 100%, 0% 75%);
+ clip-path: polygon(0% 0%, 100% 0, 100% 100%, 100% 100%, 0% 75%);
+}
+
+@mixin clip-bottom-left() {
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 100% 75%, 0% 100%);
+ clip-path: polygon(0% 0%, 100% 0, 100% 100%, 100% 75%, 0% 100%);
+}
+
+@mixin clip-top-left() {
+   -webkit-clip-path: polygon(0% 25%, 100% 0, 100% 100%, 100% 100%, 0% 100%);
+   clip-path: polygon(0% 25%, 100% 0, 100% 100%, 100% 100%, 0% 100%);
+
+}
+
+@mixin whitebox() {
+    width:360px;
+    height:auto;
+    min-height:450px;
+    font-weight: 500px;
+    background-color:#fff;
+  @include round();
+      text-align:center;
+    margin:0 auto;
+    padding:15px;
+    img {
+      @include round();
+      width:330px;
+      height:220px;
+      
+    }
+    
+    h3 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular($color2,$whitebox_h3,center,bold,uppercase);
+      margin:15px 0px 15px 0px;
+      //min-height: 70px;
+      min-height:50px;
+    }
+
+    p {
+      @include set-font('Roboto');
+      @include font-regular($color2,$whitebox_p,center);
+      margin-bottom:30px;
+    }
+  }
+
+  .whitebox {
+    @include whitebox();
+    margin-bottom:30px;
+  }
+
+  @mixin reset-margins() {
+    margin:0px;
+    padding:0px;
+}
+
+.logo {
+    width:250px;
+    height:100px;
+    vertical-align:center;
+    text-align:center;
+    margin-top:0px;
+  }
+  
+.btn {
+  @include set-font('Bebas-bold');
+  line-height:1.8!important;
+  font-size:$em150;
+  outline:none;
+}
+  .btn-md-1 {
+    background-color:#181233;
+    border:none;
+    border-radius:0px;
+    text-transform: uppercase;
+    text-align:center;
+    margin:0 auto;
+    color:#1DE6C7;
+    font-weight:bold;
+  }
+  
+  .btn-md-2 {
+    background-color:#1DE6C7;
+    border:none;
+    border-radius:0px;
+    text-transform: uppercase;
+    text-align:center;
+    margin:0 auto;
+    color:#181233;
+    font-weight:bold;
+  }
+  .align-center {
+    text-align:center;
+  }
+  
+  .btn-md-1:hover {
+    background-color:#181233;
+  }
+
+  .container {
+    .subpage {
+      .row {
+        margin:0 auto;
+        max-width:75%;
+      }
+
+      h2 {
+        @include set-font('Bebas-bold',1,bold);
+        @include font-regular($color2,50px,left,bold,uppercase);
+        padding-top:10px;
+      }
+      h3 {
+        @include font-regular($color1,30px,left,bold,uppercase);
+        padding:0;
+        padding-top:10px;
+        padding-bottom:10px;
+      }
+
+    }
+  }
+
+  section.hero.conference, section.hero.home, section.hero.tickets {
+    background-position: center bottom;
+    background-size: 140%;
+}
+
+section.hero.video {
+  background-image: none;
+}
+
+section.hero.full {
+  height: 100vh;
+}
+
+section.conferences .items-wrapper .item, section.hero {
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+
+section.hero .overlay {
+  background: linear-gradient(to bottom,rgba(27,20,85,.5),rgba(27,20,85,.5),rgba(27,20,85,.5),#171232);
+  opacity: 1;
+}
+
+.speakeroverlay {
+  @include SetSpeakersGradient();
+}
+.speakeroverlay, .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #171232;
+  z-index: 100;
+  opacity:0.3;
+  top:0;
+  left:0;
+}
+
+.centered.left {
+position: absolute;
+top:200px;
+z-index:900;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.dd {
+  li {
+    .gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 100;
+    background: center center no-repeat;
+    background-size: cover;
+    transition: opacity .3s ease;
+}
+    p.title {
+      position: absolute;
+      top:210px;
+      left:5px;
+      z-index:1000;
+      @include set-font('Bebas-bold');
+      @include font-regular(#fff,$em225,left,bold,uppercase);
+      span {
+        @include set-font('Bebas-bold');
+        @include font-regular($color1,24px,left,bold,uppercase);
+        line-height:1;
+      }
+      
+      
+    }
+  }
+}
+
+.carousel {
+  background-image: url(../images/bg-pattern.png);
+}
+
+#menu {
+  
+  li {
+    list-style:none; 
+    a {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#181233,24px,left,bold,uppercase);
+      text-decoration:none;
+      &:hover {
+        color:#1de6c7;
+      }
+  }
+  }
+}

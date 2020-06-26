@@ -103,60 +103,73 @@ require_once('rightnav.php');
 }
 ?>
     <!-- adding navigation from website -->
-    <nav class="mobile js-mobile-nav"><div class="left"><div class="nav-cta">
-        <?php 
+    <nav class="mobile js-mobile-nav">
+        <div class="left">
+            <div class="nav-cta">
+                <?php
 
-        $logoid = get_post_meta(  get_the_ID(), 'logo', true);
-        if($logoid!=null) {
-            $logo = wp_get_attachment_url($logoid);
-        }
-        else {
-            //$currentUrl ='https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-           //if($currentUrl=='https://stepconference.com/vw-mobility-challenge/')
-            //{
-              // $logo="https://stepconference.com/wp-content/uploads/2019/10/vw-new.svg";
-            //}
-            //else{
-            $logo = get_stepconference_logo();
+                $logoid = get_post_meta(  get_the_ID(), 'logo', true);
+                if($logoid!=null) {
+                    $logo = wp_get_attachment_url($logoid);
+                }
+                else {
+                    //$currentUrl ='https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+                   //if($currentUrl=='https://stepconference.com/vw-mobility-challenge/')
+                    //{
+                      // $logo="https://stepconference.com/wp-content/uploads/2019/10/vw-new.svg";
+                    //}
+                    //else{
+                    $logo = get_stepconference_logo();
 
-              //}
-        }
-        ?>
-                    <a href="/"><img class="logo" src="<?= $logo ?>"></a>
-            
-    
-    
-    </div>
-    
-    </div><div class="right">
-        
-        <a class="js-nav-toggle active"><i class="fa fa-bars" aria-hidden="true"></i></a> <a class="js-nav-toggle active"><i class="fa fa-times" aria-hidden="true"></i></a></div><div class="tabs-wrapper js-mobile-tabs">
-        
-            
+                      //}
+                }
+                ?>
+                <a href="/"><img class="logo" src="<?= $logo ?>"></a>
+            </div>
+        </div>
+        <div class="right">
+            <div id="mobile-menuToggle">
+                <input type="checkbox" id="mobile-checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="tabs-wrapper js-mobile-tabs">
             <?php
-                    $default = array(
-    'theme_location'  => 'mainmenu',
-    'menu'            => 'mainmenu',
-    'echo'            => true,
-    'depth'           => 0,
-    'walker'          => new mobile_walker
-    );
-				wp_nav_menu($default);
-				
-				
-			?>
-              <?php
-                    $default = array(
-    'theme_location'  => 'rightmenu',
-    'menu'            => 'rightmenu',
-    'echo'            => true,
-    'depth'           => 0,
-    'walker'          => new mobile_walker2
-    );
+                $default = array(
+                    'theme_location'  => 'mainmenu',
+                    'menu'            => 'mainmenu',
+                    'echo'            => true,
+                    'depth'           => 0,
+                    'walker'          => new mobile_walker
+                );
 				wp_nav_menu($default);
 			?>
-        
-        </div></nav>
+            <?php
+                $default = array(
+                    'theme_location'  => 'rightmenu',
+                    'menu'            => 'rightmenu',
+                    'echo'            => true,
+                    'depth'           => 0,
+                    'walker'          => new mobile_walker2
+                );
+				wp_nav_menu($default);
+			?>
+        </div>
+        <?php
+        $currentUrl ='https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        if($currentUrl=='https://stepconference.com/vw-mobility-challenge/')
+        {
+            $custom="vw-apply";
+        } ?>
+
+        <div class="action-buttons">
+            <button type="button" class="btn <?php echo $custom;?>" data-toggle="modal" data-target="#myModal">participate</button>
+            <a href="https://anywhere.cognitolabs.me/tickets/" class="btn">Tickets</a>
+        </div>
+
+    </nav>
     <nav class="desktop colored">
         <div class="left">
     <?php
@@ -177,17 +190,16 @@ require_once('rightnav.php');
         
             </div>
             <div class="right">
-                    <?php
+                <?php
                     $default = array(
-    'theme_location'  => 'mainmenu',
-    'menu'            => 'mainmenu',
-    'echo'            => true,
-    'depth'           => 0,
-    'walker'          => new description_walker
-    );
-				wp_nav_menu($default);
-			
-			?>
+                        'theme_location'  => 'mainmenu',
+                        'menu'            => 'mainmenu',
+                        'echo'            => true,
+                        'depth'           => 0,
+                        'walker'          => new description_walker
+                        );
+                    wp_nav_menu($default);
+                ?>
                     
 
       </div></div></li></ul>
@@ -204,12 +216,57 @@ $currentUrl ='https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
           <div class="action-buttons" style="float:right">
               <button type="button" class="btn <?php echo $custom;?>" data-toggle="modal" data-target="#myModal">participate</button>
-		<a href="https://anywhere.stepconference.com/tickets/" class="btn" style="margin-left:10px;">Tickets</a>
+		<a href="https://anywhere.cognitolabs.me/tickets/" class="btn">Tickets</a>
 
            <!-- <a href="../step-2019-tickets/" class="btn">tickets</a></div>-->
             </div>
       </div>
-      </div></nav>
+      </div>
+
+
+
+
+            <?php
+            $default = array(
+                'theme_location'  => 'rightmenu',
+                'menu'            => 'rightmenu',
+                'echo'            => true,
+                'depth'           => 0,
+                'walker'          => new footer_walker
+            );
+            $my_menu = wp_get_nav_menu_object( 'rightmenu' );
+            if ($my_menu->count > 0) {
+                echo '<nav role=\'navigation\' class="burger-navigation"><div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it\'s pure CSS magic.
+    -->
+    <ul id="menu">'?> <?php wp_nav_menu($default); ?><?php echo '
+     
+    </ul>
+  </div></nav>';
+            }  ?>
+
+
+
+
+    </nav>
     <!-- end navigation from website -->
 
     

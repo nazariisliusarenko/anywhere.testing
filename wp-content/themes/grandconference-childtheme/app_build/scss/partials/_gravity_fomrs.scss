@@ -1,0 +1,466 @@
+// fix for description
+.gform_wrapper .field_description_below .gfield_description {
+    color:#fff;
+}
+
+.full {
+    width:100%!important;
+}
+// fix added to be used after dropdown box for input
+// class name is m10 , used to add maring top 10px
+ .roboto {
+   font-family: "Roboto";
+   line-height: "1";
+   font-style: normal;
+   color: #fff;
+   font-size: 1.25em;
+   text-align: center;
+   font-weight: normal;
+   text-transform: lowercase;
+   display: block;
+   z-index: 10000;
+}
+.m10 {
+    margin-top:26px!important;
+}
+// fix for 2019 gravity
+.gfield.thanksstartups {
+@include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,28px,left);
+}
+h2.gsection_title,
+.showlabel > label {
+    display: inline-block!important;
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,28px,left);
+}
+
+label[for^="choice"] {
+        display:inline-block!important;
+}
+.gform_wrapper {
+    max-width:1200px!important;
+    margin:0 auto!important;
+    margin-top: 125px!important;
+}
+
+.gform_wrapper .textarea.medium {
+    // adding the font size
+    @include set-font('Bebas-bold',1,bold);
+    color:#fff;
+    font-size:20px;
+}
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 5px 4px;
+    letter-spacing: normal;
+    color: #fff!important;
+    font-size:20px!important;
+}
+.gform_wrapper input:-webkit-autofill,
+.gform_wrapper textarea:-webkit-autofill,
+.gform_wrapper select:-webkit-autofill {
+    -webkit-box-shadow:none !important;
+    /*use inset box-shadow to cover background-color*/
+    -webkit-text-fill-color:transform !important;
+    /*use text fill color to cover font color*/
+}
+
+.gform_wrapper .ginput_complex .ginput_left input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=image]):not([type=file]), .gform_wrapper .ginput_complex .ginput_right input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=image]):not([type=file]), .gform_wrapper .ginput_complex .ginput_right select, .gform_wrapper .ginput_complex input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=image]):not([type=file]), .gform_wrapper .ginput_complex select {
+    color:#fff;
+    font-size:20px;
+}
+div#gform_confirmation_wrapper_1 {
+    min-height: 400px;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+    @include set-font('Bebas-bold',1,bold);
+}
+
+.gform_wrapper .field_description_below .gfield_description {
+    padding-top: 0px!important;
+}
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    border:none!important;
+    border-bottom: 1px solid #1de6c7!important;
+    @include set-font('Bebas-bold',1,bold);
+}
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 5px 4px;
+    letter-spacing: normal;
+    font-size:20px!important;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    @include set-font('Bebas-bold',1,bold);
+}
+.gform_wrapper .top_label .gfield_label {
+    display: -moz-inline-stack;
+    display: inline-block;
+    line-height: 1.3;
+    clear: both;
+    display: none;
+}
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+    margin: 1px 0 9px 1px;
+    display: none;
+}
+
+.gform_wrapper textarea::placeholder {
+    color:#fff;
+}
+.gform_wrapper select option {
+  color: #000;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  @include set-font('Bebas-bold',1,bold);
+}
+
+.gform_wrapper select, .gform_wrapper textarea {
+    font-family: inherit;
+    letter-spacing: normal;
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    @include set-font('Bebas-bold',1,bold);
+}
+.gform_footer.top_label {
+    margin: 0 auto;
+    text-align: center;
+}
+.gform_wrapper div.validation_error {
+    color: #1de6c7!important;
+    font-size: 60px!important;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-top: none!important;
+    border-bottom: none!important;
+    padding: 16px 0;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    @include set-font('Bebas-bold',1,bold);
+}
+
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background:none!important;
+    margin-bottom: 0px!important;
+    border-top:none!important; 
+    border-bottom:none!important;
+    padding-bottom:6px;
+    padding-top:8px;
+    box-sizing:border-box;
+}
+
+.gform_wrapper .validation_message {
+    color: #1de6c7!important;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+div#gform_wrapper_1, 
+div#gform_wrapper_2, 
+div#gform_wrapper_3, 
+div#gform_wrapper_4, 
+div#gform_wrapper_5, 
+div#gform_wrapper_6, 
+div#gform_wrapper_7, 
+div#gform_wrapper_8, 
+div#gform_wrapper_9, 
+div#gform_wrapper_10,
+div#gform_wrapper_11, 
+div#gform_wrapper_12, 
+div#gform_wrapper_13, 
+div#gform_wrapper_14, 
+div#gform_wrapper_15, 
+div#gform_wrapper_16, 
+div#gform_wrapper_17, 
+div#gform_wrapper_18, 
+div#gform_wrapper_19, 
+div#gform_wrapper_20,
+div#gform_wrapper_21, 
+div#gform_wrapper_22, 
+div#gform_wrapper_23, 
+div#gform_wrapper_24, 
+div#gform_wrapper_25, 
+div#gform_wrapper_26, 
+div#gform_wrapper_27, 
+div#gform_wrapper_28, 
+div#gform_wrapper_29, 
+div#gform_wrapper_30,
+div#gform_wrapper_31, 
+div#gform_wrapper_32, 
+div#gform_wrapper_33, 
+div#gform_wrapper_34, 
+div#gform_wrapper_35, 
+div#gform_wrapper_36, 
+div#gform_wrapper_37, 
+div#gform_wrapper_38, 
+div#gform_wrapper_39, 
+div#gform_wrapper_40,
+div#gform_wrapper_41, 
+div#gform_wrapper_42, 
+div#gform_wrapper_43, 
+div#gform_wrapper_44, 
+div#gform_wrapper_45, 
+div#gform_wrapper_46, 
+div#gform_wrapper_47, 
+div#gform_wrapper_48, 
+div#gform_wrapper_49, 
+div#gform_wrapper_50 {
+    
+   
+    
+    display:block!important;
+    textarea::-webkit-input-placeholder {
+color: #fff;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #fff;  
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #fff;  
+}
+
+textarea:-ms-input-placeholder {
+color: #fff;  
+}
+    
+    textarea::placeholder {
+  color: #fff;  
+}
+    .gform_wrapper div.validation_error {
+    color: #1de6c7!important;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-top: none!important;
+    border-bottom: none!important;
+    padding: 16px 0;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    @include set-font('Bebas-bold',1,bold);
+}
+
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background:none!important;
+    margin-bottom: 0px!important;
+    border-top:none!important; 
+    border-bottom:none!important;
+    padding-bottom:6px;
+    padding-top:8px;
+    box-sizing:border-box;
+    font-size: 20px;
+}
+
+.gform_wrapper .validation_message {
+    color: #1de6c7!important;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    border: 1px solid #1de6c7;
+    font-size: 20px;
+}
+
+     
+    margin-top:125px;
+    
+    .gform_wrapper h3.gform_title {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,60px,center,bold,uppercase);
+      padding:0;
+    }
+    
+    .gform_wrapper span.gform_description , .gform_wrapper .top_label .gfield_label, span.gform_description , .gform_description  {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,28px,center);
+    }
+    .gfield_required {
+        color:#fff;
+    }
+    
+    input#gform_submit_button_1, input[type="submit"] {
+    width: 50px;
+    padding: 10px;
+    width: auto;
+    min-width: 140px;
+    @include set-font('Bebas-bold',1,bold);
+    }
+    
+    
+    .gform_wrapper .gfield_required {
+    color: #fff;
+    margin-left: 4px;
+}
+
+input[type=submit], input[type=button], a.button, .button, .pagination a:hover, .woocommerce .footer_bar .button, .woocommerce .footer_bar .button:hover, .woocommerce-page div.product form.cart .button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .infinite_load_more, .post_share_text, #close_share, .widget_tag_cloud div a:hover, .mobile_menu_wrapper #close_mobile_menu, .mobile_menu_wrapper #mobile_menu_close.button {
+    border-color: #1de6c7;
+    @include set-font('Bebas-bold',1,bold);
+    border:none;
+    font-size: 20px;
+}
+
+input[type=submit], input[type=button], a.button, .button, .pagination span, .pagination a:hover, .woocommerce .footer_bar .button, .woocommerce .footer_bar .button:hover, .woocommerce-page div.product form.cart .button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .post_type_icon, .filter li a:hover, .filter li a.active, #portfolio_wall_filters li a.active, #portfolio_wall_filters li a:hover, .comment_box, .one_half.gallery2 .portfolio_type_wrapper, .one_third.gallery3 .portfolio_type_wrapper, .one_fourth.gallery4 .portfolio_type_wrapper, .one_fifth.gallery5 .portfolio_type_wrapper, .portfolio_type_wrapper, .post_share_text, #close_share, .widget_tag_cloud div a:hover, .ui-accordion .ui-accordion-header .ui-icon, .mobile_menu_wrapper #mobile_menu_close.button, .clock_bg, .session_filters li a.active, .session_filters li a:hover, #toTop, .mobile_menu_wrapper #close_mobile_menu {
+    background-color: #171233;
+    font-size: 20px;
+}
+
+
+
+    label {
+        color:#fff;
+        display:none;
+        font-size:20px;
+    }
+    label[for^="choice"] {
+        display:inline-block!important;
+        @include set-font('Bebas-bold',1,bold);
+    }
+    
+    select {
+        height:45px;
+        font-size: 20px;
+        @include set-font('Bebas-bold',1,bold);
+    }
+    
+    input#gform_submit_button_1, input[type="submit"] {
+    width: 50px;
+    padding: 10px;
+    width: auto;
+    min-width: 140px;
+    border:1px solid #1de6c7;
+    color:#1de6c7;
+    }
+    
+     input[type="submit"]:hover {
+         background-color:#1de6c7!important;
+         color:#171233!important;
+     }
+    
+    .gform_wrapper h3.gform_title, h3.gform_title , h3  {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,60px,center,bold,uppercase);
+      padding:0;
+    }
+
+}
+
+
+
+
+/*
+
+
+
+section.footer {
+    label.gfield_label {
+        display:none!important;
+    }
+    
+    input#input_1_5 {
+        width:100%;
+    }
+    
+    .gform_footer.top_label {
+    padding: 0;
+    margin: 0;
+}
+
+.ginput_container.ginput_container_email {
+    margin:0!important;
+}
+    li#field_1_5 {
+    margin: 0;
+}
+
+.gfield_description.validation_message {
+    display: none;
+}
+li#field_1_3 {
+    padding-right: 5px;
+    background:transparent;
+}
+li#field_1_4 {
+    background:transparent;
+}
+input#gform_submit_button_1 {
+    width:96%;
+    height:45px;
+    color: #181233;
+    background-color: #1de6c7;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    outline: none;
+    font-family: "Bebas-bold";
+    line-height: 1;
+    font-style: bold;
+    color: #181233;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    color: #1de6c7 !important;
+    background-color: #181233 !important;
+}
+
+
+div#gform_confirmation_message_1 {
+    color: #1de6c7;
+    font-size: 1em;
+}
+.gform_wrapper div.validation_error {
+    color: #1de6c7;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-top: 2px solid #1de6c7;
+    border-bottom: 2px solid #1de6c7;
+    padding: 16px 0;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    border: 1px solid #1de6c7;
+}
+
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: none;
+    margin-bottom: 0px!important;
+    border:none;
+    border-top:none;
+    border-bottom:none;
+    padding-bottom: 0px;
+    padding-top:0px;
+    box-sizing:none;
+}
+
+body .gform_wrapper ul li.gfield {
+    margin:0;
+}
+
+}
+*/

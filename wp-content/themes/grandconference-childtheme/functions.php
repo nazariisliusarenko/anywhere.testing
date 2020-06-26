@@ -290,7 +290,12 @@ if ( $events->have_posts() ) {
         </div>';
 	}
 $output .='<div class="dropdown">
-  <p class="dropbtn" style="width:250px;"><a href="https://stepconference.com" class="dropbtn">August 24-26 2020<span class="dropdown-span">Anywhere<a class="chevron-btn" style="padding:0 4px;border:1px solid #ccc;width:26px;color:#171333;top:-26px;position: relative;"><i class="fa fa-chevron-down" aria-hidden="true"></i></a> </span></a></p>
+  <p class="dropbtn">
+    <a href="https://stepconference.com" class="dropbtn">
+        <p class="event-place"> <span class="event-place-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="dropdown-span">Anywhere<span class="chevron-btn" ><i class="fa fa-chevron-down" aria-hidden="true"></i></span> </span></p>
+        <p class="event-time">August 24-26 2020</p>
+    </a>
+  </p>
   <div class="dropdown-content">
     <a href="https://stepconference.com/step2021/">Dubai 2021</a>
     <a href="https://saudi.stepconference.com">Riyadh 2020</a>    
@@ -508,6 +513,7 @@ if ( ! function_exists( 'stepconference_scripts' ) ) {
         wp_register_script( 'validatemethod-js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js', array( 'jquery' ), false, false );
         wp_register_script( 'app-js', THEMEROOT . '/app/js/app.js', array( 'jquery' ), false, false );
         wp_register_script( 'forms-js', THEMEROOT . '/app/js/forms.js', array( 'jquery' ), true, false );
+        wp_register_script( 'new-app-js', THEMEROOT . '/app/js/new-app.js', array( 'jquery' ), true, false );
         /* Load the custom scripts. */
         wp_enqueue_script( 'modernizr-js' );
         wp_enqueue_script( 'emulation-js' );
@@ -524,6 +530,7 @@ if ( ! function_exists( 'stepconference_scripts' ) ) {
         wp_enqueue_script( 'validatemethod-js' );
         wp_enqueue_script( 'app-js' );
        wp_enqueue_script( 'forms-js' );
+       wp_enqueue_script( 'new-app-js' );
         /* Load the stylesheets. */
         wp_enqueue_style( 'bootstrap-css', THEMEROOT . '/app/css/bootstrap.min.css' );
         wp_enqueue_style( 'default-css', THEMEROOT . '/app/css/default.css' );
@@ -533,6 +540,7 @@ if ( ! function_exists( 'stepconference_scripts' ) ) {
         wp_enqueue_style( 'style-css', THEMEROOT . '/app/css/styles.css' );
         wp_enqueue_style( 'print-css', THEMEROOT . '/app/css/print.css' );
         wp_enqueue_style( 'fontawesome-css', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
+        wp_enqueue_style( 'new-style-css', THEMEROOT . '/app/css/new-style.css'  );
 
     }
 

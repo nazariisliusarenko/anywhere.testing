@@ -5,9 +5,7 @@ get_header();
 
 <style>
 .hdr{width: 100%;background: #fff; background-image: none;background: linear-gradient(to right, #1DE6C7 0%, #7488AA 100%); margin-top: 123px;display: block;}
-.myctr{width: 1170px;width: 1170px;margin: auto; padding-top: 75px; padding-bottom: 75px;}
 
-.mfont {font-family: "Bebas-bold";font-size: 72px;text-transform: uppercase;color: white;}
 .mfont1 {font-family: "Roboto !important";font-size: 26px;color: white;margin-top: 6px;display: block;font-weight: 400;}
 a.tag-cloud-link {margin: 5px !important;}
 .post_circle_thumb {padding: 0px 0px 8px 0px !important;}
@@ -65,11 +63,15 @@ color: #49bbb7 !important; font-weight: 700;
 </style>
 
 <div class="hdr">
-  <div class="myctr">
-    <h1 class="mfont"> <?php single_tag_title(); ?> </h1>
-    <span class="mfont1"></span>
-  </div>  
+    <div class="container b-ctr">
+        <div class="row">
+            <div class="myctr">
+                <h1 class="mfont"><?php single_tag_title(); ?></h1>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 <section class="blog" style="margin-top: 0;">
 <!-- Page Content -->
@@ -112,7 +114,7 @@ if (have_posts()) :
           <?php endif; ?>
           <div class="card-body">
            <a href="<?= get_the_permalink(get_the_ID()) ?>" style="color: black !important;text-decoration: none !important;"> <p class="card-text" style="font-size: 23px;"><?php the_excerpt() ?></p></a>
-            <a href="<?= get_the_permalink(get_the_ID()) ?>" class="btn-primary">Read More &rarr;</a>
+            <a href="<?= get_the_permalink(get_the_ID()) ?>" class="btn-primary">Read More</a>
           </div>
         </div>
        
@@ -134,7 +136,7 @@ wp_reset_postdata();
       </div>
 
       <!-- Sidebar Widgets Column -->
-      <div class="col-md-4" style="position: -webkit-sticky;position: sticky;top: 12vh;padding:0;">
+      <div class="col-md-4 sidebar-content" style="position: -webkit-sticky;position: sticky;top: 12vh;">
 
         	<?php 
 						if (is_active_sidebar('single-post-sidebar')) { ?>

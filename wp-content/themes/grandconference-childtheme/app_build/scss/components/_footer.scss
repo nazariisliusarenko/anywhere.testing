@@ -1,0 +1,165 @@
+  /* start the custom code */
+
+  .footer {
+    
+    .logo {
+      margin-top:20px;
+      background-image:url('../images/logos/STEP_2019_conference_logos_RGB-34.png');
+      background-size:cover;
+      float:none;
+      width: 200px;
+      height: 80px;
+      background-size: cover;
+    }
+    /* start the event section */
+    div.event {
+      margin-top:20px;
+      margin-bottom:20px;
+      p.date {
+        @include set-font('Bebas-bold',1,bold);
+        @include font-regular(#fff,$event_p);
+        line-height:1.2;
+      span {
+        @include set-font('Bebas-bold',1,bold);
+        @include font-regular(#fff,$event_span,left,bold,uppercase); 
+        display:block;
+      }
+    }
+  }
+    /* end the event section */
+    
+    /* start the social media section */
+    .social-media {
+      margin-bottom:50px;
+      ul {
+        li {
+          display:inline-block;
+          margin:0;
+          padding:0;
+          .dot {
+            border-radius: 4px;
+            width:45px;
+            height:45px;
+            background-color:#fff;
+            color:#fff;
+            text-align: center;
+            margin:0 auto;
+            padding-top:10px;
+            .fa {
+              color:$color2;
+              font-size:$social_media_fa;
+            }
+          }
+        }
+          display:inline-block;
+          margin:0;
+          padding:0;
+        color:#fff;
+      }
+      
+     
+    }
+    
+    /* end the social media section */
+    
+     h3 {
+        a {
+          @include set-font('Bebas-bold',1,bold);
+          @include font-regular(#fff,$footer_h3_a,left,bold,uppercase); 
+        }
+      }
+    
+    
+  /* code for second col */
+      ul.footer-nav {
+        display:inline-block;
+          margin:0;
+          padding:0;
+        color:#fff;
+        margin-top:20px;
+        li {
+          list-style:none;
+          a {
+          @include set-font('Bebas-bold',1,bold);
+          @include font-regular(#fff,$footer_nav_a,left,bold,uppercase);
+            line-height:2.2;
+          }
+          
+        }
+      }
+    
+    /* end navigation code */
+    
+    
+    h3 {
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#fff,$footer_h3,left,normal,uppercase);
+      margin-top:20px;
+    }
+    p.newsletter-title {
+      @include set-font('Roboto',1);
+      @include font-regular(#fff,18px, bold, uppercase);
+      margin-bottom:20px;
+    }
+    input[type=text] {
+      width:141.5px;
+      height:40px;
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#000,$input,center);
+      display:inline;
+      margin-bottom:5px;
+    }
+    input[type=email] {
+      width:100%;
+      max-width:285px;
+      height:40px;
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#000,$input,center);
+      display:block;
+    }
+    .btn-signup {
+      max-width:285px;
+      @include btn(#181233,#1de6c7,100%,auto);
+      @include set-font('Bebas-bold',1,bold);
+      @include font-regular(#181233,$input,center,bold,uppercase);
+      margin-top:5px;
+      border:none;
+    }
+
+    .action-buttons {
+    padding:0;
+    margin-left:75px;
+    margin-top:20px;
+    margin-bottom:20px
+    }
+    
+    ::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+::-moz-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+::placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+  }
+  
+
+  .action-buttons {
+    padding:15px;
+    .btn {
+      @include btn(#1de6c7,#181233,110px,auto);
+      border:1px solid #1de6c7;
+      display:inline-block;
+      text-transform:uppercase;
+    }
+    
+  }
+  /* end the footer */

@@ -1,0 +1,63 @@
+section.static-header {
+  h1 {
+    @include breakpoint(mobileonly) {
+      font-size: 46px !important;
+      line-height: 1.25em;
+    }
+  }
+}
+
+section.static-header {
+  padding: 10vh 0;
+  background: center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #FFF;
+
+  h1 {
+    font-size: 64px;
+  }
+
+  &.tickets {
+    background-image: url(/images/backgrounds-2018/banners/tickets-banner.png)
+  }
+
+  &.speakers {
+    background-image: url(/images/backgrounds-2018/banners/faded-speakers.jpg);
+  }
+
+  &.stage {
+    background-image: url(/images/backgrounds-2018/banners/faded-stage.jpg);
+  }
+
+  &.stage-tech {
+    background-image: url(/images/backgrounds-2018/banners/faded-stage-tech.jpg);
+  }
+
+  &.music-back {
+    background-image: url(/images/backgrounds-2018/banners/faded-music-back.jpg);
+  }
+
+  &.pink {
+    background-image: url(/images/backgrounds-2018/banners/faded-pink-outside.jpg);
+  }
+
+  &.startups {
+    background-image: url(/images/backgrounds-2018/banners/startups-banner.png);
+  }
+
+  &.womensday {
+    background-image: url(/images/backgrounds-2018/banners/womensday.png);
+  }
+
+  &.lineup {
+    background: url(/images/backgrounds-2018/banners/step-music-banner.jpg) 50% 15%/120% no-repeat;
+    @include breakpoint(desktop) {
+      padding: 200px 0;
+    }
+  }
+
+  .cta {
+    margin-top: 20px;
+  }
+}

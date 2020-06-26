@@ -1,0 +1,66 @@
+$font-header: "bebas-bold", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-body: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-header-regular: "bebas-regular", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+// Brand colors
+$light-purple: #1c1855;
+// $dark-purple: #1b1455;
+$dark-purple: #171232;
+$yellow: #f9ca5b;
+$orange: #FD9147;
+$pink: #1de6c7;
+$light-blue: #3dc3b3;
+$light-grey: darken(#fff, 3%);
+$dark-grey: darken(#fff, 15%);
+$very-dark-grey: darken(#fff, 60%);
+// $green: #0ff;
+$green: #01feba;
+
+$green-gradient-left: #1DE6C7;
+$green-gradient-right: #54B863;
+
+// Brand gradients
+$gradient-green: linear-gradient(to bottom right, $green-gradient-left, $green-gradient-right);
+$gradient-pink: linear-gradient(to bottom right, $pink, #842043);
+
+// Font awesome overrides
+$fa-font-path: "/dist/fonts" !default;
+
+// Bootstrap overrides
+$icon-font-path: "/dist/fonts/" !default;
+$grid-gutter-width: 4px;
+
+$headings-font-family: $font-header;
+$font-family-sans-serif: $font-body;
+$font-size-base: 18px !default;
+
+$border-radius-base: 2px !default;
+$border-radius-large: 3px !default;
+$border-radius-small: 1px !default;;
+
+$input-border-focus: transparent !default;
+
+// Override button colors
+$btn-success-color: #FFF;
+$btn-success-bg: $green;
+$btn-success-border: $green;
+
+$btn-warning-color: $orange;
+$btn-warning-bg: transparent;
+$btn-warning-border: $orange;
+
+$btn-danger-color: #FFF;
+$btn-danger-bg: $pink;
+$btn-danger-border: $pink;
+
+$btn-info-color: #FFF;
+$btn-info-bg: $orange;
+$btn-info-border: $orange;
+
+// Pills
+$nav-pills-active-link-hover-bg: $orange;
+
+// Labels
+$label-success-bg: $green;
+$label-danger-bg: $pink;
+$label-warning-bg: $orange;

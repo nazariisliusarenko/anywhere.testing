@@ -1,0 +1,165 @@
+section.toggles {
+  max-width:100%;
+  min-height:300px;
+  p {
+    color:#fff;
+     max-width:1200px;
+     margin:0 auto;
+     margin-top:25px;
+     margin-bottom:25px;
+  }
+  .accordion {
+    max-width:1200px;
+    margin:0 auto;
+    /*column-count: 2;*/
+  }
+  ul {
+    margin:0;
+    padding:0;
+
+    li {
+      color:#fff;
+    }
+  }
+}
+.ac {
+  h2 {
+    @include set-font('Bebas-bold',1,bold);
+    @include font-regular(#fff,$whatyouget_h2,center,bold,uppercase);
+    margin-top:25px;
+  }
+  p {
+    margin-top:50px;
+  margin-bottom:50px;
+  color:#fff;
+  }
+}
+
+.accordion {
+h1,h2,h3 {
+  @include set-font('Bebas-bold',1,bold);
+   color:#fff;
+   font-family:"bebas-bold";
+  font-weight:bold;
+  text-tranform:uppercase;
+}
+}
+p {
+  font-family:"Reboto";
+  font-size:18px;
+}
+.center {
+  margin:0 auto;
+  text-align:center;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: #373d51;
+  padding: 1.3rem;
+  margin: 0;
+}
+
+
+.accordion a {
+   font-family:"bebas-bold";
+  font-weight:bold;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding:5px;
+  padding-left:35px;
+  color: #fff!important;
+  font-size: 1.5em;
+  font-weight: 400;
+  border:1px solid #15122F;
+  background-color:#15122F;
+}
+
+.accordion a:hover,
+.accordion a:hover::before {
+  cursor: pointer;
+  color: #fff;
+}
+
+.accordion a:hover::before {
+
+}
+
+.accordion a.active {
+  color: #fff;
+
+}
+
+.accordion a::before {
+  font-family: 'FontAwesome';
+  content: '\f105';
+  position: absolute;
+  float: right;
+  top:-5px;
+  left: 0;
+  font-size: 1.5em;
+  color: #1de6c7;
+  padding:0;
+  width: 25px;
+  height: 25px;
+
+  text-align: center;
+}
+
+.accordion a.active::before {
+    font-family: 'FontAwesome';
+  content: '\f107';
+  position: absolute;
+  float: right;
+  left: 0;
+  font-size: 1.5em;
+  color: #1de6c7;
+  padding:0;
+  width: 25px;
+  height: 25px;
+
+  text-align: center;
+}
+
+.accordion .content {
+   font-family:"Roboto";
+  font-weight:bold;
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+  
+}
+
+.accordion .content p {
+  font-size: 1.2em;
+  font-weight: 300;
+  color:#fff;
+  margin-left:28px;
+  text-align:justified;
+  max-width:95%;
+  margin:0;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}

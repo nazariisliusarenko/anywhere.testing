@@ -9,6 +9,7 @@ var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var del = require('del');
+var sourcemaps = require('gulp-sourcemaps');
 var runSequence = require('run-sequence');
 const sassPartialsImported = require('gulp-sass-partials-imported');
 let scss_dir = 'app/scss/partials/';
@@ -31,7 +32,9 @@ gulp.task('browserSync', function() {
 
 gulp.task('sass', function() {
   return gulp.src('app/scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
+    .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError)) // Passes it through a gulp-sass, log errors to console
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('app/css')) // Outputs it in the css folder
     .pipe(cached('sassfiles'))
     .pipe(sassPartialsImported(scss_dir))

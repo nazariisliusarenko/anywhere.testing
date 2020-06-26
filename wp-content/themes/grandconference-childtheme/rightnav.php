@@ -136,40 +136,42 @@
   opacity: 1;
 }
     </style>
-<nav role='navigation'>
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
-    
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu">
-      <?php
-                    $default = array(
-    'theme_location'  => 'rightmenu',
-    'menu'            => 'rightmenu',
-    'echo'            => true,
-    'depth'           => 0,
-    'walker'          => new footer_walker
-    );
-				wp_nav_menu($default);
-			?>
-    </ul>
-  </div>
-</nav>
+<!--<nav role='navigation'>-->
+<!--    --><?php
+//    $default = array(
+//        'theme_location'  => 'rightmenu',
+//        'menu'            => 'rightmenu',
+//        'echo'            => true,
+//        'depth'           => 0,
+//        'walker'          => new footer_walker
+//    );
+//    $my_menu = wp_get_nav_menu_object( 'rightmenu' );
+//    if ($my_menu->count > 0) {
+//        echo '<div id="menuToggle">
+//    <!--
+//    A fake / hidden checkbox is used as click reciever,
+//    so you can use the :checked selector on it.
+//    -->
+//    <input type="checkbox" />
+//
+//    <!--
+//    Some spans to act as a hamburger.
+//
+//    They are acting like a real hamburger,
+//    not that McDonalds stuff.
+//    -->
+//    <span></span>
+//    <span></span>
+//    <span></span>
+//
+//    <!--
+//    Too bad the menu has to be inside of the button
+//    but hey, it\'s pure CSS magic.
+//    -->
+//    <ul id="menu">'?><!-- --><?php //wp_nav_menu($default); ?><!----><?php //echo '
+//
+//    </ul>
+//  </div>';
+//    }  ?>
+<!--</nav>-->
     <!-- End right navigation -->

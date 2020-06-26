@@ -13,10 +13,7 @@ get_header();
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
   <style>
-  body {
-    background-image:none;
-    background-color:#171232;
-  }
+
     /*.days-tabs {
       visibility:hidden;
     }*/
@@ -31,7 +28,7 @@ get_header();
     }
   </style>
 
-<section id="Schedule">
+<section id="Schedule" class="company-directory agenda">
 <center><h1><?= get_the_title() ?></h1></center>
 <div class="schedule-tabs">
   <?php
@@ -41,7 +38,7 @@ get_header();
   $categories = get_categories( $args );
   ?>
 <ul class="cattab">
-      <li style="background-color: #151542 !important;"><a href="javascript:;" data-catid="all" style="display:none;">All Conferences</a></li>
+      <li><a href="javascript:;" data-catid="all" >All Conferences</a></li>
       <?php foreach($categories as $category): ?>
       <li><a href="javascript:;" data-catid="cat<?= $category->term_id ?>"><?= $category->name ?></a></li>
       <?php endforeach; ?>
